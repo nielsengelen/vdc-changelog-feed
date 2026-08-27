@@ -50,6 +50,13 @@
   .btn-rss { background: #b45309; border-color: #b45309; color: #fff; }
   .btn-rss:hover { background: #d97706; }
 
+  .dropdown { position: relative; }
+  .dropdown summary { list-style: none; }
+  .dropdown summary::-webkit-details-marker { display: none; }
+  .dropdown-menu { position: absolute; right: 0; top: calc(100% + 4px); background: var(--surface); border: 1px solid var(--border); border-radius: 6px; min-width: 160px; z-index: 10; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+  .dropdown-menu a { padding: 9px 14px; font-size: 13px; color: var(--text); text-decoration: none; white-space: nowrap; }
+  .dropdown-menu a:hover { background: var(--hover); }
+
   .tabs { display: flex; gap: 4px; padding: 12px 20px 0; background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto; }
   .tab { padding: 8px 14px; border-radius: 6px 6px 0 0; cursor: pointer; font-size: 13px; color: var(--muted); border: 1px solid transparent; border-bottom: none; white-space: nowrap; background: transparent; }
   .tab:hover { color: var(--text); background: var(--bg); }
@@ -100,6 +107,14 @@
   </div>
   <div style="display:flex; gap:8px">
     <button class="btn" id="themeBtn" onclick="toggleTheme()" title="Toggle dark/light mode">🌙</button>
+    <details class="dropdown" id="emailDrop">
+      <summary class="btn" title="Get new entries by email">📧 Email</summary>
+      <div class="dropdown-menu">
+        <a id="emailBlogtrottr" target="_blank" rel="noopener">Blogtrottr</a>
+        <a id="emailFeedrabbit" target="_blank" rel="noopener">Feedrabbit</a>
+        <a href="https://zapier.com/apps/rss/integrations/email" target="_blank" rel="noopener">IFTTT / Zapier</a>
+      </div>
+    </details>
     <a class="btn btn-rss" id="rssLink" href="feeds/all.xml">📡 RSS</a>
     <a class="btn" href="https://www.veeam.com/veeam-data-cloud/change-log.html" target="_blank" rel="noopener">↗ veeam.com</a>
   </div>
@@ -145,6 +160,22 @@ let activeTab = (location.hash || "#all").slice(1);
 if (!TABS.some(t => t.id === activeTab)) activeTab = "all";
 
 updateThemeBtn();
+updateSubscribeLinks();
+
+// Close the email dropdown when clicking an item or anywhere outside it
+document.addEventListener("click", (ev) => {
+  const drop = document.getElementById("emailDrop");
+  if (drop.open && (ev.target.closest(".dropdown-menu") || !ev.target.closest("#emailDrop"))) {
+    drop.removeAttribute("open");
+  }
+});
+
+function updateSubscribeLinks() {
+  document.getElementById("rssLink").href = `feeds/${activeTab}.xml`;
+  const feedUrl = new URL(`feeds/${activeTab}.xml`, location.href).href;
+  document.getElementById("emailBlogtrottr").href = `https://blogtrottr.com/?subscribe=${encodeURIComponent(feedUrl)}`;
+  document.getElementById("emailFeedrabbit").href = `https://feedrabbit.com/subscriptions/new?url=${encodeURIComponent(feedUrl)}`;
+}
 
 (async () => {
   try {
@@ -176,7 +207,7 @@ function render() {
     `<div class="tab ${t.id === activeTab ? "active" : ""}" onclick="switchTab('${t.id}')">${escHtml(t.label)}</div>`
   ).join("");
 
-  document.getElementById("rssLink").href = `feeds/${activeTab}.xml`;
+  updateSubscribeLinks();
 
   const entries = entriesFor(activeTab);
   const el = document.getElementById("entries");
