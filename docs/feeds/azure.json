@@ -1,0 +1,155 @@
+{
+  "workload": "azure",
+  "label": "Microsoft Azure",
+  "entries": [
+    {
+      "date": "2026-04-20",
+      "title": "Azure SQL Entra ID authentication and Japanese UI now available",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Microsoft Entra ID (formerly Azure Active Directory) authentication for Azure SQL is now available. Backup and restore policies for Azure SQL databases can be configured using Entra ID-based credentials, removing the dependency on SQL authentication.\n• The UI is now available in Japanese, expanding localization support for customers and partners in Japan.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-entra-id-authentication-and-japanese-ui-now-available.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Advanced settings for Azure SQL & Files policies",
+      "category": "Enhancement",
+      "tags": [
+        "Monitoring∕Reporting"
+      ],
+      "description": "• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "User Interface Optimizations",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Azure VM file-level restores can now be performed out-of-place to another folder on the source servers.\n• It is now possible to search for files or folders within the Azure VM file-level restore browser.\n• Additional filters have been added to the policy session logs allowing you to quickly filter out by status or part of the session message.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations0.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Custom SLA retention templates for Azure VMs",
+      "category": "New Feature",
+      "tags": [
+        "Backup"
+      ],
+      "description": "• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Additional Full-Screen Wizards and Interface Improvements",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• • Many more wizards now open in a full-screen layout, further increasing workspace and clarity for users when configuring settings or completing tasks.\n• Additional user interface and user experience improvements have been introduced, making navigation even smoother and workflows more efficient.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Support for Azure Cosmos DB",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "Restore"
+      ],
+      "description": "• Users can now protect and manage your Azure Cosmos DB workloads with Veeam Data Cloud. Take advantage of policy-based scheduling for automated protection and enjoy seamless database recovery, ensuring your critical data is safeguarded and quickly recoverable in the event of a disaster.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-azure-cosmos-db.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Edit existing tenants to easily configure new subscriptions",
+      "category": "New Feature",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Users can now edit existing Azure tenants to change the protection scope and update the number of subscriptions. This feature is available under Settings → Backup Settings → Azure Service Accounts, where service accounts can be selected and modified as needed.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/edit-existing-tenants-to-easily-configure-new-subscriptions-.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-01-19",
+      "title": "File-level Recovery to the original location is now available for Azure Virtual Machines",
+      "category": "New Feature",
+      "tags": [
+        "Restore"
+      ],
+      "description": "• Users can now restore individual files to their original location on Azure Virtual Machines, streamlining recovery workflows and eliminating the need for full VM or alternate-location restores.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/file-level-recovery-to-the-original-location-is-now-available-fo.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2025-12-18",
+      "title": "Streamlined Azure SQL Backups and Faster Policy Reviews",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "UI∕UX"
+      ],
+      "description": "• • Added support for using a staging server to back up Azure SQL databases, offloading orchestration and data processing from production environments to maintain workload performance.\n• Introduced a \"View Info\" button in the toolbar, enabling instant review of policy configurations without navigating through each policy step.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/streamlined-azure-sql-backups-and-faster-policy-reviews.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "User Interface Enhancements for a Smoother Experience",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Wizards now feature a full-screen design, providing more workspace and simplifying complex tasks.\n• Various user interface and user experience optimizations have been introduced to streamline workflows and enhance navigation.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-enhancements-for-a-smoother-experience.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2025-10-27",
+      "title": "Smarter Restores and Simpler Data Management",
+      "category": "Fix",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Azure Virtual Machine disk restores now apply the correct, updated disk name, making restored resources easier to identify and manage.\n• Column sorting has been re-enabled on the protected data page, simplifying data organization and management.\n• Session logs now display times in UTC when selected, providing consistent and clear time reporting for global teams.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/smarter-restores-and-simpler-data-management.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2025-10-14",
+      "title": "Microsoft Azure Added to the Unified Web Interface",
+      "category": "New Feature",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "What’s New\nWe’re excited to share that Veeam Data Cloud for Microsoft Azure is now part of the unified Veeam Data Cloud experience. Previously managed separately, Azure protection now sits alongside Microsoft 365, Microsoft Entra ID, Salesforce, and Veeam Vault within a single, modern SaaS environment. With this update, all current Veeam Data Cloud workloads are managed together, and future additions will also be delivered through the unified experience — ensuring everything is accessible in one place moving forward.\nWhy this Matters\nBy transitioning Microsoft Azure protection into the unified experience, organizations can now manage backup, recovery, policies, and billing for all supported workloads from a single place. This centralization streamlines operations, reduces complexity, and provides enhanced visibility and compliance across your entire cloud data landscape.\nLooking Ahead\nThis milestone completes the transition of all existing Veeam Data Cloud workloads into one seamless experience. As Veeam Data Cloud continues to evolve, users can expect new workloads and features to be introduced directly into this unified interface, with ongoing enhancements for scalability, security, and innovation.\nGetting Started\nTo learn more about Veeam Data Cloud for Microsoft Azure within the unified experience, visit our product page or contact our sales team for more information.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-azure-added-to-the-unified-web-interface.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    }
+  ]
+}

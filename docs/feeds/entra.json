@@ -1,0 +1,434 @@
+{
+  "workload": "entra",
+  "label": "Microsoft Entra ID",
+  "entries": [
+    {
+      "date": "2026-07-30",
+      "title": "Updated Backup Failure Email Guidance",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings > Connection instead of using previous workaround.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Backup Policy Controls Added to Policies Page",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration",
+        "UI∕UX"
+      ],
+      "description": "• Backup policies can now be enabled or disabled directly from the Policies page, making policy management more accessible.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/backup-policy-controls-added-to-policies-page.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "CSV Export Temporarily Unavailable",
+      "category": "Deprecated",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• The Export CSV feature has been temporarily disabled for all objects while updates are made to support larger datasets. A tooltip now informs users that export is temporarily unavailable and being improved.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/csv-export-temporarily-unavailable.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Objects Tablist Horizontal Scrolling",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Added horizontal scrolling support for the Objects tab list, improving navigation and visibility.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/objects-tablist-horizontal-scrolling.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Improved Retention Period Management",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration",
+        "UI∕UX"
+      ],
+      "description": "• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-retention-period-management.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Object Relationships Restore Options",
+      "category": "Enhancement",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Updated the UI to allow users to choose skip or overwrite options when restoring object relationships. These enhancements provide more flexibility and control during the restore process. For more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/object-relationships-restore-options.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Object List Accessibility Fix",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Resolved an accessibility issue with the \"More\" dropdown in the Objects list view, ensuring all actions are visible for users.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/object-list-accessibility-fix.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Improved Restore Initiation and Progress Visibility",
+      "category": "Enhancement",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Faster Restore Experience: Clicking the Restore button now starts the process instantly. Users can navigate away as the restore runs in the background.\n• View Restore Details Instantly: The new \"See Progress\" option lets users view basic activity details as soon as the restore begins, without waiting for the session to complete.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-initiation-and-progress-visibility.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Improved Audit and Sign-In Logs Export",
+      "category": "Enhancement",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Improved user experience for exporting audit and sign-in logs: Users can now download logs with a dedicated Download button, eliminating the need to copy and manually access SAS links in Storage Explorer. To learn more, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-audit-and-sign-in-logs-export-with-download-button.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Simplified Reauthorization",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Added support for reauthorization directly from the Settings page via a new Connections tab, making it easier to manage and update service connections. To learn more, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/simplified-reauthorization.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "JSON Export Wizard Fix",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Fixed a UI bug in the JSON Export wizard to ensure smoother export operations and improved interface reliability.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/-json-export-wizard-fix.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Manual Backup and New Policy Details Page",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "UI∕UX"
+      ],
+      "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports manual backups via a new Policy Details page. This page lists the two backup policies per tenant, displays detailed policy status, and enables a new “Run Backup Now” action for each policy (when not already running or queued). On-demand backups are queued instantly, with completion status shown in Jobs and Notifications.\nWhy This Matters\nManual backup control provides flexibility for admins to create restore points as needed, improving operational confidence and data protection responsiveness.\nGetting Started\nTo learn more, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/manual-backup-and-new-policy-details-page.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Improved Notifications for Backup Failure",
+      "category": "Enhancement",
+      "tags": [
+        "Backup",
+        "UI∕UX"
+      ],
+      "description": "• Now receive email notifications if backups fail due the Veeam Data Cloud for Microsoft Entra ID Service Principal being removed or disabled, enabling faster issue identification and resolution.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-notifications-for-backup-failure.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Support for Devices and BitLocker Keys",
+      "category": "New Feature",
+      "tags": [
+        "Backup"
+      ],
+      "description": "What’s New\nBackup and restore support is now extended to Device-related objects and BitLocker keys in Veeam Data Cloud for Microsoft Entra ID. Customers can view device metadata, export data as JSON, and access or copy BitLocker keys directly from the interface.\nWhy This Matters\nDevices and BitLocker keys are critical for security, compliance, and device management. This enhancement ensures these objects are protected, recoverable, and easily accessible when needed.\nGetting Started\nTo learn more, visit the User Guide: Devices Compare, View BitLocker Keys, and Device Properties.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-devices-and-bitlocker-keys.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Improved Contextual Restore for Applications",
+      "category": "Enhancement",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Object restore now includes a context-aware wizard that prompts for supplementary data (such as certificates or license keys) as needed, ensuring all required information is applied during application restoration.\n• In this release, restoring applications with a public key is streamlined with the key pre-filled during the restore process.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-contextual-restore-for-applications.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Enhanced Audit Logging for Compare, Restore, and Policy Changes",
+      "category": "New Feature",
+      "tags": [
+        "Monitoring∕Reporting",
+        "UI∕UX"
+      ],
+      "description": "What’s New\nEARN event support has been added to audit Compare and Restore actions (as Backup Data Browsed) and changes to optional object configurations (as Backup Policy Config Changed). These events are visible in Overview > Activity > Audit Log.\nWhy This Matters\nEnhanced auditing improves visibility into restore operations and configuration changes, supporting compliance, security, and operational oversight.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/enhanced-audit-logging-for-compare--restore--and-policy-changes.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Restore and Onboarding Enhancements",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• The Restore from Recycle Bin checkbox has been removed from the Conditional Access Policy restore interface, as the SkipRecycleBin option is not supported for Conditional Access Policies due to endpoint only being available in the Beta API.\n• Tenant onboarding now displays accurate Microsoft error messages and troubleshooting steps during authorization failures, providing additional guidance and helping users resolve issues independently.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/restore-and-onboarding-enhancements.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-02-22",
+      "title": "Improvements for Read-Only Attributes During Restore",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• During compare and restore operations, read-only attributes no longer display disabled checkboxes, streamlining the interface for greater clarity.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improvements-for-read-only-attributes-during-restore.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-02-22",
+      "title": "Automatic Relationship Restoration for Changed Object IDs",
+      "category": "New Feature",
+      "tags": [
+        "Restore"
+      ],
+      "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports relationship restoration when object identifiers change during the restore process. New object IDs are automatically detected and relationships (such as group memberships and administrative unit links) are re-established without user intervention.\nWhy This Matters\nWhen objects are restored by recreation instead of from the Recycle Bin, new identifiers may break relationships between complex objects and their members. This enhancement ensures associations are maintained, reducing manual effort and preventing service disruption.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/automatic-relationship-restoration-for-changed-object-ids.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Support for Organization Contacts",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "Restore"
+      ],
+      "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports backup and restore for organization contacts. In addition to users, groups, application registrations, and policies, users can now protect and recover their Entra ID contacts with the same flexibility and ease as other supported objects.\nWhy This Matters\nOrganization contacts are essential for managing communication and collaboration within Entra ID environments. Loss or misconfiguration of contact information can disrupt workflows and complicate compliance. With backup and restore for contacts, organizations can quickly recover critical contact details and maintain accurate identity data across the organization.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-organization-contacts.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Restore Batch Limit and Onboarding Dialog Improvements",
+      "category": "Fix",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• The Restore operation now enforces a limit of 1,000 objects per batch. The UI provides a warning and blocks selection when attempting to restore more than 1,000 items at once.\n• The permission requirements dialog for additional objects during tenant onboarding is now accessible via an info icon, replacing the previous checkbox method and allowing users to view requirements at any time.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/restore-batch-limit-and-onboarding-dialog-improvements.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "Setting Property Names Updated for Clarity",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• • Several setting properties have been renamed to improve clarity and usability during configuration.\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/setting-property-names-updated-for-clarity.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "Export to JSON",
+      "category": "New Feature",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "What's New\nExport to JSON restore for Microsoft Entra ID objects is now available in Veeam Data Cloud for Entra ID. Users can now select any protected Entra ID object and export it as a JSON file directly from a restore point.\nExported JSON includes the following: Object properties and relationships captured at time of backup, sensitive data (where present), and schema metadata required for import into Entra ID or compatible systems. Restore points retain the original schema, with no automatic conversion to the latest Entra ID schema. The export action is also protected by dedicated RBAC permissions and recorded through audit logging.\nWhy This Matters\nWith export to JSON, users gain greater control and flexibility when responding to identity incidents or complex recovery scenarios. Instead of relying on in-place restores, teams can now export a precise, point-in-time representation of Entra ID objects for visibility or external workflows.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/export-to-json.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "Calendar View Added for Restore Point Selection",
+      "category": "Enhancement",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Restore points can now be selected using a calendar view, making it easier to navigate and choose dates during investigation and recovery workflows.\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/calendar-view-added-for-restore-point-selection.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Role-Based Access Control is Now Available",
+      "category": "Security",
+      "tags": [
+        "Management∕Administration",
+        "Security",
+        "UI∕UX"
+      ],
+      "description": "What's New\nVeeam Data Cloud for Entra ID now supports role-based access controls, allowing administrators to assign specific permissions to users.\n• Three roles are now available: Restore Administrator, Settings Administrator, and Viewer. Roles can be assigned per tenant or across all tenants for precise access control within your organization.\n• Users will only see the features relevant to their role, ensuring a secure and streamlined experience.\n• Multiple roles can be assigned to a single user, allowing for flexible access.\nWhy This Matters\nRole-based access controls in Veeam Data Cloud for Entra ID enhances security and efficiency by letting administrators assign tailored permissions to users. This ensures everyone only has access to what they need, reduces risk, and makes managing user access more flexible and streamlined across your organization.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/role-based-access-control-is-now-available.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Support for Intune Policies",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "Restore"
+      ],
+      "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune Policies, including both Device Configuration Policies and Device Compliance Policies. Customers can back up these Intune policies and restore them in their entirety, or perform granular restores of specific policy properties, enhancing flexibility and control over policy recovery.\nWhy This Matters\nMicrosoft Intune policies are critical for enforcing device compliance and configuration. Accidental changes, deletions, or misconfigurations can lead to security risks, compliance violations, or disruptions in device management. By enabling backup and granular restore of Intune policies, organizations quickly recover from policy-related incidents, minimize downtime, and ensure continuity of device management and security posture.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-intune-policies.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "Restore Point Persistence Improved and Role Restore Workflow Updated",
+      "category": "Fix",
+      "tags": [
+        "Restore",
+        "UI∕UX"
+      ],
+      "description": "• Restore points are now consistently retained throughout the compare process, and issues affecting selected attribute handling have been resolved.\n• The \"Restore from Entra ID Recycle Bin\" checkbox has been removed when restoring roles, as roles should be created rather than restored.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/restore-point-persistence-improved-and-role-restore-workflow-upd.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "Veeam Data Cloud introduces global ‘Org Dashboard’ and ‘Activity’ views to the Unified Experience",
+      "category": "New Feature",
+      "tags": [
+        "Compliance",
+        "Monitoring∕Reporting"
+      ],
+      "description": "What’s New\nVeeam Data Cloud now includes two new top-level views within the unified interface: the Org Dashboard and the Activity view. These additions provide administrators with comprehensive, role-based visibility into protection status, backup history, and platform activity across multiple workloads.\nOrg Dashboard:\n• Offers a centralized overview of protection status and backup history across supported workloads, currently including Microsoft Entra ID and Salesforce.\n• Displays the number of protected objects per workload, with breakdowns by object type.\n• Highlights the last 7 days of backup activity, segmented by object protection and session status.\n• Includes filter controls for quick review and investigation by workload.\n• Access is RBAC-controlled, limited to organization and workload administrator roles (with support for custom roles).\nActivity View:\n• Unifies monitoring of protection activity, configuration changes, and access events across Microsoft Entra ID, Salesforce, and general Veeam Data Cloud system events.\n• Details completed and in-progress backup sessions, as well as audit logs for logins, user and tenant creation, and role changes.\n• Access is also RBAC-controlled and available to organization and workload administrator roles, with custom role support.\nWhy This Matters\nThese new global views simplify oversight for administrators, making it easier to monitor data protection coverage, backup activity, and platform events across multiple workloads. Centralized dashboards and filtering enable more efficient investigation, monitoring, and auditing – supporting operational efficiency, compliance, and improved security across the organization.\nWhat’s Next\nBoth views will see ongoing improvements to further enhance oversight and usability. Planned updates for the Org Dashboard include adding restore history, expanding time filter options, and supporting additional workloads. For the Activity view, upcoming enhancements will introduce export capabilities as well as expanded tracking for protection management, data access, and restore events. These updates are designed to provide administrators with deeper insights and more unified management across the Veeam Data Cloud platform.\nLearn More\nExplore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-introduces-global--org-dashboard--and--activity.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-10-09",
+      "title": "Onboarding Limited to Regions Supporting ZRS",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Users are now prevented from starting onboarding in regions where ZRS is unavailable. This change safeguards the deployment process by ensuring all new configurations take place in regions with appropriate storage redundancy options.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/onboarding-limited-to-regions-supporting-zrs.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-08-14",
+      "title": "Persistent Selection and Enhanced Sorting in Browse Objects",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Selection of items in the browse objects grid now persists across searches and pages, ensuring selected items remain highlighted even when navigating or filtering results.\n• Sorting is now supported on all available columns for objects such as users and groups, providing greater flexibility for organizing and finding information.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/persistent-selection-and-enhanced-sorting-in-browse-objects.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-08-04",
+      "title": "User Interface Optimization and Enhanced Error Handling",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• User interface components updated for improved performance and consistency across workloads.\n• Browse object grids now dynamically resize based on the number of rows for better usability.\n• Error handling for browse logs improved to provide clearer feedback and troubleshooting.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimization-and-enhanced-error-handling.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-07-21",
+      "title": "Manage Tenants Page and Request Cancellation Improvements",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Scrollbar behavior on the Manage Tenants page is now consistent for improved navigation.\n• Unexpected error messages no longer appear when cancelling in-progress requests.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/manage-tenants-page-and-request-cancellation-improvements.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "Functionality Updates and Conditional Access Policy Improvements",
+      "category": "Enhancement",
+      "tags": [
+        "Monitoring∕Reporting",
+        "UI∕UX"
+      ],
+      "description": "• Enhanced interface design for a more intuitive and streamlined user experience.\n• Added informative message to clarify when Conditional Access Policy backups are scheduled.\n• Permission Settings page now displays only newly added Conditional Access Policy items, making changes easier to review.\n• Error handling enhanced to display failure messages during restore and compare-and-restore operations, including alerts when Conditional Access Policy properties prevent a restore.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/enhanced-interface--conditional-access-policy-clarity--and-impro.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2025-04-22",
+      "title": "Launching Unified User Experience with Veeam Data Cloud for Entra ID and Veeam Data Cloud for Salesforce",
+      "category": "New Feature",
+      "tags": [
+        "Backup",
+        "Compliance"
+      ],
+      "description": "We are excited to announce the launch of Veeam Data Cloud for Microsoft Entra ID and Veeam Data Cloud for Salesforce within the new unified Veeam Data Cloud interface. Organizations can now protect their Salesforce and Entra ID data using a modern, centralized platform that delivers secure, effortless backup and recovery as a fully managed SaaS service.\nWhat’s New\nThis launch brings Salesforce and Entra ID protection together for the first time in a unified experience. Veeam Data Cloud for Salesforce helps organizations safeguard critical CRM data, metadata, and files, while Veeam Data Cloud for Microsoft Entra ID (formerly Azure Active Directory) delivers enterprise-grade protection and fast recovery for identity and access management data. Both solutions offer automated, policy-driven backup, flexible and granular recovery, and simplified subscription management — all accessible through a single, intuitive interface.\nLooking Ahead\nThis is just the beginning for the unified Veeam Data Cloud platform. Existing Veeam Data Cloud products—including Microsoft 365, Microsoft Azure, and Vault—will soon be integrated into this interface, further expanding your ability to manage and protect multiple workloads from one place.\nGetting Started\nTo learn more about Veeam Data Cloud for Salesforce or Microsoft Entra ID within the new unified interface, or to get started, please contact our sales team for more information.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/launching-unified-user-experience-with-veeam-data-cloud-for-entr.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veeam Data Cloud Changelog</title>
+<script>
+  // Set theme before first paint to avoid a flash of the wrong theme
+  document.documentElement.dataset.theme =
+    localStorage.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+</script>
+<style>
+  :root[data-theme="dark"] {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --desc: #cbd5e1;
+    --muted: #94a3b8;
+    --faint: #64748b;
+    --hover: #475569;
+    --error-bg: #450a0a; --error-border: #7f1d1d; --error-text: #fca5a5;
+    --cat-new: #22c55e; --cat-enhancement: #3b82f6; --cat-fix: #f59e0b;
+    --cat-security: #ef4444; --cat-deprecated: #94a3b8; --cat-other: #8b5cf6;
+  }
+  :root[data-theme="light"] {
+    --bg: #f1f5f9;
+    --surface: #ffffff;
+    --border: #cbd5e1;
+    --text: #0f172a;
+    --desc: #334155;
+    --muted: #64748b;
+    --faint: #94a3b8;
+    --hover: #e2e8f0;
+    --error-bg: #fef2f2; --error-border: #fca5a5; --error-text: #b91c1c;
+    --cat-new: #15803d; --cat-enhancement: #1d4ed8; --cat-fix: #b45309;
+    --cat-security: #b91c1c; --cat-deprecated: #475569; --cat-other: #6d28d9;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
+
+  .header { background: var(--surface); padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 10px; }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .veeam-badge { background: #00b336; color: #fff; font-weight: 700; font-size: 12px; padding: 4px 10px; border-radius: 6px; letter-spacing: 1px; }
+  .header-title { font-weight: 700; font-size: 16px; }
+  .header-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .btn { background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500; text-decoration: none; display: inline-block; font-family: inherit; }
+  .btn:hover { background: var(--hover); }
+  .btn-rss { background: #b45309; border-color: #b45309; color: #fff; }
+  .btn-rss:hover { background: #d97706; }
+
+  .tabs { display: flex; gap: 4px; padding: 12px 20px 0; background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto; }
+  .tab { padding: 8px 14px; border-radius: 6px 6px 0 0; cursor: pointer; font-size: 13px; color: var(--muted); border: 1px solid transparent; border-bottom: none; white-space: nowrap; background: transparent; }
+  .tab:hover { color: var(--text); background: var(--bg); }
+  .tab.active { color: var(--text); background: var(--bg); border-color: var(--border); font-weight: 600; }
+
+  .content { flex: 1; padding: 20px; max-width: 900px; width: 100%; margin: 0 auto; }
+  .status-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+  .last-check { font-size: 12px; color: var(--muted); }
+
+  .entries { display: flex; flex-direction: column; gap: 10px; }
+  .entry { background: var(--surface); border-radius: 8px; padding: 14px 16px; border-left: 3px solid var(--cat); }
+  .entry-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+  .cat-badge { border-radius: 4px; font-size: 11px; font-weight: 600; padding: 2px 8px; color: var(--cat); background: color-mix(in srgb, var(--cat) 15%, transparent); }
+  .wl-badge { color: var(--muted); border: 1px solid var(--border); border-radius: 4px; font-size: 11px; padding: 2px 7px; }
+  .entry-date { color: var(--muted); font-size: 12px; margin-left: auto; }
+  .entry-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; overflow-wrap: anywhere; }
+  .entry-title a { color: inherit; text-decoration: none; }
+  .entry-title a:hover { text-decoration: underline; }
+  .entry-desc { font-size: 13px; color: var(--desc); line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+  .cat-new         { --cat: var(--cat-new); }
+  .cat-enhancement { --cat: var(--cat-enhancement); }
+  .cat-fix         { --cat: var(--cat-fix); }
+  .cat-security    { --cat: var(--cat-security); }
+  .cat-deprecated  { --cat: var(--cat-deprecated); }
+  .cat-other       { --cat: var(--cat-other); }
+
+  .empty, .loading { text-align: center; color: var(--faint); padding: 60px 20px; }
+  .error-banner { background: var(--error-bg); border: 1px solid var(--error-border); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; color: var(--error-text); font-size: 13px; }
+
+  .footer { text-align: center; font-size: 11px; color: var(--faint); padding: 16px; }
+  .footer a { color: var(--muted); }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="veeam-badge">VEEAM</div>
+    <div>
+      <div class="header-title">Data Cloud Changelog</div>
+      <div class="header-sub">Unofficial feed · updated every 6 hours</div>
+    </div>
+  </div>
+  <div style="display:flex; gap:8px">
+    <button class="btn" id="themeBtn" onclick="toggleTheme()" title="Toggle dark/light mode">🌙</button>
+    <a class="btn btn-rss" id="rssLink" href="feeds/all.xml">📡 RSS</a>
+    <a class="btn" href="https://www.veeam.com/veeam-data-cloud/change-log.html" target="_blank" rel="noopener">↗ veeam.com</a>
+  </div>
+</div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="content">
+  <div class="status-bar">
+    <div class="last-check" id="lastCheckLabel"></div>
+  </div>
+  <div class="entries" id="entries"><div class="loading">⏳ Loading…</div></div>
+</div>
+
+<div class="footer">
+  Unofficial mirror of the <a href="https://www.veeam.com/veeam-data-cloud/change-log.html" target="_blank" rel="noopener">Veeam Data Cloud changelog</a>. All content © Veeam Software.
+</div>
+
+<script>
+const TABS = [
+  { id: "all",        label: "All Workloads" },
+  { id: "general",    label: "VDC General" },
+  { id: "m365",       label: "Microsoft 365" },
+  { id: "azure",      label: "Microsoft Azure" },
+  { id: "entra",      label: "Microsoft Entra ID" },
+  { id: "salesforce", label: "Salesforce" },
+  { id: "vault",      label: "Vault" },
+];
+
+// Covers every type the API emits (verified: New, Enhanced, Fixed, Deprecated
+// → mapped in build-feeds.js) plus the Security tag override; unknown → other.
+const CAT_CLASSES = {
+  "New Feature": "cat-new",
+  "Enhancement": "cat-enhancement",
+  "Fix":         "cat-fix",
+  "Security":    "cat-security",
+  "Deprecated":  "cat-deprecated",
+  "Other":       "cat-other",
+};
+
+let data = null;   // { workloads: { id: { label, entries } } }
+let activeTab = (location.hash || "#all").slice(1);
+if (!TABS.some(t => t.id === activeTab)) activeTab = "all";
+
+updateThemeBtn();
+
+(async () => {
+  try {
+    const res = await fetch("feeds/all.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const lm = res.headers.get("last-modified");
+    if (lm) document.getElementById("lastCheckLabel").textContent =
+      `Last updated: ${new Date(lm).toLocaleString()}`;
+    data = await res.json();
+  } catch (err) {
+    document.getElementById("entries").innerHTML =
+      `<div class="error-banner">Could not load the feed (${escHtml(err.message)}). Try again later.</div>`;
+    return;
+  }
+  render();
+})();
+
+function entriesFor(tabId) {
+  if (!data) return [];
+  if (tabId === "all") {
+    return Object.values(data.workloads).flatMap(w => w.entries)
+      .sort((a, b) => b.date.localeCompare(a.date)).slice(0, 100);
+  }
+  return data.workloads[tabId]?.entries || [];
+}
+
+function render() {
+  document.getElementById("tabs").innerHTML = TABS.map(t =>
+    `<div class="tab ${t.id === activeTab ? "active" : ""}" onclick="switchTab('${t.id}')">${escHtml(t.label)}</div>`
+  ).join("");
+
+  document.getElementById("rssLink").href = `feeds/${activeTab}.xml`;
+
+  const entries = entriesFor(activeTab);
+  const el = document.getElementById("entries");
+  if (entries.length === 0) {
+    el.innerHTML = `<div class="empty">No entries.</div>`;
+    return;
+  }
+  el.innerHTML = entries.map(e => {
+    const catClass = CAT_CLASSES[e.category] || CAT_CLASSES.Other;
+    return `
+      <div class="entry ${catClass}">
+        <div class="entry-meta">
+          <span class="cat-badge">${escHtml(e.category || "Other")}</span>
+          ${activeTab === "all" ? `<span class="wl-badge">${escHtml(e.workloadLabel || "")}</span>` : ""}
+          <span class="entry-date">${escHtml(e.date || "")}</span>
+        </div>
+        <div class="entry-title"><a href="${escHtml(e.pageUrl)}" target="_blank" rel="noopener">${escHtml(e.title || "")}</a></div>
+        ${e.description ? `<div class="entry-desc">${escHtml(e.description)}</div>` : ""}
+      </div>`;
+  }).join("");
+}
+
+function switchTab(id) {
+  activeTab = id;
+  history.replaceState(null, "", `#${id}`);
+  render();
+}
+
+function toggleTheme() {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  localStorage.theme = next;
+  updateThemeBtn();
+}
+
+function updateThemeBtn() {
+  document.getElementById("themeBtn").textContent =
+    document.documentElement.dataset.theme === "dark" ? "☀️" : "🌙";
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+</script>
+</body>
+</html>

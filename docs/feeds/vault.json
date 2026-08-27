@@ -1,0 +1,188 @@
+{
+  "workload": "vault",
+  "label": "Vault",
+  "entries": [
+    {
+      "date": "2026-08-25",
+      "title": "Vault Assignment Confirmation (VBR v12 → v13)",
+      "category": "Fix",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "Fixed an issue where assigning a vault from Veeam Backup & Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.\n• Correct confirmation message now displays.\n• Duplicate registration ID resolved – only one registration ID is shown.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Now Standard: IAM Role-Based Authentication for AWS Vaults",
+      "category": "Security",
+      "tags": [
+        "Security"
+      ],
+      "description": "IAM role-based Integrated Authentication is now the standard connection method for AWS Vaults.\n• New and non-shared-key customers – AWS Access Key and Secret Key are hidden in the Customer Portal and can't be retrieved via the API.\n• Existing shared key customers – Unaffected; no change to current access.\n• Enabled per organization – Contact your Veeam account manager or Veeam Support to have it applied.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/now-standard--iam-role-based-authentication-for-aws-vaults.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Storage Vaults & Manage Vaults pages",
+      "category": "New Feature",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.\n• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.\n• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.\n• Subscription strip – See Edition, Cloud, and Capacity at a glance.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Notification Emails for Deletion Lifecycle",
+      "category": "New Feature",
+      "tags": [
+        "Monitoring∕Reporting"
+      ],
+      "description": "Vault now sends email notifications at each stage of the deletion process, giving you better visibility into when data is scheduled for removal:\n• Deletion initiated – Sent as soon as a deletion request is submitted.\n• Deletion warning – Sent 5 days before the scheduled deletion, giving you a final window to cancel or intervene if needed.\n• Deletion confirmed – Sent once the deletion has completed.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/notification-emails-for-deletion-lifecycle.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "New: Veeam Vault Archive",
+      "category": "New Feature",
+      "tags": [
+        "Backup"
+      ],
+      "description": "Veeam now offers Vault Archive, a new archival-class cloud tier for secure, compliant, long-term backup retention at lower cost than premium storage.\nWith Vault Archive, you can:\n• Retire ROT data – Move redundant, obsolete, and trivial backup data off premium storage into archive-class cloud storage.\n• Strengthen security & compliance – Data is immutable, encrypted, and logically air-gapped, with user-defined placement to support long-term regulatory needs.\n• Simplify governance – Tier data automatically from Veeam Data Cloud Vault to Vault Archive via policy.\n• Replace tape – Get a fully managed cloud archive that's secure by default and accessible on demand.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/new--veeam-vault-archive.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Bring Your Own Key (BYOK) for Azure Vault editions",
+      "category": "Security",
+      "tags": [
+        "Security"
+      ],
+      "description": "Veeam Data Cloud Vaults deployed on Azure now support BYOK (Bring Your Own Key) encryption for greater control over the encryption of your backup data. With BYOK encryption, you host and manage your own encryption keys in Microsoft Azure Key Vault. Veeam Data Cloud uses your key to encrypt backup data, but never stores it, and you can revoke access at any time.\nKeeping keys in your own Azure Key Vault helps satisfy regulatory and internal security requirements (e.g., data sovereignty, separation of duties) that mandate the customer to retain custodianship of encryption keys.\nThis feature is available on request. To enable encryption key management in your Veeam Data Cloud organization, contact Veeam Customer Support.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/bring-your-own-key--byok--for-azure-vault-editions.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Private Endpoint Connectivity for Vaults",
+      "category": "Security",
+      "tags": [
+        "Security"
+      ],
+      "description": "• Support for Azure Private Link is now available for Azure Vault. This enables connections over a private network, reducing exposure to the public internet. For configuration details, refer to the setup guide on creating private endpoints.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/private-endpoint-connectivity-for-vaults.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "New Egress Usage Widgets and Graphs Added",
+      "category": "Enhancement",
+      "tags": [
+        "Monitoring∕Reporting",
+        "UI∕UX"
+      ],
+      "description": "• Added a per Vault egress usage widget and graph to the storage account details, providing granular insight into egress consumption by individual Vault.\n• Added an aggregated egress usage widget and graph to the dashboard for a unified view of total egress activity.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/new-egress-usage-widgets-and-graphs-added.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Region List Display Improved",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Resolved an issue where the region column in the tenant listing would cut off the region list if too many regions were present. Veeam Data Cloud now displays an ellipsis, and selecting it reveals the full list of regions.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/region-list-display-improved.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "Vault Provisioning and Wizard Navigation Issues Resolved",
+      "category": "Fix",
+      "tags": [
+        "Backup",
+        "UI∕UX"
+      ],
+      "description": "• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.\n• Fixed the Add Vault wizard so the back button now functions correctly.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "Self-Service Vault Deletion and Read-Only Viewer Role Added",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Added self-service deletion for empty vaults in Veeam Data Cloud, supporting both Microsoft Azure and Amazon Web Services vaults. Users can now quickly remove empty vaults without contacting support.\n• Introduced the Vault:Viewer role, providing read-only access so administrators can grant users permission to view vaults and tenants without allowing creation, modification, or deletion of resources.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-vault-deletion-and-read-only-viewer-role-added.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2025-12-17",
+      "title": "Vault Registration Streamlined",
+      "category": "Enhancement",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Vault registration has been updated to allow direct assignment of a Vault to a registered Veeam product (such as Veeam Backup & Replication or Kasten) within Veeam Data Cloud. Switching to My Account for Vault assignment is no longer required, streamlining the setup process for administrators.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/vault-registration-streamlined.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "Usability Updates for Storage Management and AWS Vaults",
+      "category": "Enhancement",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Pagination and search functionality have been introduced for storage vaults, making it easier to browse and manage large numbers of vaults. Vaults are now organized into pages, and the search feature allows quick location by Storage Display Name or Vault ID.\n• The Vault ID for AWS Vaults is now generated and displayed during AWS S3 bucket creation, making it easier to add the Vault to VBR. The Vault ID can be copied directly from the credentials configuration, eliminating the need to navigate to the created vault.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/colins-test.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Veeam Data Cloud Vault for AWS Added to Unified Web Interface",
+      "category": "New Feature",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "Whats New\nWe're excited to share that Veeam Data Cloud Vault for AWS is now part of the unified Veeam Data Cloud experience. Previously unavailable, this added cloud storage support for AWS expands our breadth of regional availability while meeting our customers where they are.\nWhy this Matters\nAdding Vault for AWS to the Veeam Data Cloud product family, adds another key piece of cross-cloud coverage, fulfilling the goal of one platform / any workload. Vault gives organizations a consistent, centralized view across backup and storage, making it easier to ensure data resilience and compliance for all workloads.\nGetting Started\nTo learn more about Veeam Data Cloud Vault within the unified web interface visit the product page, or for information on how to purchase visit this page.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-vault-for-aws-added-to-unified-web-interface.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
+      "date": "2025-08-13",
+      "title": "Veeam Data Cloud Vault Joins the Unified Experience",
+      "category": "New Feature",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "Veeam Data Cloud Vault is now available within the unified web interface alongside Veeam Data Cloud for Microsoft 365, Veeam Data Cloud for Entra ID and Veeam Data Cloud for Salesforce. This update brings secure, immutable cloud storage together with your SaaS backup and recovery management in a single, streamlined platform.\nWhat’s New\n• Unified Web Interface: Manage your Vault storage and monitor consumption alongside your other protected workloads, all from one centralized location.\n• Simplified Management: Easily view storage usage, retention, and billing details for Vault, with seamless integration into the broader Veeam Data Cloud experience.\nWhy This Matters\nAdding Vault to the unified interface gives organizations a consistent, centralized view across backup and storage, making it easier to ensure data resilience and compliance for all workloads.\nTransition to Unified Experience\nAll existing Veeam Data Cloud Vault users will be seamlessly transitioned to the unified experience — no action is required.\nGetting Started\nTo learn more about Veeam Data Cloud Vault within the unified web interface visit the product page, or for information on how to purchase visit this page.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-vault-joins-the-unified-experience.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    }
+  ]
+}

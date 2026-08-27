@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veeam Data Cloud Changelog — Salesforce</title>
+    <link>https://www.veeam.com/veeam-data-cloud/change-log.html</link>
+    <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Salesforce</description>
+    <language>en</language>
+    <item>
+      <title>[Salesforce] Metadata protection for custom fields on managed package objects</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/metadata-protection-for-custom-fields-on-managed-package-objects.html</link>
+      <guid isPermaLink="false">salesforce|2026-06-19|Metadata protection for custom fields on managed package objects</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Back up and restore Salesforce admin-created custom fields on objects delivered via managed packages. This extends metadata protection to packaged applications where these fields were previously not included.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Export to CSV without preloading records in the UI</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-to-csv-without-preloading-records-in-the-ui.html</link>
+      <guid isPermaLink="false">salesforce|2026-05-19|Export to CSV without preloading records in the UI</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Object data can now be exported to CSV without first displaying records in the UI. This is particularly useful for objects containing very large volumes of data, where UI searches may time out — for example, due to the 1-minute search request limit.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Enhanced backup features for more control, less disruption</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/enhanced-features-for-more-control--less-disruption.html</link>
+      <guid isPermaLink="false">salesforce|2026-05-15|Enhanced backup features for more control, less disruption</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Back up the Salesforce Setup Audit Trail, giving your team a reliable record of admin configuration changes to support incident investigations, compliance audits, and post-outage recovery.
+• After a sandbox refresh, you can now reconnect to Veeam Data Cloud by either adding the org as new (fresh backup chain) or reauthorizing the existing connection to keep backups running without losing history.
+• When bulk archival fails due to custom Salesforce logic, a new fallback option automatically switches to single-record deletion, keeping archiving on track without manual intervention. The list of supported error codes is extensible, with UNSUPPORTED_APEX_TRIGGER_OPERATION</description>
+    </item>
+    <item>
+      <title>[Salesforce] Export Backup Data with One Click</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html</link>
+      <guid isPermaLink="false">salesforce|2026-03-12|Export Backup Data with One Click</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Expanded Salesforce Support and Enhanced Backup Management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/expanded-salesforce-support-and-enhanced-backup-management.html</link>
+      <guid isPermaLink="false">salesforce|2026-03-12|Expanded Salesforce Support and Enhanced Backup Management</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• • Support for Salesforce API v65.0 is now provided, ensuring seamless compatibility with the latest Salesforce platform updates. Restore and archival of files larger than 2 GB will be supported later this quarter.
+• Standard Salesforce history objects can now be viewed and browsed directly within the product. While restore for these objects remains unavailable due to Salesforce platform limitations, this feature provides greater insight and auditability into historical data.
+• Users can now save time by searching for and selecting multiple objects, then assigning a custom backup schedule to all selected items with a single click. This enhancement streamlines backup management and makes it easier to protect critical Salesforce data.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Veeam Data Cloud | Salesforce Extension is here</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud---salesforce-extension-is-here.html</link>
+      <guid isPermaLink="false">salesforce|2025-11-19|Veeam Data Cloud | Salesforce Extension is here</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud | Salesforce Extension is now available, this enables organizations to seamlessly access data archived in Veeam Data Cloud directly from the Salesforce interface, enhancing productivity and streamlining data workflows between platforms.
+Why this Matters
+With this integration, users can now view and interact with archived Veeam Data Cloud data without leaving Salesforce. This centralized access improves operational efficiency, simplifies compliance, and provides greater visibility into your protected data assets.
+Getting Started
+To learn more about the Veeam Data Cloud | Salesforce Extension and integration capabilities, visit our Salesforce AppExchange listing or contact our team for additional information.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Archival Policy Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/archival-policy-improvements.html</link>
+      <guid isPermaLink="false">salesforce|2025-11-19|Archival Policy Improvements</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Root records missing child backups are now skipped, allowing uninterrupted archiving of other records.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Veeam Data Cloud introduces global ‘Org Dashboard’ and ‘Activity’ views to the Unified Experience</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-introduces-global--org-dashboard--and--activity.html</link>
+      <guid isPermaLink="false">salesforce|2025-11-10|Veeam Data Cloud introduces global ‘Org Dashboard’ and ‘Activity’ views to the Unified Experience</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud now includes two new top-level views within the unified interface: the Org Dashboard and the Activity view. These additions provide administrators with comprehensive, role-based visibility into protection status, backup history, and platform activity across multiple workloads.
+Org Dashboard:
+• Offers a centralized overview of protection status and backup history across supported workloads, currently including Microsoft Entra ID and Salesforce.
+• Displays the number of protected objects per workload, with breakdowns by object type.
+• Highlights the last 7 days of backup activity, segmented by object protection and session status.
+• Includes filter controls for quick review and investigation by workload.
+• Access is RBAC-controlled, limited to organization and workload administrator roles (with support for custom roles).
+Activity View:
+• Unifies monitoring of protection activity, configuration changes, and access events across Microsoft Entra ID, Salesforce, and general Veeam Data Cloud system events.
+• Details completed and in-progress backup sessions, as well as audit logs for logins, user and tenant creation, and role changes.
+• Access is also RBAC-controlled and available to organization and workload administrator roles, with custom role support.
+Why This Matters
+These new global views simplify oversight for administrators, making it easier to monitor data protection coverage, backup activity, and platform events across multiple workloads. Centralized dashboards and filtering enable more efficient investigation, monitoring, and auditing – supporting operational efficiency, compliance, and improved security across the organization.
+What’s Next
+Both views will see ongoing improvements to further enhance oversight and usability. Planned updates for the Org Dashboard include adding restore history, expanding time filter options, and supporting additional workloads. For the Activity view, upcoming enhancements will introduce export capabilities as well as expanded tracking for protection management, data access, and restore events. These updates are designed to provide administrators with deeper insights and more unified management across the Veeam Data Cloud platform.
+Learn More
+Explore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Designed for Greater Control, Clarity, and Continuity</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/designed-for-greater-control--clarity--and-continuity.html</link>
+      <guid isPermaLink="false">salesforce|2025-10-06|Designed for Greater Control, Clarity, and Continuity</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Added support for restoring public libraries and Content Documents stored within them.
+• Archival policy now switches to individual record processing on Salesforce “unknown exception” and skips already deleted records, ensuring archiving completes with minimal manual intervention.
+• In-product notifications for restore jobs are now enabled by default, so users stay informed about restore progress and outcomes.
+• Added support for Salesforce API version 63.0 to maintain compatibility with the latest platform features.
+• “Manage Prompt Permissions” and “View and Edit Converted Leads” are now automatically included for organisations using Prompt Builder and users are notified if permissions are missing, reducing setup errors.
+• Added masking rule for “Phone” fields to generate numeric values without regional formatting during sandbox seeding, supporting standardized test data.
+• Alternative key case sensitivity now matches the source field. Non-unique “DeveloperName” values for “RecordType” are supported, reducing restore errors.
+• Restoring inline images in rich-text fields is now supported, preserving content formatting.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Support for new Salesforce Security Requirements in Connected App Authorization</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-new-salesforce-security-requirements-in-connected-ap.html</link>
+      <guid isPermaLink="false">salesforce|2025-09-03|Support for new Salesforce Security Requirements in Connected App Authorization</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <category>Security</category>
+      <description>• In alignment with Salesforce’s updated security measures effective September 2025, the connected app used for external authorization is required to be installed directly on the target Salesforce organization.
+• The wizards for adding and re-authorizing Salesforce tenants have been enhanced to automatically verify the installation status of the required connected app. If the connected app is not installed, clear guidance and information are provided to help users complete the installation, ensuring a smooth onboarding and backup process.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Improved Notification Emails and Tenant Provisioning Issue Managment</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-notification-emails-and-tenant-provisioning-issue-manag.html</link>
+      <guid isPermaLink="false">salesforce|2025-08-05|Improved Notification Emails and Tenant Provisioning Issue Managment</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <category>Security</category>
+      <description>• The notification email template has been refreshed for improved clarity.
+• Users can now view and address Salesforce tenant provisioning issues directly, including which IP addresses need to be whitelisted for successful integration.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Updates to Smart Backup Policy Options and Restoration Options</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/updates-to-smart-backup-policy-options.html</link>
+      <guid isPermaLink="false">salesforce|2025-05-30|Updates to Smart Backup Policy Options and Restoration Options</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Smart backup policy now offers to automatically configure required Salesforce permissions for the user running the backup.
+• History objects are now excluded from backup policy by default, users can modify this setting to include them if needed.
+• Supports logic to resotre activated contracts and orders, as well as work with inactive business hours records.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Automatic Scheduling for Large Objects in Smart Backup Policy</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/automatic-scheduling-for-large-objects-in-smart-backup-policy.html</link>
+      <guid isPermaLink="false">salesforce|2025-05-05|Automatic Scheduling for Large Objects in Smart Backup Policy</guid>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Smart backup policy now automatically creates dedicated backup schedules for objects with more than 10 million records, helping achieve lower recovery point objectives (RPO).</description>
+    </item>
+    <item>
+      <title>[Salesforce] Launching Unified User Experience with Veeam Data Cloud for Entra ID and Veeam Data Cloud for Salesforce</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/launching-unified-user-experience-with-veeam-data-cloud-for-entr.html</link>
+      <guid isPermaLink="false">salesforce|2025-04-22|Launching Unified User Experience with Veeam Data Cloud for Entra ID and Veeam Data Cloud for Salesforce</guid>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>We are excited to announce the launch of Veeam Data Cloud for Microsoft Entra ID and Veeam Data Cloud for Salesforce within the new unified Veeam Data Cloud interface. Organizations can now protect their Salesforce and Entra ID data using a modern, centralized platform that delivers secure, effortless backup and recovery as a fully managed SaaS service.
+What’s New
+This launch brings Salesforce and Entra ID protection together for the first time in a unified experience. Veeam Data Cloud for Salesforce helps organizations safeguard critical CRM data, metadata, and files, while Veeam Data Cloud for Microsoft Entra ID (formerly Azure Active Directory) delivers enterprise-grade protection and fast recovery for identity and access management data. Both solutions offer automated, policy-driven backup, flexible and granular recovery, and simplified subscription management — all accessible through a single, intuitive interface.
+Looking Ahead
+This is just the beginning for the unified Veeam Data Cloud platform. Existing Veeam Data Cloud products—including Microsoft 365, Microsoft Azure, and Vault—will soon be integrated into this interface, further expanding your ability to manage and protect multiple workloads from one place.
+Getting Started
+To learn more about Veeam Data Cloud for Salesforce or Microsoft Entra ID within the new unified interface, or to get started, please contact our sales team for more information.</description>
+    </item>
+  </channel>
+</rss>

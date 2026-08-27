@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veeam Data Cloud Changelog — Microsoft Azure</title>
+    <link>https://www.veeam.com/veeam-data-cloud/change-log.html</link>
+    <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Microsoft Azure</description>
+    <language>en</language>
+    <item>
+      <title>[Microsoft Azure] Azure SQL Entra ID authentication and Japanese UI now available</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-entra-id-authentication-and-japanese-ui-now-available.html</link>
+      <guid isPermaLink="false">azure|2026-04-20|Azure SQL Entra ID authentication and Japanese UI now available</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Microsoft Entra ID (formerly Azure Active Directory) authentication for Azure SQL is now available. Backup and restore policies for Azure SQL databases can be configured using Entra ID-based credentials, removing the dependency on SQL authentication.
+• The UI is now available in Japanese, expanding localization support for customers and partners in Japan.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Advanced settings for Azure SQL &amp; Files policies</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html</link>
+      <guid isPermaLink="false">azure|2026-04-20|Advanced settings for Azure SQL &amp; Files policies</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] User Interface Optimizations</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations0.html</link>
+      <guid isPermaLink="false">azure|2026-04-02|User Interface Optimizations</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Azure VM file-level restores can now be performed out-of-place to another folder on the source servers.
+• It is now possible to search for files or folders within the Azure VM file-level restore browser.
+• Additional filters have been added to the policy session logs allowing you to quickly filter out by status or part of the session message.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Custom SLA retention templates for Azure VMs</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html</link>
+      <guid isPermaLink="false">azure|2026-04-02|Custom SLA retention templates for Azure VMs</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Additional Full-Screen Wizards and Interface Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations.html</link>
+      <guid isPermaLink="false">azure|2026-03-12|Additional Full-Screen Wizards and Interface Improvements</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• • Many more wizards now open in a full-screen layout, further increasing workspace and clarity for users when configuring settings or completing tasks.
+• Additional user interface and user experience improvements have been introduced, making navigation even smoother and workflows more efficient.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Support for Azure Cosmos DB</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-azure-cosmos-db.html</link>
+      <guid isPermaLink="false">azure|2026-03-09|Support for Azure Cosmos DB</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now protect and manage your Azure Cosmos DB workloads with Veeam Data Cloud. Take advantage of policy-based scheduling for automated protection and enjoy seamless database recovery, ensuring your critical data is safeguarded and quickly recoverable in the event of a disaster.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Edit existing tenants to easily configure new subscriptions</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/edit-existing-tenants-to-easily-configure-new-subscriptions-.html</link>
+      <guid isPermaLink="false">azure|2026-02-12|Edit existing tenants to easily configure new subscriptions</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now edit existing Azure tenants to change the protection scope and update the number of subscriptions. This feature is available under Settings → Backup Settings → Azure Service Accounts, where service accounts can be selected and modified as needed.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] File-level Recovery to the original location is now available for Azure Virtual Machines</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/file-level-recovery-to-the-original-location-is-now-available-fo.html</link>
+      <guid isPermaLink="false">azure|2026-01-19|File-level Recovery to the original location is now available for Azure Virtual Machines</guid>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now restore individual files to their original location on Azure Virtual Machines, streamlining recovery workflows and eliminating the need for full VM or alternate-location restores.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Streamlined Azure SQL Backups and Faster Policy Reviews</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/streamlined-azure-sql-backups-and-faster-policy-reviews.html</link>
+      <guid isPermaLink="false">azure|2025-12-18|Streamlined Azure SQL Backups and Faster Policy Reviews</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• • Added support for using a staging server to back up Azure SQL databases, offloading orchestration and data processing from production environments to maintain workload performance.
+• Introduced a &quot;View Info&quot; button in the toolbar, enabling instant review of policy configurations without navigating through each policy step.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] User Interface Enhancements for a Smoother Experience</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-enhancements-for-a-smoother-experience.html</link>
+      <guid isPermaLink="false">azure|2025-11-13|User Interface Enhancements for a Smoother Experience</guid>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Wizards now feature a full-screen design, providing more workspace and simplifying complex tasks.
+• Various user interface and user experience optimizations have been introduced to streamline workflows and enhance navigation.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Smarter Restores and Simpler Data Management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/smarter-restores-and-simpler-data-management.html</link>
+      <guid isPermaLink="false">azure|2025-10-27|Smarter Restores and Simpler Data Management</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Azure Virtual Machine disk restores now apply the correct, updated disk name, making restored resources easier to identify and manage.
+• Column sorting has been re-enabled on the protected data page, simplifying data organization and management.
+• Session logs now display times in UTC when selected, providing consistent and clear time reporting for global teams.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Microsoft Azure Added to the Unified Web Interface</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-azure-added-to-the-unified-web-interface.html</link>
+      <guid isPermaLink="false">azure|2025-10-14|Microsoft Azure Added to the Unified Web Interface</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+We’re excited to share that Veeam Data Cloud for Microsoft Azure is now part of the unified Veeam Data Cloud experience. Previously managed separately, Azure protection now sits alongside Microsoft 365, Microsoft Entra ID, Salesforce, and Veeam Vault within a single, modern SaaS environment. With this update, all current Veeam Data Cloud workloads are managed together, and future additions will also be delivered through the unified experience — ensuring everything is accessible in one place moving forward.
+Why this Matters
+By transitioning Microsoft Azure protection into the unified experience, organizations can now manage backup, recovery, policies, and billing for all supported workloads from a single place. This centralization streamlines operations, reduces complexity, and provides enhanced visibility and compliance across your entire cloud data landscape.
+Looking Ahead
+This milestone completes the transition of all existing Veeam Data Cloud workloads into one seamless experience. As Veeam Data Cloud continues to evolve, users can expect new workloads and features to be introduced directly into this unified interface, with ongoing enhancements for scalability, security, and innovation.
+Getting Started
+To learn more about Veeam Data Cloud for Microsoft Azure within the unified experience, visit our product page or contact our sales team for more information.</description>
+    </item>
+  </channel>
+</rss>

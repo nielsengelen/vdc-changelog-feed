@@ -1,0 +1,59 @@
+{
+  "workload": "general",
+  "label": "VDC General",
+  "entries": [
+    {
+      "date": "2026-03-16",
+      "title": "Enhanced Dashboard Flexibility and Clarity",
+      "category": "Enhancement",
+      "tags": [
+        "Monitoring∕Reporting",
+        "UI∕UX"
+      ],
+      "description": "• Variable time filters (7, 30, and 90 days) are now available in the Protection History section of the global organization dashboard, giving users greater flexibility and insight when viewing protection trends over different periods.\n• The dashboard message for data unavailability has been updated for accuracy. When a workload has an active subscription but no available data, users now see \"No object protection data available\" instead of \"Not configured for protection\", providing clearer communication and reducing confusion about workload protection statuses.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/variable-time-filters-for-org-dashboard.html",
+      "workload": "general",
+      "workloadLabel": "VDC General"
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Onboarding & Policy Fixes with Teams Messages and Express Backup Updates",
+      "category": "Fix",
+      "tags": [
+        "Backup",
+        "Management∕Administration"
+      ],
+      "description": "• Fixed an issue where users from service provider–managed organizations invited for tenant self-onboarding were granted only the OrganizationViewer role and could not start onboarding.\n• Fixed an issue where editing a partial organization backup policy via Select Processing Options overwrote the existing policy configuration instead of appending changes.\n• Fixed an issue where the consumed license counts for Flex, Express, and Premium were displayed incorrectly on the Microsoft 365 page.\n• Teams channel messages protection is now included at no additional cost for Flex tenants and is enabled automatically when you select the Microsoft Teams workload during tenant onboarding. When creating backup policies, you can choose which teams’ channel messages to protect.\n• Existing tenants can enable Teams channel messages protection in tenant Settings under the Microsoft 365 section.\n• Tenants with eligible plans can now activate Express backups via the Microsoft 365 section in tenant settings.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/onboarding---policy-fixes-with-teams-messages-and-express-backup.html",
+      "workload": "general",
+      "workloadLabel": "VDC General"
+    },
+    {
+      "date": "2025-12-17",
+      "title": "Top-level Views Now Support Microsoft 365",
+      "category": "Security",
+      "tags": [
+        "Compliance",
+        "Management∕Administration",
+        "Security"
+      ],
+      "description": "• Monitoring for Microsoft 365 is now available in both the Org Dashboard and Activity view in Veeam Data Cloud. Administrators can view protection status, backup history, and platform activity for Microsoft 365 alongside other supported workloads – all from these consolidated views. Support for additional workloads is planned.\nExplore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/top-level-views-now-support-microsoft-365.html",
+      "workload": "general",
+      "workloadLabel": "VDC General"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "Veeam Data Cloud introduces global ‘Org Dashboard’ and ‘Activity’ views to the Unified Experience",
+      "category": "New Feature",
+      "tags": [
+        "Compliance",
+        "Monitoring∕Reporting"
+      ],
+      "description": "What’s New\nVeeam Data Cloud now includes two new top-level views within the unified interface: the Org Dashboard and the Activity view. These additions provide administrators with comprehensive, role-based visibility into protection status, backup history, and platform activity across multiple workloads.\nOrg Dashboard:\n• Offers a centralized overview of protection status and backup history across supported workloads, currently including Microsoft Entra ID and Salesforce.\n• Displays the number of protected objects per workload, with breakdowns by object type.\n• Highlights the last 7 days of backup activity, segmented by object protection and session status.\n• Includes filter controls for quick review and investigation by workload.\n• Access is RBAC-controlled, limited to organization and workload administrator roles (with support for custom roles).\nActivity View:\n• Unifies monitoring of protection activity, configuration changes, and access events across Microsoft Entra ID, Salesforce, and general Veeam Data Cloud system events.\n• Details completed and in-progress backup sessions, as well as audit logs for logins, user and tenant creation, and role changes.\n• Access is also RBAC-controlled and available to organization and workload administrator roles, with custom role support.\nWhy This Matters\nThese new global views simplify oversight for administrators, making it easier to monitor data protection coverage, backup activity, and platform events across multiple workloads. Centralized dashboards and filtering enable more efficient investigation, monitoring, and auditing – supporting operational efficiency, compliance, and improved security across the organization.\nWhat’s Next\nBoth views will see ongoing improvements to further enhance oversight and usability. Planned updates for the Org Dashboard include adding restore history, expanding time filter options, and supporting additional workloads. For the Activity view, upcoming enhancements will introduce export capabilities as well as expanded tracking for protection management, data access, and restore events. These updates are designed to provide administrators with deeper insights and more unified management across the Veeam Data Cloud platform.\nLearn More\nExplore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-introduces-global--org-dashboard--and--activity.html",
+      "workload": "general",
+      "workloadLabel": "VDC General"
+    }
+  ]
+}
