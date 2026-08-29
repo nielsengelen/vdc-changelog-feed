@@ -6,14 +6,15 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Vault</description>
     <language>en</language>
     <item>
-      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
+      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
-• Correct confirmation message now displays.
-• Duplicate registration ID resolved – only one registration ID is shown.</description>
+      <category>New Feature</category>
+      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
+• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
+• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
+• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
     </item>
     <item>
       <title>[Vault] Now Standard: IAM Role-Based Authentication for AWS Vaults</title>
@@ -27,15 +28,14 @@
 • Enabled per organization – Contact your Veeam account manager or Veeam Support to have it applied.</description>
     </item>
     <item>
-      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
+      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
-• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
-• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
-• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+      <category>Fix</category>
+      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
+• Correct confirmation message now displays.
+• Duplicate registration ID resolved – only one registration ID is shown.</description>
     </item>
     <item>
       <title>[Vault] Notification Emails for Deletion Lifecycle</title>
