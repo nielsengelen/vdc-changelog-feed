@@ -1501,6 +1501,18 @@
       "entries": [
         {
           "date": "2026-08-25",
+          "title": "Storage Vaults & Manage Vaults pages",
+          "category": "New Feature",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.\n• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.\n• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.\n• Subscription strip – See Edition, Cloud, and Capacity at a glance.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html",
+          "workload": "vault",
+          "workloadLabel": "Vault"
+        },
+        {
+          "date": "2026-08-25",
           "title": "Now Standard: IAM Role-Based Authentication for AWS Vaults",
           "category": "Security",
           "tags": [
@@ -1520,18 +1532,6 @@
           ],
           "description": "Fixed an issue where assigning a vault from Veeam Backup & Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.\n• Correct confirmation message now displays.\n• Duplicate registration ID resolved – only one registration ID is shown.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html",
-          "workload": "vault",
-          "workloadLabel": "Vault"
-        },
-        {
-          "date": "2026-08-25",
-          "title": "Storage Vaults & Manage Vaults pages",
-          "category": "New Feature",
-          "tags": [
-            "UI∕UX"
-          ],
-          "description": "We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.\n• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.\n• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.\n• Subscription strip – See Edition, Cloud, and Capacity at a glance.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html",
           "workload": "vault",
           "workloadLabel": "Vault"
         },
