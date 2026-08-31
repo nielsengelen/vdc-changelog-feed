@@ -1319,6 +1319,30 @@
       "label": "Salesforce",
       "entries": [
         {
+          "date": "2026-08-28",
+          "title": "Data Archival: More flexible policy filtering with parent object criteria",
+          "category": "Enhancement",
+          "tags": [
+            "Backup"
+          ],
+          "description": "• Extended archival policy filters to support both direct object criteria and parent object criteria, enabling scenarios such as archiving Cases associated with inactive Accounts",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/data-archival--more-flexible-policy-filtering-with-parent-object.html",
+          "workload": "salesforce",
+          "workloadLabel": "Salesforce"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Data Masking now supports static text appending for emails and phone numbers",
+          "category": "Enhancement",
+          "tags": [
+            "Restore"
+          ],
+          "description": "• Data Masking rules can now append static text to email address and phone number values. This helps keep full sandbox data safer for testing and reduces the risk of messages being sent to real users.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/data-masking-now-supports-static-text-appending-for-emails-and-p.html",
+          "workload": "salesforce",
+          "workloadLabel": "Salesforce"
+        },
+        {
           "date": "2026-06-19",
           "title": "Metadata protection for custom fields on managed package objects",
           "category": "Enhancement",
@@ -1501,18 +1525,6 @@
       "entries": [
         {
           "date": "2026-08-25",
-          "title": "Storage Vaults & Manage Vaults pages",
-          "category": "New Feature",
-          "tags": [
-            "UI∕UX"
-          ],
-          "description": "We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.\n• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.\n• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.\n• Subscription strip – See Edition, Cloud, and Capacity at a glance.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html",
-          "workload": "vault",
-          "workloadLabel": "Vault"
-        },
-        {
-          "date": "2026-08-25",
           "title": "Now Standard: IAM Role-Based Authentication for AWS Vaults",
           "category": "Security",
           "tags": [
@@ -1532,6 +1544,18 @@
           ],
           "description": "Fixed an issue where assigning a vault from Veeam Backup & Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.\n• Correct confirmation message now displays.\n• Duplicate registration ID resolved – only one registration ID is shown.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html",
+          "workload": "vault",
+          "workloadLabel": "Vault"
+        },
+        {
+          "date": "2026-08-25",
+          "title": "Storage Vaults & Manage Vaults pages",
+          "category": "New Feature",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.\n• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.\n• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.\n• Subscription strip – See Edition, Cloud, and Capacity at a glance.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html",
           "workload": "vault",
           "workloadLabel": "Vault"
         },

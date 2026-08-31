@@ -6,6 +6,22 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Salesforce</description>
     <language>en</language>
     <item>
+      <title>[Salesforce] Data Archival: More flexible policy filtering with parent object criteria</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-archival--more-flexible-policy-filtering-with-parent-object.html</link>
+      <guid isPermaLink="false">salesforce|2026-08-28|Data Archival: More flexible policy filtering with parent object criteria</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Extended archival policy filters to support both direct object criteria and parent object criteria, enabling scenarios such as archiving Cases associated with inactive Accounts</description>
+    </item>
+    <item>
+      <title>[Salesforce] Data Masking now supports static text appending for emails and phone numbers</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-masking-now-supports-static-text-appending-for-emails-and-p.html</link>
+      <guid isPermaLink="false">salesforce|2026-08-21|Data Masking now supports static text appending for emails and phone numbers</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Data Masking rules can now append static text to email address and phone number values. This helps keep full sandbox data safer for testing and reduces the risk of messages being sent to real users.</description>
+    </item>
+    <item>
       <title>[Salesforce] Metadata protection for custom fields on managed package objects</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/metadata-protection-for-custom-fields-on-managed-package-objects.html</link>
       <guid isPermaLink="false">salesforce|2026-06-19|Metadata protection for custom fields on managed package objects</guid>

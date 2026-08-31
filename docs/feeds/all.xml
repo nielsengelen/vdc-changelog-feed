@@ -6,15 +6,12 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
-      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
-• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
-• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
-• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+      <title>[Salesforce] Data Archival: More flexible policy filtering with parent object criteria</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-archival--more-flexible-policy-filtering-with-parent-object.html</link>
+      <guid isPermaLink="false">salesforce|2026-08-28|Data Archival: More flexible policy filtering with parent object criteria</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Extended archival policy filters to support both direct object criteria and parent object criteria, enabling scenarios such as archiving Cases associated with inactive Accounts</description>
     </item>
     <item>
       <title>[Vault] Now Standard: IAM Role-Based Authentication for AWS Vaults</title>
@@ -36,6 +33,25 @@
       <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
 • Correct confirmation message now displays.
 • Duplicate registration ID resolved – only one registration ID is shown.</description>
+    </item>
+    <item>
+      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
+• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
+• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
+• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Data Masking now supports static text appending for emails and phone numbers</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-masking-now-supports-static-text-appending-for-emails-and-p.html</link>
+      <guid isPermaLink="false">salesforce|2026-08-21|Data Masking now supports static text appending for emails and phone numbers</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Data Masking rules can now append static text to email address and phone number values. This helps keep full sandbox data safer for testing and reduces the risk of messages being sent to real users.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 New Search Experience Enhancements</title>
@@ -1057,28 +1073,6 @@ To learn more about the Veeam Data Cloud | Salesforce Extension and integration 
 • Improved the restore experience by disabling dropdowns and introducing a dialog for user selection (displaying both name and email), and by providing clear error messages when restoring SharePoint items to invalid or non-existent locations.
 • Added the ability to retry failed tenant provisioning, allowing setup issues to be corrected and onboarding to be reattempted without restarting.
 • Removed the “Acceptance” step and additional cost warning when activating Team Chat protection to streamline setup.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Reliability, Performance and Validation Fixes Across Backup and Restore Operations</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/reliability--performance-and-validation-fixes-across-backup-and-.html</link>
-      <guid isPermaLink="false">m365|2025-11-17|Reliability, Performance and Validation Fixes Across Backup and Restore Operations</guid>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed the issue where selecting “Use the latest available restore point” could trigger restores from an older state.
-• Fixed the issue causing a 500 error when retrieving backup policy data for a tenant.
-• Fixed timeout issues when browsing SharePoint backup data.
-• Optimized Advanced Search and on-demand report generation for large data sets, reducing wait times for results and reports.
-• Improved file upload validation in backup policy: existing users in the file are now skipped with a warning, while valid new users are added.
-• Admin email validation on onboarding a tenant via manual connection is now case-insensitive, preventing errors during onboarding.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] User Interface Enhancements for a Smoother Experience</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-enhancements-for-a-smoother-experience.html</link>
-      <guid isPermaLink="false">azure|2025-11-13|User Interface Enhancements for a Smoother Experience</guid>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Wizards now feature a full-screen design, providing more workspace and simplifying complex tasks.
-• Various user interface and user experience optimizations have been introduced to streamline workflows and enhance navigation.</description>
     </item>
   </channel>
 </rss>
