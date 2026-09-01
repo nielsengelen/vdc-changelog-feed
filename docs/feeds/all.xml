@@ -14,6 +14,17 @@
       <description>• Extended archival policy filters to support both direct object criteria and parent object criteria, enabling scenarios such as archiving Cases associated with inactive Accounts</description>
     </item>
     <item>
+      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
+• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
+• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
+• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+    </item>
+    <item>
       <title>[Vault] Now Standard: IAM Role-Based Authentication for AWS Vaults</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-standard--iam-role-based-authentication-for-aws-vaults.html</link>
       <guid isPermaLink="false">vault|2026-08-25|Now Standard: IAM Role-Based Authentication for AWS Vaults</guid>
@@ -35,23 +46,33 @@
 • Duplicate registration ID resolved – only one registration ID is shown.</description>
     </item>
     <item>
-      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
-• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
-• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
-• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
-    </item>
-    <item>
       <title>[Salesforce] Data Masking now supports static text appending for emails and phone numbers</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-masking-now-supports-static-text-appending-for-emails-and-p.html</link>
       <guid isPermaLink="false">salesforce|2026-08-21|Data Masking now supports static text appending for emails and phone numbers</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
       <description>• Data Masking rules can now append static text to email address and phone number values. This helps keep full sandbox data safer for testing and reduces the risk of messages being sent to real users.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved session log search</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-session-log-search.html</link>
+      <guid isPermaLink="false">azure|2026-08-20|Improved session log search</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Search for a specific error or message across all session logs, making it easier to quickly find relevant details and troubleshoot session issues.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] New Azure role, policy and export enhancements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/new-azure-role--policy-and-export-enhancements.html</link>
+      <guid isPermaLink="false">azure|2026-08-20|New Azure role, policy and export enhancements</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• You can now configure three new roles for VDC Azure users in OneUI:
+• Backup Operator
+• Restore Operator
+• Viewer
+• It is now possible to exclude specific disks from a Virtual Machine policy by disk ID or by using a global tag to exclude disks across multiple Virtual Machines.
+• All tables across all pages can now be exported to CSV for external data processing.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 New Search Experience Enhancements</title>
@@ -148,6 +169,22 @@ Keeping keys in your own Azure Key Vault helps satisfy regulatory and internal s
 This feature is available on request. To enable encryption key management in your Veeam Data Cloud organization, contact Veeam Customer Support.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] Service account subscription management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/service-account-subscription-management.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|Service account subscription management</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Users can now adjust service account settings by removing unneeded or expired subscriptions making it easier to keep service accounts up to date and ensure only relevant subscriptions remain connected.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] More flexible Azure policy configuration</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|More flexible Azure policy configuration</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Microsoft 365 Notification Time Zone Fix</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-notification-time-zone-fix.html</link>
       <guid isPermaLink="false">m365|2026-07-20|Microsoft 365 Notification Time Zone Fix</guid>
@@ -189,6 +226,23 @@ This feature is available on request. To enable encryption key management in you
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
       <description>• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Improved restore flexibility with cross-region restores and restore point visibility</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.
+• Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 Dashboard, VCSP Partner Onboarding, and RBAC Improvements</title>
@@ -259,6 +313,15 @@ This feature is available on request. To enable encryption key management in you
 • Fixed an issue where the default retention period for newly created backup repositories was set to 7 years instead of the correct default of 1 year.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] Azure Files private mode and private endpoint auto-approval</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-files-private-mode-and-private-endpoint-auto-approval.html</link>
+      <guid isPermaLink="false">azure|2026-06-09|Azure Files private mode and private endpoint auto-approval</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Veeam Data Cloud for Microsoft Azure is now able to connect to your Azure Files infrastructure running in private mode.
+• Users can now auto-approve the creation of private endpoints for AzureSQL and Azure Files by enabling this feature in the settings of the service account.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Improved Restore Initiation and Progress Visibility</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-initiation-and-progress-visibility.html</link>
       <guid isPermaLink="false">entra|2026-06-09|Improved Restore Initiation and Progress Visibility</guid>
@@ -310,6 +373,22 @@ This feature is available on request. To enable encryption key management in you
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
       <description>• Improved user experience for exporting audit and sign-in logs: Users can now download logs with a dedicated Download button, eliminating the need to copy and manually access SAS links in Storage Explorer. To learn more, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Search sessions by Azure resource name</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/search-sessions-by-azure-resource-name.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Search sessions by Azure resource name</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• The Sessions page now supports searching by resource name, making it easier to filter results and find sessions related to a specific Azure resource.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved Azure resource visibility</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Improved Azure resource visibility</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.</description>
     </item>
     <item>
       <title>[Salesforce] Export to CSV without preloading records in the UI</title>
@@ -967,112 +1046,6 @@ For more information, visit the User Guide.</description>
 • Objects can be imported into Flex or Express backup policies via CSV upload for faster policy configuration.
 • SharePoint lists can be restored to a specific target list.
 • The Restore Activity report includes a month and year picker to select a specific period for report generation.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] BYOK Encryption</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/byok-encryption0.html</link>
-      <guid isPermaLink="false">m365|2025-12-03|BYOK Encryption</guid>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Security</category>
-      <description>What's New
-Veeam Data Cloud for Microsoft 365 now includes Bring Your Own Key (BYOK) encryption - also known as Customer-managed Encryption Keys - as a Limited Availability Preview. Only customers of Veeam Data Cloud for Microsoft 365 Premium can participate in this early access program.
-Why This Matters
-With a customer-managed encryption key, organizations retain full control over their data while benefiting from the scalability and convenience of as-a-Service solutions. This capability empowers organizations to host, manage, and control their own encryption keys, and, if needed, revoke Veeam Data Cloud’s access at any time.Important: There are risks associated with using customer-managed encryption keys. If a key is lost or deleted, access to all encrypted data is permanently lost and cannot be recovered.
-Getting Started
-Premium customers can enable BYOK by following the steps outlined within the BYOK Encryption section of the Veeam Data Cloud User Guide, and then contacting Veeam Customer Support to request access.</description>
-    </item>
-    <item>
-      <title>[Vault] Usability Updates for Storage Management and AWS Vaults</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/colins-test.html</link>
-      <guid isPermaLink="false">vault|2025-12-01|Usability Updates for Storage Management and AWS Vaults</guid>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Pagination and search functionality have been introduced for storage vaults, making it easier to browse and manage large numbers of vaults. Vaults are now organized into pages, and the search feature allows quick location by Storage Display Name or Vault ID.
-• The Vault ID for AWS Vaults is now generated and displayed during AWS S3 bucket creation, making it easier to add the Vault to VBR. The Vault ID can be copied directly from the credentials configuration, eliminating the need to navigate to the created vault.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Teams Channel Notification Delivery Issue Corrected</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/teams-channel-notification-delivery-issue-corrected.html</link>
-      <guid isPermaLink="false">m365|2025-11-24|Teams Channel Notification Delivery Issue Corrected</guid>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Addressed an issue where Veeam Data Cloud notifications sent to a configured Teams channel failed with the error “Teams channel incoming webhook URL is invalid”. The intended messages now deliver successfully to Teams channels.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Role-Based Access Control is Now Available</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/role-based-access-control-is-now-available.html</link>
-      <guid isPermaLink="false">entra|2025-11-20|Role-Based Access Control is Now Available</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Security</category>
-      <description>What's New
-Veeam Data Cloud for Entra ID now supports role-based access controls, allowing administrators to assign specific permissions to users.
-• Three roles are now available: Restore Administrator, Settings Administrator, and Viewer. Roles can be assigned per tenant or across all tenants for precise access control within your organization.
-• Users will only see the features relevant to their role, ensuring a secure and streamlined experience.
-• Multiple roles can be assigned to a single user, allowing for flexible access.
-Why This Matters
-Role-based access controls in Veeam Data Cloud for Entra ID enhances security and efficiency by letting administrators assign tailored permissions to users. This ensures everyone only has access to what they need, reduces risk, and makes managing user access more flexible and streamlined across your organization.
-Getting Started
-For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Support for Intune Policies</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-intune-policies.html</link>
-      <guid isPermaLink="false">entra|2025-11-20|Support for Intune Policies</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>What’s New
-Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune Policies, including both Device Configuration Policies and Device Compliance Policies. Customers can back up these Intune policies and restore them in their entirety, or perform granular restores of specific policy properties, enhancing flexibility and control over policy recovery.
-Why This Matters
-Microsoft Intune policies are critical for enforcing device compliance and configuration. Accidental changes, deletions, or misconfigurations can lead to security risks, compliance violations, or disruptions in device management. By enabling backup and granular restore of Intune policies, organizations quickly recover from policy-related incidents, minimize downtime, and ensure continuity of device management and security posture.
-Getting Started
-For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Vault] Veeam Data Cloud Vault for AWS Added to Unified Web Interface</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud-vault-for-aws-added-to-unified-web-interface.html</link>
-      <guid isPermaLink="false">vault|2025-11-20|Veeam Data Cloud Vault for AWS Added to Unified Web Interface</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>Whats New
-We're excited to share that Veeam Data Cloud Vault for AWS is now part of the unified Veeam Data Cloud experience. Previously unavailable, this added cloud storage support for AWS expands our breadth of regional availability while meeting our customers where they are.
-Why this Matters
-Adding Vault for AWS to the Veeam Data Cloud product family, adds another key piece of cross-cloud coverage, fulfilling the goal of one platform / any workload. Vault gives organizations a consistent, centralized view across backup and storage, making it easier to ensure data resilience and compliance for all workloads.
-Getting Started
-To learn more about Veeam Data Cloud Vault within the unified web interface visit the product page, or for information on how to purchase visit this page.</description>
-    </item>
-    <item>
-      <title>[Salesforce] Veeam Data Cloud | Salesforce Extension is here</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud---salesforce-extension-is-here.html</link>
-      <guid isPermaLink="false">salesforce|2025-11-19|Veeam Data Cloud | Salesforce Extension is here</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>What’s New
-Veeam Data Cloud | Salesforce Extension is now available, this enables organizations to seamlessly access data archived in Veeam Data Cloud directly from the Salesforce interface, enhancing productivity and streamlining data workflows between platforms.
-Why this Matters
-With this integration, users can now view and interact with archived Veeam Data Cloud data without leaving Salesforce. This centralized access improves operational efficiency, simplifies compliance, and provides greater visibility into your protected data assets.
-Getting Started
-To learn more about the Veeam Data Cloud | Salesforce Extension and integration capabilities, visit our Salesforce AppExchange listing or contact our team for additional information.</description>
-    </item>
-    <item>
-      <title>[Salesforce] Archival Policy Improvements</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/archival-policy-improvements.html</link>
-      <guid isPermaLink="false">salesforce|2025-11-19|Archival Policy Improvements</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Root records missing child backups are now skipped, allowing uninterrupted archiving of other records.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Expanded Restore Options, Improved Usability, and Policy Management Enhancements</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/expanded-restore-options--improved-usability--and-policy-managem.html</link>
-      <guid isPermaLink="false">m365|2025-11-17|Expanded Restore Options, Improved Usability, and Policy Management Enhancements</guid>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Added the ability to restore Outlook, SharePoint, and OneDrive items from Express backups to a new location.
-• Enhanced backup session log downloads to support up to 10,000 records per file, allowing export of complete session logs to CSV.
-• Added a details section for Express policies, enabling visibility into protection status and issues for each object within a policy.
-• Improved the restore experience by disabling dropdowns and introducing a dialog for user selection (displaying both name and email), and by providing clear error messages when restoring SharePoint items to invalid or non-existent locations.
-• Added the ability to retry failed tenant provisioning, allowing setup issues to be corrected and onboarding to be reattempted without restarting.
-• Removed the “Acceptance” step and additional cost warning when activating Team Chat protection to streamline setup.</description>
     </item>
   </channel>
 </rss>

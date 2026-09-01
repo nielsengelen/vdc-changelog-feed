@@ -6,6 +6,85 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Microsoft Azure</description>
     <language>en</language>
     <item>
+      <title>[Microsoft Azure] Improved session log search</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-session-log-search.html</link>
+      <guid isPermaLink="false">azure|2026-08-20|Improved session log search</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Search for a specific error or message across all session logs, making it easier to quickly find relevant details and troubleshoot session issues.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] New Azure role, policy and export enhancements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/new-azure-role--policy-and-export-enhancements.html</link>
+      <guid isPermaLink="false">azure|2026-08-20|New Azure role, policy and export enhancements</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• You can now configure three new roles for VDC Azure users in OneUI:
+• Backup Operator
+• Restore Operator
+• Viewer
+• It is now possible to exclude specific disks from a Virtual Machine policy by disk ID or by using a global tag to exclude disks across multiple Virtual Machines.
+• All tables across all pages can now be exported to CSV for external data processing.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Service account subscription management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/service-account-subscription-management.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|Service account subscription management</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Users can now adjust service account settings by removing unneeded or expired subscriptions making it easier to keep service accounts up to date and ensure only relevant subscriptions remain connected.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] More flexible Azure policy configuration</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|More flexible Azure policy configuration</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Improved restore flexibility with cross-region restores and restore point visibility</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.
+• Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Azure Files private mode and private endpoint auto-approval</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-files-private-mode-and-private-endpoint-auto-approval.html</link>
+      <guid isPermaLink="false">azure|2026-06-09|Azure Files private mode and private endpoint auto-approval</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Veeam Data Cloud for Microsoft Azure is now able to connect to your Azure Files infrastructure running in private mode.
+• Users can now auto-approve the creation of private endpoints for AzureSQL and Azure Files by enabling this feature in the settings of the service account.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Search sessions by Azure resource name</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/search-sessions-by-azure-resource-name.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Search sessions by Azure resource name</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• The Sessions page now supports searching by resource name, making it easier to filter results and find sessions related to a specific Azure resource.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved Azure resource visibility</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Improved Azure resource visibility</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.</description>
+    </item>
+    <item>
       <title>[Microsoft Azure] Azure SQL Entra ID authentication and Japanese UI now available</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-entra-id-authentication-and-japanese-ui-now-available.html</link>
       <guid isPermaLink="false">azure|2026-04-20|Azure SQL Entra ID authentication and Japanese UI now available</guid>
