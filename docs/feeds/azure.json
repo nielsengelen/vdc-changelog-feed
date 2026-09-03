@@ -53,18 +53,6 @@
     },
     {
       "date": "2026-06-25",
-      "title": "Azure SQL Protect Data page now shows correct backup size",
-      "category": "Fix",
-      "tags": [
-        "UI∕UX"
-      ],
-      "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
-      "workload": "azure",
-      "workloadLabel": "Microsoft Azure"
-    },
-    {
-      "date": "2026-06-25",
       "title": "Improved restore flexibility with cross-region restores and restore point visibility",
       "category": "New Feature",
       "tags": [
@@ -73,6 +61,18 @@
       ],
       "description": "• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.\n• Easily recover any protected workload to a new region with the same or different settings based on the backup data.",
       "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Azure SQL Protect Data page now shows correct backup size",
+      "category": "Fix",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },
