@@ -14,17 +14,6 @@
       <description>• Extended archival policy filters to support both direct object criteria and parent object criteria, enabling scenarios such as archiving Cases associated with inactive Accounts</description>
     </item>
     <item>
-      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
-• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
-• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
-• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
-    </item>
-    <item>
       <title>[Vault] Now Standard: IAM Role-Based Authentication for AWS Vaults</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-standard--iam-role-based-authentication-for-aws-vaults.html</link>
       <guid isPermaLink="false">vault|2026-08-25|Now Standard: IAM Role-Based Authentication for AWS Vaults</guid>
@@ -44,6 +33,17 @@
       <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
 • Correct confirmation message now displays.
 • Duplicate registration ID resolved – only one registration ID is shown.</description>
+    </item>
+    <item>
+      <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>We've refreshed the Storage Vaults and Manage Vaults pages with improved navigation and at-a-glance visibility.
+• New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
+• Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
+• Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
     </item>
     <item>
       <title>[Salesforce] Data Masking now supports static text appending for emails and phone numbers</title>
@@ -228,14 +228,6 @@ This feature is available on request. To enable encryption key management in you
       <description>• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
-      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
-    </item>
-    <item>
       <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html</link>
       <guid isPermaLink="false">azure|2026-06-25|Improved restore flexibility with cross-region restores and restore point visibility</guid>
@@ -243,6 +235,14 @@ This feature is available on request. To enable encryption key management in you
       <category>New Feature</category>
       <description>• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.
 • Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 Dashboard, VCSP Partner Onboarding, and RBAC Improvements</title>
