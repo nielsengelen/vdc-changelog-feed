@@ -6,6 +6,19 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Microsoft Entra ID] Backup and Restore Support for Microsoft Intune RBAC Roles</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html</link>
+      <guid isPermaLink="false">entra|2026-09-10|Backup and Restore Support for Microsoft Intune RBAC Roles</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping customers preserve Intune access control configurations.
+Why This Matters
+Microsoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.
+Getting Started
+For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Salesforce] Data Archival: More flexible policy filtering with parent object criteria</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-archival--more-flexible-policy-filtering-with-parent-object.html</link>
       <guid isPermaLink="false">salesforce|2026-08-28|Data Archival: More flexible policy filtering with parent object criteria</guid>
@@ -73,6 +86,14 @@
 • Viewer
 • It is now possible to exclude specific disks from a Virtual Machine policy by disk ID or by using a global tag to exclude disks across multiple Virtual Machines.
 • All tables across all pages can now be exported to CSV for external data processing.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Backup Operations Disabled for Tenants in Retention Status</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance0.html</link>
+      <guid isPermaLink="false">entra|2026-08-13|Backup Operations Disabled for Tenants in Retention Status</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Backup operations are now disabled when a tenant is in retention status, helping ensure backup activity is properly restricted while retention handling is in effect.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 New Search Experience Enhancements</title>
@@ -1022,30 +1043,6 @@ For more information, visit the User Guide.</description>
 • Fixed an issue where SharePoint restore failed with the error &quot;A task was cancelled&quot; after a user refreshed the operation status multiple times.
 • Corrected a problem with advanced and basic search where the form would refresh and return no results after adding a search string and selecting a filtered object.
 • Fixed a delay when removing SharePoint sites from a protection policy.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Teams Chat Backup, Reporting, and Error Handling Updates</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/teams-chat-backup--reporting--and-error-handling-updates.html</link>
-      <guid isPermaLink="false">m365|2025-12-09|Teams Chat Backup, Reporting, and Error Handling Updates</guid>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved authorization and timeout errors that occurred when disabling Teams Chat backup due to missing application ID.
-• Updated descriptions for Mailbox Protection and User Protection reports for consistency.
-• Reporting now reliably handles long error messages, preventing failures during report updates.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Self-Service Access, Restore Options, and Policy Management</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-for-microsoft-365-added-to-the-unified-web-interfac.html</link>
-      <guid isPermaLink="false">m365|2025-12-09|Self-Service Access, Restore Options, and Policy Management</guid>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Tenant admins can now enable or disable self-service access for end users, enabling these users to restore their own Outlook and OneDrive data protected by Flex backup policies to the original location.
-• Bulk restore for Express policies now supports restoring large data sets to alternate locations.
-• Express protection policies are now editable while in the “Updating” state.
-• Up to 100 Express protection policies can be created and managed per Microsoft 365 application (Outlook, SharePoint, OneDrive).
-• Objects can be imported into Flex or Express backup policies via CSV upload for faster policy configuration.
-• SharePoint lists can be restored to a specific target list.
-• The Restore Activity report includes a month and year picker to select a specific period for report generation.</description>
     </item>
   </channel>
 </rss>

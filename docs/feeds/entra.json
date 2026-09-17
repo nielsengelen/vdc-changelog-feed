@@ -3,6 +3,30 @@
   "label": "Microsoft Entra ID",
   "entries": [
     {
+      "date": "2026-09-10",
+      "title": "Backup and Restore Support for Microsoft Intune RBAC Roles",
+      "category": "New Feature",
+      "tags": [
+        "Backup"
+      ],
+      "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping customers preserve Intune access control configurations.\nWhy This Matters\nMicrosoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.\nGetting Started\nFor more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Backup Operations Disabled for Tenants in Retention Status",
+      "category": "Fix",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Backup operations are now disabled when a tenant is in retention status, helping ensure backup activity is properly restricted while retention handling is in effect.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance0.html",
+      "workload": "entra",
+      "workloadLabel": "Microsoft Entra ID"
+    },
+    {
       "date": "2026-07-30",
       "title": "Updated Backup Failure Email Guidance",
       "category": "Enhancement",
