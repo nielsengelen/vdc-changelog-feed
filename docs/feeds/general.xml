@@ -6,6 +6,39 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — VDC General</description>
     <language>en</language>
     <item>
+      <title>[VDC General] Event Forwarding</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html</link>
+      <guid isPermaLink="false">general|2026-09-28|Event Forwarding</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+New event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.
+Streaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.
+Supported event forwarding connectors:
+• Splunk HEC (Http Event Collector)
+• CrowdStrike LogScale (ingest token)
+• CrowdStrike Next-Gen SIEM (API token)
+• Generic Webhook (customizable)
+Supported event producers:
+• Veeam Data Cloud Platform
+• Veeam Data Cloud for Microsoft 365
+Supported events and event producers:
+• Access Management (invite user, assign role, BYOK)
+• Backup Policy Execution (status &amp; result)
+• Restore Policy Execution (status &amp; result)
+How to set up
+• Add new connectors from Org Settings &gt; Integrations
+• Guides and Event Schemas are documented in the Help Center
+Coming Soon
+• Backup Policy Configuration events (Policy created/deleted/updated)
+• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events
+• Unique error codes and messages
+Help Guides
+• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide
+• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers
+• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference</description>
+    </item>
+    <item>
       <title>[VDC General] Enhanced Dashboard Flexibility and Clarity</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/variable-time-filters-for-org-dashboard.html</link>
       <guid isPermaLink="false">general|2026-03-16|Enhanced Dashboard Flexibility and Clarity</guid>

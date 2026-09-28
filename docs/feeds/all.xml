@@ -6,6 +6,72 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[VDC General] Event Forwarding</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html</link>
+      <guid isPermaLink="false">general|2026-09-28|Event Forwarding</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+New event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.
+Streaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.
+Supported event forwarding connectors:
+• Splunk HEC (Http Event Collector)
+• CrowdStrike LogScale (ingest token)
+• CrowdStrike Next-Gen SIEM (API token)
+• Generic Webhook (customizable)
+Supported event producers:
+• Veeam Data Cloud Platform
+• Veeam Data Cloud for Microsoft 365
+Supported events and event producers:
+• Access Management (invite user, assign role, BYOK)
+• Backup Policy Execution (status &amp; result)
+• Restore Policy Execution (status &amp; result)
+How to set up
+• Add new connectors from Org Settings &gt; Integrations
+• Guides and Event Schemas are documented in the Help Center
+Coming Soon
+• Backup Policy Configuration events (Policy created/deleted/updated)
+• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events
+• Unique error codes and messages
+Help Guides
+• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide
+• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers
+• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Event Forwarding</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html</link>
+      <guid isPermaLink="false">m365|2026-09-28|Event Forwarding</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+New event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.
+Streaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.
+Supported event forwarding connectors:
+• Splunk HEC (Http Event Collector)
+• CrowdStrike LogScale (ingest token)
+• CrowdStrike Next-Gen SIEM (API token)
+• Generic Webhook (customizable)
+Supported event producers:
+• Veeam Data Cloud Platform
+• Veeam Data Cloud for Microsoft 365
+Supported events and event producers:
+• Access Management (invite user, assign role, BYOK)
+• Backup Policy Execution (status &amp; result)
+• Restore Policy Execution (status &amp; result)
+How to set up
+• Add new connectors from Org Settings &gt; Integrations
+• Guides and Event Schemas are documented in the Help Center
+Coming Soon
+• Backup Policy Configuration events (Policy created/deleted/updated)
+• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events
+• Unique error codes and messages
+Help Guides
+• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide
+• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers
+• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Backup and Restore Support for Microsoft Intune RBAC Roles</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html</link>
       <guid isPermaLink="false">entra|2026-09-10|Backup and Restore Support for Microsoft Intune RBAC Roles</guid>
@@ -249,6 +315,14 @@ This feature is available on request. To enable encryption key management in you
       <description>• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
+    </item>
+    <item>
       <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html</link>
       <guid isPermaLink="false">azure|2026-06-25|Improved restore flexibility with cross-region restores and restore point visibility</guid>
@@ -256,14 +330,6 @@ This feature is available on request. To enable encryption key management in you
       <category>New Feature</category>
       <description>• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.
 • Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
-      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 Dashboard, VCSP Partner Onboarding, and RBAC Improvements</title>
@@ -1024,25 +1090,6 @@ For more information, visit the User Guide.</description>
       <category>Enhancement</category>
       <description>• Restore points can now be selected using a calendar view, making it easier to navigate and choose dates during investigation and recovery workflows.
 For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Self-Service Activation for Microsoft 365 Backup Storage Billing</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-activation-for-microsoft-365-backup-storage-billing.html</link>
-      <guid isPermaLink="false">m365|2025-12-15|Self-Service Activation for Microsoft 365 Backup Storage Billing</guid>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Users can now enable Microsoft 365 Backup Storage billing directly from settings without Veeam team assistance. Express protection policies are available immediately after activation, streamlining setup time.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Multiple Restore and Search Issues Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-and-search-issues-resolved.html</link>
-      <guid isPermaLink="false">m365|2025-12-15|Multiple Restore and Search Issues Resolved</guid>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved a 500 error message returned when retrieving the list of Teams posts.
-• Fixed an issue where SharePoint restore failed with the error &quot;A task was cancelled&quot; after a user refreshed the operation status multiple times.
-• Corrected a problem with advanced and basic search where the form would refresh and return no results after adding a search string and selecting a filtered object.
-• Fixed a delay when removing SharePoint sites from a protection policy.</description>
     </item>
   </channel>
 </rss>

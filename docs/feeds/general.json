@@ -3,6 +3,18 @@
   "label": "VDC General",
   "entries": [
     {
+      "date": "2026-09-28",
+      "title": "Event Forwarding",
+      "category": "New Feature",
+      "tags": [
+        "Monitoring∕Reporting"
+      ],
+      "description": "What’s New\nNew event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.\nStreaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.\nSupported event forwarding connectors:\n• Splunk HEC (Http Event Collector)\n• CrowdStrike LogScale (ingest token)\n• CrowdStrike Next-Gen SIEM (API token)\n• Generic Webhook (customizable)\nSupported event producers:\n• Veeam Data Cloud Platform\n• Veeam Data Cloud for Microsoft 365\nSupported events and event producers:\n• Access Management (invite user, assign role, BYOK)\n• Backup Policy Execution (status & result)\n• Restore Policy Execution (status & result)\nHow to set up\n• Add new connectors from Org Settings > Integrations\n• Guides and Event Schemas are documented in the Help Center\nComing Soon\n• Backup Policy Configuration events (Policy created/deleted/updated)\n• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events\n• Unique error codes and messages\nHelp Guides\n• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide\n• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers\n• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html",
+      "workload": "general",
+      "workloadLabel": "VDC General"
+    },
+    {
       "date": "2026-03-16",
       "title": "Enhanced Dashboard Flexibility and Clarity",
       "category": "Enhancement",

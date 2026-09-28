@@ -4,6 +4,18 @@
       "label": "VDC General",
       "entries": [
         {
+          "date": "2026-09-28",
+          "title": "Event Forwarding",
+          "category": "New Feature",
+          "tags": [
+            "Monitoring∕Reporting"
+          ],
+          "description": "What’s New\nNew event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.\nStreaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.\nSupported event forwarding connectors:\n• Splunk HEC (Http Event Collector)\n• CrowdStrike LogScale (ingest token)\n• CrowdStrike Next-Gen SIEM (API token)\n• Generic Webhook (customizable)\nSupported event producers:\n• Veeam Data Cloud Platform\n• Veeam Data Cloud for Microsoft 365\nSupported events and event producers:\n• Access Management (invite user, assign role, BYOK)\n• Backup Policy Execution (status & result)\n• Restore Policy Execution (status & result)\nHow to set up\n• Add new connectors from Org Settings > Integrations\n• Guides and Event Schemas are documented in the Help Center\nComing Soon\n• Backup Policy Configuration events (Policy created/deleted/updated)\n• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events\n• Unique error codes and messages\nHelp Guides\n• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide\n• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers\n• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html",
+          "workload": "general",
+          "workloadLabel": "VDC General"
+        },
+        {
           "date": "2026-03-16",
           "title": "Enhanced Dashboard Flexibility and Clarity",
           "category": "Enhancement",
@@ -61,6 +73,18 @@
     "m365": {
       "label": "Microsoft 365",
       "entries": [
+        {
+          "date": "2026-09-28",
+          "title": "Event Forwarding",
+          "category": "New Feature",
+          "tags": [
+            "Monitoring∕Reporting"
+          ],
+          "description": "What’s New\nNew event forwarding connectors enables remote monitoring of Veeam Data Cloud or context-driven workflow automation from your external SIEM, observability or automation platform.\nStreaming events to a 3rd-party tool helps you correlate Veeam Data Cloud activity with the rest of your environment, automate incident response in your internal tools and meet compliance requirements.\nSupported event forwarding connectors:\n• Splunk HEC (Http Event Collector)\n• CrowdStrike LogScale (ingest token)\n• CrowdStrike Next-Gen SIEM (API token)\n• Generic Webhook (customizable)\nSupported event producers:\n• Veeam Data Cloud Platform\n• Veeam Data Cloud for Microsoft 365\nSupported events and event producers:\n• Access Management (invite user, assign role, BYOK)\n• Backup Policy Execution (status & result)\n• Restore Policy Execution (status & result)\nHow to set up\n• Add new connectors from Org Settings > Integrations\n• Guides and Event Schemas are documented in the Help Center\nComing Soon\n• Backup Policy Configuration events (Policy created/deleted/updated)\n• Veeam Data Cloud for Azure, Veeam Vault, and Veeam Data Cloud for Entra ID events\n• Unique error codes and messages\nHelp Guides\n• User Guide: Veeam Data Cloud Integrations - Veeam Data Cloud User Guide\n• Guide for Service Providers: Veeam Data Cloud Integrations - Veeam Data Cloud Guide for Service Providers\n• Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html",
+          "workload": "m365",
+          "workloadLabel": "Microsoft 365"
+        },
         {
           "date": "2026-08-12",
           "title": "Microsoft 365 New Search Experience Enhancements",
@@ -712,19 +736,6 @@
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/restore-point-display-fix.html",
           "workload": "m365",
           "workloadLabel": "Microsoft 365"
-        },
-        {
-          "date": "2025-09-22",
-          "title": "Session Log Detail Improvements",
-          "category": "Enhancement",
-          "tags": [
-            "Monitoring∕Reporting",
-            "UI∕UX"
-          ],
-          "description": "• Session logs now display timestamps in local time, making it easier to track activity. An End Time column has also been added for clearer visibility into when each session completes.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/session-log-detail-improvements.html",
-          "workload": "m365",
-          "workloadLabel": "Microsoft 365"
         }
       ]
     },
@@ -782,6 +793,18 @@
         },
         {
           "date": "2026-06-25",
+          "title": "Azure SQL Protect Data page now shows correct backup size",
+          "category": "Fix",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
+          "workload": "azure",
+          "workloadLabel": "Microsoft Azure"
+        },
+        {
+          "date": "2026-06-25",
           "title": "Improved restore flexibility with cross-region restores and restore point visibility",
           "category": "New Feature",
           "tags": [
@@ -790,18 +813,6 @@
           ],
           "description": "• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.\n• Easily recover any protected workload to a new region with the same or different settings based on the backup data.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html",
-          "workload": "azure",
-          "workloadLabel": "Microsoft Azure"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Azure SQL Protect Data page now shows correct backup size",
-          "category": "Fix",
-          "tags": [
-            "UI∕UX"
-          ],
-          "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
           "workload": "azure",
           "workloadLabel": "Microsoft Azure"
         },
