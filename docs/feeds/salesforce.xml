@@ -48,14 +48,6 @@
 • When bulk archival fails due to custom Salesforce logic, a new fallback option automatically switches to single-record deletion, keeping archiving on track without manual intervention. The list of supported error codes is extensible, with UNSUPPORTED_APEX_TRIGGER_OPERATION</description>
     </item>
     <item>
-      <title>[Salesforce] Export Backup Data with One Click</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html</link>
-      <guid isPermaLink="false">salesforce|2026-03-12|Export Backup Data with One Click</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.</description>
-    </item>
-    <item>
       <title>[Salesforce] Expanded Salesforce Support and Enhanced Backup Management</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/expanded-salesforce-support-and-enhanced-backup-management.html</link>
       <guid isPermaLink="false">salesforce|2026-03-12|Expanded Salesforce Support and Enhanced Backup Management</guid>
@@ -64,6 +56,22 @@
       <description>• • Support for Salesforce API v65.0 is now provided, ensuring seamless compatibility with the latest Salesforce platform updates. Restore and archival of files larger than 2 GB will be supported later this quarter.
 • Standard Salesforce history objects can now be viewed and browsed directly within the product. While restore for these objects remains unavailable due to Salesforce platform limitations, this feature provides greater insight and auditability into historical data.
 • Users can now save time by searching for and selecting multiple objects, then assigning a custom backup schedule to all selected items with a single click. This enhancement streamlines backup management and makes it easier to protect critical Salesforce data.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Export Backup Data with One Click</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html</link>
+      <guid isPermaLink="false">salesforce|2026-03-12|Export Backup Data with One Click</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Archival Policy Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/archival-policy-improvements.html</link>
+      <guid isPermaLink="false">salesforce|2025-11-19|Archival Policy Improvements</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Root records missing child backups are now skipped, allowing uninterrupted archiving of other records.</description>
     </item>
     <item>
       <title>[Salesforce] Veeam Data Cloud | Salesforce Extension is here</title>
@@ -77,14 +85,6 @@ Why this Matters
 With this integration, users can now view and interact with archived Veeam Data Cloud data without leaving Salesforce. This centralized access improves operational efficiency, simplifies compliance, and provides greater visibility into your protected data assets.
 Getting Started
 To learn more about the Veeam Data Cloud | Salesforce Extension and integration capabilities, visit our Salesforce AppExchange listing or contact our team for additional information.</description>
-    </item>
-    <item>
-      <title>[Salesforce] Archival Policy Improvements</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/archival-policy-improvements.html</link>
-      <guid isPermaLink="false">salesforce|2025-11-19|Archival Policy Improvements</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Root records missing child backups are now skipped, allowing uninterrupted archiving of other records.</description>
     </item>
     <item>
       <title>[Salesforce] Veeam Data Cloud introduces global ‘Org Dashboard’ and ‘Activity’ views to the Unified Experience</title>

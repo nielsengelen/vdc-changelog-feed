@@ -29,6 +29,18 @@
     },
     {
       "date": "2026-07-21",
+      "title": "More flexible Azure policy configuration",
+      "category": "New Feature",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-07-21",
       "title": "Service account subscription management",
       "category": "Enhancement",
       "tags": [
@@ -40,14 +52,14 @@
       "workloadLabel": "Microsoft Azure"
     },
     {
-      "date": "2026-07-21",
-      "title": "More flexible Azure policy configuration",
-      "category": "New Feature",
+      "date": "2026-06-25",
+      "title": "Azure SQL Protect Data page now shows correct backup size",
+      "category": "Fix",
       "tags": [
-        "Management∕Administration"
+        "UI∕UX"
       ],
-      "description": "• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html",
+      "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },
@@ -61,18 +73,6 @@
       ],
       "description": "• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.\n• Easily recover any protected workload to a new region with the same or different settings based on the backup data.",
       "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-restore-flexibility-with-cross-region-restores-and-rest.html",
-      "workload": "azure",
-      "workloadLabel": "Microsoft Azure"
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Azure SQL Protect Data page now shows correct backup size",
-      "category": "Fix",
-      "tags": [
-        "UI∕UX"
-      ],
-      "description": "• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },
@@ -92,6 +92,18 @@
     },
     {
       "date": "2026-05-19",
+      "title": "Improved Azure resource visibility",
+      "category": "New Feature",
+      "tags": [
+        "UI∕UX"
+      ],
+      "description": "• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html",
+      "workload": "azure",
+      "workloadLabel": "Microsoft Azure"
+    },
+    {
+      "date": "2026-05-19",
       "title": "Search sessions by Azure resource name",
       "category": "Enhancement",
       "tags": [
@@ -103,14 +115,14 @@
       "workloadLabel": "Microsoft Azure"
     },
     {
-      "date": "2026-05-19",
-      "title": "Improved Azure resource visibility",
-      "category": "New Feature",
+      "date": "2026-04-20",
+      "title": "Advanced settings for Azure SQL & Files policies",
+      "category": "Enhancement",
       "tags": [
-        "UI∕UX"
+        "Monitoring∕Reporting"
       ],
-      "description": "• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html",
+      "description": "• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },
@@ -129,14 +141,14 @@
       "workloadLabel": "Microsoft Azure"
     },
     {
-      "date": "2026-04-20",
-      "title": "Advanced settings for Azure SQL & Files policies",
-      "category": "Enhancement",
+      "date": "2026-04-02",
+      "title": "Custom SLA retention templates for Azure VMs",
+      "category": "New Feature",
       "tags": [
-        "Monitoring∕Reporting"
+        "Backup"
       ],
-      "description": "• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html",
+      "description": "• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },
@@ -149,18 +161,6 @@
       ],
       "description": "• Azure VM file-level restores can now be performed out-of-place to another folder on the source servers.\n• It is now possible to search for files or folders within the Azure VM file-level restore browser.\n• Additional filters have been added to the policy session logs allowing you to quickly filter out by status or part of the session message.",
       "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations0.html",
-      "workload": "azure",
-      "workloadLabel": "Microsoft Azure"
-    },
-    {
-      "date": "2026-04-02",
-      "title": "Custom SLA retention templates for Azure VMs",
-      "category": "New Feature",
-      "tags": [
-        "Backup"
-      ],
-      "description": "• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html",
       "workload": "azure",
       "workloadLabel": "Microsoft Azure"
     },

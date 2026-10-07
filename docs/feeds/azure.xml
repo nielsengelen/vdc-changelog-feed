@@ -27,6 +27,14 @@
 • All tables across all pages can now be exported to CSV for external data processing.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] More flexible Azure policy configuration</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|More flexible Azure policy configuration</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.</description>
+    </item>
+    <item>
       <title>[Microsoft Azure] Service account subscription management</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/service-account-subscription-management.html</link>
       <guid isPermaLink="false">azure|2026-07-21|Service account subscription management</guid>
@@ -35,12 +43,12 @@
       <description>• Users can now adjust service account settings by removing unneeded or expired subscriptions making it easier to keep service accounts up to date and ensure only relevant subscriptions remain connected.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] More flexible Azure policy configuration</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html</link>
-      <guid isPermaLink="false">azure|2026-07-21|More flexible Azure policy configuration</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.</description>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
@@ -52,14 +60,6 @@
 • Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
-      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
-    </item>
-    <item>
       <title>[Microsoft Azure] Azure Files private mode and private endpoint auto-approval</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-files-private-mode-and-private-endpoint-auto-approval.html</link>
       <guid isPermaLink="false">azure|2026-06-09|Azure Files private mode and private endpoint auto-approval</guid>
@@ -67,6 +67,14 @@
       <category>Enhancement</category>
       <description>• Veeam Data Cloud for Microsoft Azure is now able to connect to your Azure Files infrastructure running in private mode.
 • Users can now auto-approve the creation of private endpoints for AzureSQL and Azure Files by enabling this feature in the settings of the service account.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Improved Azure resource visibility</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Improved Azure resource visibility</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Search sessions by Azure resource name</title>
@@ -77,12 +85,12 @@
       <description>• The Sessions page now supports searching by resource name, making it easier to filter results and find sessions related to a specific Azure resource.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Improved Azure resource visibility</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html</link>
-      <guid isPermaLink="false">azure|2026-05-19|Improved Azure resource visibility</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.</description>
+      <title>[Microsoft Azure] Advanced settings for Azure SQL &amp; Files policies</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html</link>
+      <guid isPermaLink="false">azure|2026-04-20|Advanced settings for Azure SQL &amp; Files policies</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Azure SQL Entra ID authentication and Japanese UI now available</title>
@@ -94,12 +102,12 @@
 • The UI is now available in Japanese, expanding localization support for customers and partners in Japan.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Advanced settings for Azure SQL &amp; Files policies</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html</link>
-      <guid isPermaLink="false">azure|2026-04-20|Advanced settings for Azure SQL &amp; Files policies</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.</description>
+      <title>[Microsoft Azure] Custom SLA retention templates for Azure VMs</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html</link>
+      <guid isPermaLink="false">azure|2026-04-02|Custom SLA retention templates for Azure VMs</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.</description>
     </item>
     <item>
       <title>[Microsoft Azure] User Interface Optimizations</title>
@@ -110,14 +118,6 @@
       <description>• Azure VM file-level restores can now be performed out-of-place to another folder on the source servers.
 • It is now possible to search for files or folders within the Azure VM file-level restore browser.
 • Additional filters have been added to the policy session logs allowing you to quickly filter out by status or part of the session message.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Custom SLA retention templates for Azure VMs</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html</link>
-      <guid isPermaLink="false">azure|2026-04-02|Custom SLA retention templates for Azure VMs</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Additional Full-Screen Wizards and Interface Improvements</title>

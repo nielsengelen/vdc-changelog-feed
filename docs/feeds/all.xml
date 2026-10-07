@@ -104,16 +104,6 @@ For more information, visit the User Guide.</description>
 • Enabled per organization – Contact your Veeam account manager or Veeam Support to have it applied.</description>
     </item>
     <item>
-      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
-• Correct confirmation message now displays.
-• Duplicate registration ID resolved – only one registration ID is shown.</description>
-    </item>
-    <item>
       <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
       <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
@@ -123,6 +113,16 @@ For more information, visit the User Guide.</description>
 • New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
 • Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
 • Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+    </item>
+    <item>
+      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
+• Correct confirmation message now displays.
+• Duplicate registration ID resolved – only one registration ID is shown.</description>
     </item>
     <item>
       <title>[Salesforce] Data Masking now supports static text appending for emails and phone numbers</title>
@@ -189,14 +189,6 @@ For more information, visit the User Guide.</description>
 • Improved the Basic Search experience: a loading indicator and &quot;Still searching…&quot; message are now shown while a search is in progress, and a &quot;Load more results&quot; link replaces the previous load-more banner below the results table.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Updated Backup Failure Email Guidance</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance.html</link>
-      <guid isPermaLink="false">entra|2026-07-30|Updated Backup Failure Email Guidance</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
-    </item>
-    <item>
       <title>[Microsoft Entra ID] Backup Policy Controls Added to Policies Page</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-policy-controls-added-to-policies-page.html</link>
       <guid isPermaLink="false">entra|2026-07-30|Backup Policy Controls Added to Policies Page</guid>
@@ -211,6 +203,14 @@ For more information, visit the User Guide.</description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
       <category>Deprecated</category>
       <description>• The Export CSV feature has been temporarily disabled for all objects while updates are made to support larger datasets. A tooltip now informs users that export is temporarily unavailable and being improved.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Updated Backup Failure Email Guidance</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance.html</link>
+      <guid isPermaLink="false">entra|2026-07-30|Updated Backup Failure Email Guidance</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
     </item>
     <item>
       <title>[Vault] Notification Emails for Deletion Lifecycle</title>
@@ -256,20 +256,20 @@ Keeping keys in your own Azure Key Vault helps satisfy regulatory and internal s
 This feature is available on request. To enable encryption key management in your Veeam Data Cloud organization, contact Veeam Customer Support.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Service account subscription management</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/service-account-subscription-management.html</link>
-      <guid isPermaLink="false">azure|2026-07-21|Service account subscription management</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Users can now adjust service account settings by removing unneeded or expired subscriptions making it easier to keep service accounts up to date and ensure only relevant subscriptions remain connected.</description>
-    </item>
-    <item>
       <title>[Microsoft Azure] More flexible Azure policy configuration</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/more-flexible-azure-policy-configuration.html</link>
       <guid isPermaLink="false">azure|2026-07-21|More flexible Azure policy configuration</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <category>New Feature</category>
       <description>• Azure Virtual Machines and Azure Files policies now include additional scope options. You can protect a full subscription in a Virtual Machine policy or a full Storage Account in an Azure Files policy.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Service account subscription management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/service-account-subscription-management.html</link>
+      <guid isPermaLink="false">azure|2026-07-21|Service account subscription management</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Users can now adjust service account settings by removing unneeded or expired subscriptions making it easier to keep service accounts up to date and ensure only relevant subscriptions remain connected.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 Notification Time Zone Fix</title>
@@ -299,6 +299,14 @@ This feature is available on request. To enable encryption key management in you
 • Fixed an issue where backup notifications were not sent as expected due to an incorrect internal flag validation in the notification service.</description>
     </item>
     <item>
+      <title>[Microsoft Entra ID] Improved Retention Period Management</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-retention-period-management.html</link>
+      <guid isPermaLink="false">entra|2026-07-01|Improved Retention Period Management</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Objects Tablist Horizontal Scrolling</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/objects-tablist-horizontal-scrolling.html</link>
       <guid isPermaLink="false">entra|2026-07-01|Objects Tablist Horizontal Scrolling</guid>
@@ -307,12 +315,12 @@ This feature is available on request. To enable encryption key management in you
       <description>• Added horizontal scrolling support for the Objects tab list, improving navigation and visibility.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Improved Retention Period Management</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-retention-period-management.html</link>
-      <guid isPermaLink="false">entra|2026-07-01|Improved Retention Period Management</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Retention period settings on the Policy page have been enhanced , making it easier to adjust and manage data retention settings. For more information, visit the User Guide.</description>
+      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
+      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Improved restore flexibility with cross-region restores and restore point visibility</title>
@@ -322,14 +330,6 @@ This feature is available on request. To enable encryption key management in you
       <category>New Feature</category>
       <description>• Users can now click on the amount of restore points in the protected data view to see the type of restore point and initiate a restore more easily from this new view.
 • Easily recover any protected workload to a new region with the same or different settings based on the backup data.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Azure SQL Protect Data page now shows correct backup size</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-protect-data-page-now-shows-correct-backup-size.html</link>
-      <guid isPermaLink="false">azure|2026-06-25|Azure SQL Protect Data page now shows correct backup size</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Improved backup size reporting on the Azure SQL Protected Data page so the backup size column now displays the correct size.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 Dashboard, VCSP Partner Onboarding, and RBAC Improvements</title>
@@ -345,20 +345,20 @@ This feature is available on request. To enable encryption key management in you
 • Fixed an issue where report notification emails failed to send when multiple recipients were configured. Notifications are now sent to each recipient individually.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Object Relationships Restore Options</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/object-relationships-restore-options.html</link>
-      <guid isPermaLink="false">entra|2026-06-22|Object Relationships Restore Options</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Updated the UI to allow users to choose skip or overwrite options when restoring object relationships. These enhancements provide more flexibility and control during the restore process. For more information, visit the User Guide.</description>
-    </item>
-    <item>
       <title>[Microsoft Entra ID] Object List Accessibility Fix</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/object-list-accessibility-fix.html</link>
       <guid isPermaLink="false">entra|2026-06-22|Object List Accessibility Fix</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
       <category>Fix</category>
       <description>• Resolved an accessibility issue with the &quot;More&quot; dropdown in the Objects list view, ensuring all actions are visible for users.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Object Relationships Restore Options</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/object-relationships-restore-options.html</link>
+      <guid isPermaLink="false">entra|2026-06-22|Object Relationships Restore Options</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Updated the UI to allow users to choose skip or overwrite options when restoring object relationships. These enhancements provide more flexibility and control during the restore process. For more information, visit the User Guide.</description>
     </item>
     <item>
       <title>[Salesforce] Metadata protection for custom fields on managed package objects</title>
@@ -462,20 +462,20 @@ This feature is available on request. To enable encryption key management in you
       <description>• Improved user experience for exporting audit and sign-in logs: Users can now download logs with a dedicated Download button, eliminating the need to copy and manually access SAS links in Storage Explorer. To learn more, visit the User Guide.</description>
     </item>
     <item>
-      <title>[Microsoft Azure] Search sessions by Azure resource name</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/search-sessions-by-azure-resource-name.html</link>
-      <guid isPermaLink="false">azure|2026-05-19|Search sessions by Azure resource name</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• The Sessions page now supports searching by resource name, making it easier to filter results and find sessions related to a specific Azure resource.</description>
-    </item>
-    <item>
       <title>[Microsoft Azure] Improved Azure resource visibility</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-azure-resource-visibility.html</link>
       <guid isPermaLink="false">azure|2026-05-19|Improved Azure resource visibility</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       <category>New Feature</category>
       <description>• A new Resources Overview page shows all your Azure resources in one place, with a clear view of what is protected and what is still unprotected.</description>
+    </item>
+    <item>
+      <title>[Microsoft Azure] Search sessions by Azure resource name</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/search-sessions-by-azure-resource-name.html</link>
+      <guid isPermaLink="false">azure|2026-05-19|Search sessions by Azure resource name</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• The Sessions page now supports searching by resource name, making it easier to filter results and find sessions related to a specific Azure resource.</description>
     </item>
     <item>
       <title>[Salesforce] Export to CSV without preloading records in the UI</title>
@@ -570,6 +570,14 @@ This feature is available on request. To enable encryption key management in you
 • When restoring a SharePoint site to a different location, enable the 'Restore Permissions' option to preserve site membership and permissions.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] Advanced settings for Azure SQL &amp; Files policies</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html</link>
+      <guid isPermaLink="false">azure|2026-04-20|Advanced settings for Azure SQL &amp; Files policies</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.</description>
+    </item>
+    <item>
       <title>[Microsoft Azure] Azure SQL Entra ID authentication and Japanese UI now available</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/azure-sql-entra-id-authentication-and-japanese-ui-now-available.html</link>
       <guid isPermaLink="false">azure|2026-04-20|Azure SQL Entra ID authentication and Japanese UI now available</guid>
@@ -577,14 +585,6 @@ This feature is available on request. To enable encryption key management in you
       <category>New Feature</category>
       <description>• Microsoft Entra ID (formerly Azure Active Directory) authentication for Azure SQL is now available. Backup and restore policies for Azure SQL databases can be configured using Entra ID-based credentials, removing the dependency on SQL authentication.
 • The UI is now available in Japanese, expanding localization support for customers and partners in Japan.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Advanced settings for Azure SQL &amp; Files policies</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/advanced-settings-for-azure-sql---files-policies-.html</link>
-      <guid isPermaLink="false">azure|2026-04-20|Advanced settings for Azure SQL &amp; Files policies</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Azure SQL and Azure Files backup policies now expose advanced configuration options allowing you to specify email notifications per policy.</description>
     </item>
     <item>
       <title>[Microsoft 365] UI Refresh, Restore/Search Improvements, and Notifications Fixes</title>
@@ -618,6 +618,14 @@ This feature is available on request. To enable encryption key management in you
 • This update is currently rolling out and is expected to be fully deployed by the end of April 2026.</description>
     </item>
     <item>
+      <title>[Microsoft Azure] Custom SLA retention templates for Azure VMs</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html</link>
+      <guid isPermaLink="false">azure|2026-04-02|Custom SLA retention templates for Azure VMs</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.</description>
+    </item>
+    <item>
       <title>[Microsoft Azure] User Interface Optimizations</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/user-interface-optimizations0.html</link>
       <guid isPermaLink="false">azure|2026-04-02|User Interface Optimizations</guid>
@@ -626,14 +634,6 @@ This feature is available on request. To enable encryption key management in you
       <description>• Azure VM file-level restores can now be performed out-of-place to another folder on the source servers.
 • It is now possible to search for files or folders within the Azure VM file-level restore browser.
 • Additional filters have been added to the policy session logs allowing you to quickly filter out by status or part of the session message.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Custom SLA retention templates for Azure VMs</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/custom-sla-retention-templates-for-azure-vms.html</link>
-      <guid isPermaLink="false">azure|2026-04-02|Custom SLA retention templates for Azure VMs</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Create up to five (5) custom SLA retention templates for Azure VM protection policies. Allowing users to standardize backup retention and data protection settings across policies to help ensure alignment with company retention requirements and compliance regulations.</description>
     </item>
     <item>
       <title>[Microsoft 365] Veeam Intelligence for Microsoft 365</title>
@@ -649,6 +649,17 @@ Getting Started
 Veeam Intelligence is included by default with Veeam Data Cloud for Microsoft 365. To use it, customers must opt in for the organization. This can be found under Settings &gt; AI.</description>
     </item>
     <item>
+      <title>[Microsoft 365] Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multi-geo-restore-options--expanded-notifications--and-files-ver.html</link>
+      <guid isPermaLink="false">m365|2026-03-31|Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• When restoring SharePoint data to an alternate location, you can now choose the geo location within the same multi-geo tenant.
+• Fixed an issue where Outlook, OneDrive, and SharePoint downloads could fail for authorized users due to missing permissions.
+• The Notifications page is now available to all users, with content visibility determined by the user and tenant context.
+• You can now choose how many recent item versions to protect for SharePoint, OneDrive, and Teams files. Protecting only the latest versions can improve backup performance and reduce throttling risk. Configure this via the new Files Protection option in tenant Settings under Backup Options.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Ransomware Detection Service</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/ransomware-detection-service.html</link>
       <guid isPermaLink="false">m365|2026-03-31|Ransomware Detection Service</guid>
@@ -662,15 +673,21 @@ Getting Started
 The ransomware detection service is available within Advanced and Premium plans of Veeam Data Cloud for Microsoft 365. Advanced and Premium customers will begin seeing Advanced Threat Detection capabilities in their tenants, starting with Premium customers first and Advanced customers shortly after.</description>
     </item>
     <item>
-      <title>[Microsoft 365] Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multi-geo-restore-options--expanded-notifications--and-files-ver.html</link>
-      <guid isPermaLink="false">m365|2026-03-31|Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <title>[Microsoft Entra ID] Improved Contextual Restore for Applications</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-contextual-restore-for-applications.html</link>
+      <guid isPermaLink="false">entra|2026-03-30|Improved Contextual Restore for Applications</guid>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
-      <description>• When restoring SharePoint data to an alternate location, you can now choose the geo location within the same multi-geo tenant.
-• Fixed an issue where Outlook, OneDrive, and SharePoint downloads could fail for authorized users due to missing permissions.
-• The Notifications page is now available to all users, with content visibility determined by the user and tenant context.
-• You can now choose how many recent item versions to protect for SharePoint, OneDrive, and Teams files. Protecting only the latest versions can improve backup performance and reduce throttling risk. Configure this via the new Files Protection option in tenant Settings under Backup Options.</description>
+      <description>• Object restore now includes a context-aware wizard that prompts for supplementary data (such as certificates or license keys) as needed, ensuring all required information is applied during application restoration.
+• In this release, restoring applications with a public key is streamlined with the key pre-filled during the restore process.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Improved Notifications for Backup Failure</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-notifications-for-backup-failure.html</link>
+      <guid isPermaLink="false">entra|2026-03-30|Improved Notifications for Backup Failure</guid>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Now receive email notifications if backups fail due the Veeam Data Cloud for Microsoft Entra ID Service Principal being removed or disabled, enabling faster issue identification and resolution.</description>
     </item>
     <item>
       <title>[Microsoft Entra ID] Manual Backup and New Policy Details Page</title>
@@ -686,14 +703,6 @@ Getting Started
 To learn more, visit the User Guide.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Improved Notifications for Backup Failure</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-notifications-for-backup-failure.html</link>
-      <guid isPermaLink="false">entra|2026-03-30|Improved Notifications for Backup Failure</guid>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Now receive email notifications if backups fail due the Veeam Data Cloud for Microsoft Entra ID Service Principal being removed or disabled, enabling faster issue identification and resolution.</description>
-    </item>
-    <item>
       <title>[Microsoft Entra ID] Support for Devices and BitLocker Keys</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-devices-and-bitlocker-keys.html</link>
       <guid isPermaLink="false">entra|2026-03-30|Support for Devices and BitLocker Keys</guid>
@@ -705,15 +714,6 @@ Why This Matters
 Devices and BitLocker keys are critical for security, compliance, and device management. This enhancement ensures these objects are protected, recoverable, and easily accessible when needed.
 Getting Started
 To learn more, visit the User Guide: Devices Compare, View BitLocker Keys, and Device Properties.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Improved Contextual Restore for Applications</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improved-contextual-restore-for-applications.html</link>
-      <guid isPermaLink="false">entra|2026-03-30|Improved Contextual Restore for Applications</guid>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Object restore now includes a context-aware wizard that prompts for supplementary data (such as certificates or license keys) as needed, ensuring all required information is applied during application restoration.
-• In this release, restoring applications with a public key is streamlined with the key pre-filled during the restore process.</description>
     </item>
     <item>
       <title>[Vault] Private Endpoint Connectivity for Vaults</title>
@@ -780,14 +780,6 @@ To learn more, visit the User Guide: Devices Compare, View BitLocker Keys, and D
 • Additional user interface and user experience improvements have been introduced, making navigation even smoother and workflows more efficient.</description>
     </item>
     <item>
-      <title>[Salesforce] Export Backup Data with One Click</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html</link>
-      <guid isPermaLink="false">salesforce|2026-03-12|Export Backup Data with One Click</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.</description>
-    </item>
-    <item>
       <title>[Salesforce] Expanded Salesforce Support and Enhanced Backup Management</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/expanded-salesforce-support-and-enhanced-backup-management.html</link>
       <guid isPermaLink="false">salesforce|2026-03-12|Expanded Salesforce Support and Enhanced Backup Management</guid>
@@ -796,6 +788,14 @@ To learn more, visit the User Guide: Devices Compare, View BitLocker Keys, and D
       <description>• • Support for Salesforce API v65.0 is now provided, ensuring seamless compatibility with the latest Salesforce platform updates. Restore and archival of files larger than 2 GB will be supported later this quarter.
 • Standard Salesforce history objects can now be viewed and browsed directly within the product. While restore for these objects remains unavailable due to Salesforce platform limitations, this feature provides greater insight and auditability into historical data.
 • Users can now save time by searching for and selecting multiple objects, then assigning a custom backup schedule to all selected items with a single click. This enhancement streamlines backup management and makes it easier to protect critical Salesforce data.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Export Backup Data with One Click</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html</link>
+      <guid isPermaLink="false">salesforce|2026-03-12|Export Backup Data with One Click</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.</description>
     </item>
     <item>
       <title>[Microsoft Entra ID] Enhanced Audit Logging for Compare, Restore, and Policy Changes</title>
@@ -859,14 +859,6 @@ For more information, visit the User Guide.</description>
       <description>• Resolved an issue where self-service users were incorrectly receiving license notification emails, ensuring security and privacy settings are preserved.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Improvements for Read-Only Attributes During Restore</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improvements-for-read-only-attributes-during-restore.html</link>
-      <guid isPermaLink="false">entra|2026-02-22|Improvements for Read-Only Attributes During Restore</guid>
-      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• During compare and restore operations, read-only attributes no longer display disabled checkboxes, streamlining the interface for greater clarity.</description>
-    </item>
-    <item>
       <title>[Microsoft Entra ID] Automatic Relationship Restoration for Changed Object IDs</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/automatic-relationship-restoration-for-changed-object-ids.html</link>
       <guid isPermaLink="false">entra|2026-02-22|Automatic Relationship Restoration for Changed Object IDs</guid>
@@ -878,6 +870,14 @@ Why This Matters
 When objects are restored by recreation instead of from the Recycle Bin, new identifiers may break relationships between complex objects and their members. This enhancement ensures associations are maintained, reducing manual effort and preventing service disruption.
 Getting Started
 For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Improvements for Read-Only Attributes During Restore</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/improvements-for-read-only-attributes-during-restore.html</link>
+      <guid isPermaLink="false">entra|2026-02-22|Improvements for Read-Only Attributes During Restore</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• During compare and restore operations, read-only attributes no longer display disabled checkboxes, streamlining the interface for greater clarity.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Edit existing tenants to easily configure new subscriptions</title>
@@ -905,6 +905,15 @@ For more information, visit the User Guide.</description>
       <description>• Resolved an issue where the region column in the tenant listing would cut off the region list if too many regions were present. Veeam Data Cloud now displays an ellipsis, and selecting it reveals the full list of regions.</description>
     </item>
     <item>
+      <title>[Microsoft Entra ID] Restore Batch Limit and Onboarding Dialog Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/restore-batch-limit-and-onboarding-dialog-improvements.html</link>
+      <guid isPermaLink="false">entra|2026-02-11|Restore Batch Limit and Onboarding Dialog Improvements</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• The Restore operation now enforces a limit of 1,000 objects per batch. The UI provides a warning and blocks selection when attempting to restore more than 1,000 items at once.
+• The permission requirements dialog for additional objects during tenant onboarding is now accessible via an info icon, replacing the previous checkbox method and allowing users to view requirements at any time.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Support for Organization Contacts</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-organization-contacts.html</link>
       <guid isPermaLink="false">entra|2026-02-11|Support for Organization Contacts</guid>
@@ -916,15 +925,6 @@ Why This Matters
 Organization contacts are essential for managing communication and collaboration within Entra ID environments. Loss or misconfiguration of contact information can disrupt workflows and complicate compliance. With backup and restore for contacts, organizations can quickly recover critical contact details and maintain accurate identity data across the organization.
 Getting Started
 For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Restore Batch Limit and Onboarding Dialog Improvements</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/restore-batch-limit-and-onboarding-dialog-improvements.html</link>
-      <guid isPermaLink="false">entra|2026-02-11|Restore Batch Limit and Onboarding Dialog Improvements</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• The Restore operation now enforces a limit of 1,000 objects per batch. The UI provides a warning and blocks selection when attempting to restore more than 1,000 items at once.
-• The permission requirements dialog for additional objects during tenant onboarding is now accessible via an info icon, replacing the previous checkbox method and allowing users to view requirements at any time.</description>
     </item>
     <item>
       <title>[Microsoft 365] Comprehensive Usability, Security, and Reporting Enhancements for Backup and Restore Operations</title>
@@ -980,15 +980,6 @@ For more information, visit the User Guide.</description>
       <description>• Users can now restore individual files to their original location on Azure Virtual Machines, streamlining recovery workflows and eliminating the need for full VM or alternate-location restores.</description>
     </item>
     <item>
-      <title>[Vault] Vault Provisioning and Wizard Navigation Issues Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html</link>
-      <guid isPermaLink="false">vault|2026-01-12|Vault Provisioning and Wizard Navigation Issues Resolved</guid>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
-• Fixed the Add Vault wizard so the back button now functions correctly.</description>
-    </item>
-    <item>
       <title>[Vault] Self-Service Vault Deletion and Read-Only Viewer Role Added</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-vault-deletion-and-read-only-viewer-role-added.html</link>
       <guid isPermaLink="false">vault|2026-01-12|Self-Service Vault Deletion and Read-Only Viewer Role Added</guid>
@@ -998,15 +989,13 @@ For more information, visit the User Guide.</description>
 • Introduced the Vault:Viewer role, providing read-only access so administrators can grant users permission to view vaults and tenants without allowing creation, modification, or deletion of resources.</description>
     </item>
     <item>
-      <title>[Microsoft 365] Multiple Restore Operation Issues and Reporting Issue Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-operation-issues-resolved.html</link>
-      <guid isPermaLink="false">m365|2026-01-06|Multiple Restore Operation Issues and Reporting Issue Resolved</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <title>[Vault] Vault Provisioning and Wizard Navigation Issues Resolved</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html</link>
+      <guid isPermaLink="false">vault|2026-01-12|Vault Provisioning and Wizard Navigation Issues Resolved</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       <category>Fix</category>
-      <description>• Fixed an issue where the Restore Activity Report would fail to download.
-• Resolved an issue where wrong SharePoint list name (&quot;documents&quot;) was displaying during restores.
-• Corrected a problem where SharePoint restore operations would fail with the error &quot;A task was cancelled&quot; when the operation status was repeatedly refreshed.
-• Resolved an issue that prevented SharePoint site names from displaying when editing an Express backup policy.</description>
+      <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
+• Fixed the Add Vault wizard so the back button now functions correctly.</description>
     </item>
     <item>
       <title>[Microsoft 365] Enhancements to Backup Policies, Processing Performance and Monitoring Improvements</title>
@@ -1023,6 +1012,17 @@ For more information, visit the User Guide.</description>
 • Enhancements made to SharePoint site search and tree loading for large organizations.
 • Updates to the Operation Detail dialog in the Notifications section by clarifying texts and removing the &quot;Activity Type&quot; parameter from background report downloads.
 • Updates to the notification names and descriptions for report downloads in the Notifications section. Updates to the column names in the Backup Summary and Restore Activity reports were made for clarity, and total restore type records were moved to the end of the Restore Activity report.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Multiple Restore Operation Issues and Reporting Issue Resolved</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-operation-issues-resolved.html</link>
+      <guid isPermaLink="false">m365|2026-01-06|Multiple Restore Operation Issues and Reporting Issue Resolved</guid>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Fixed an issue where the Restore Activity Report would fail to download.
+• Resolved an issue where wrong SharePoint list name (&quot;documents&quot;) was displaying during restores.
+• Corrected a problem where SharePoint restore operations would fail with the error &quot;A task was cancelled&quot; when the operation status was repeatedly refreshed.
+• Resolved an issue that prevented SharePoint site names from displaying when editing an Express backup policy.</description>
     </item>
     <item>
       <title>[Microsoft Azure] Streamlined Azure SQL Backups and Faster Policy Reviews</title>
@@ -1060,12 +1060,12 @@ Explore the user guide in the Help Center for detailed information about the org
       <description>• Vault registration has been updated to allow direct assignment of a Vault to a registered Veeam product (such as Veeam Backup &amp; Replication or Kasten) within Veeam Data Cloud. Switching to My Account for Vault assignment is no longer required, streamlining the setup process for administrators.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Setting Property Names Updated for Clarity</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/setting-property-names-updated-for-clarity.html</link>
-      <guid isPermaLink="false">entra|2025-12-16|Setting Property Names Updated for Clarity</guid>
+      <title>[Microsoft Entra ID] Calendar View Added for Restore Point Selection</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/calendar-view-added-for-restore-point-selection.html</link>
+      <guid isPermaLink="false">entra|2025-12-16|Calendar View Added for Restore Point Selection</guid>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• • Several setting properties have been renamed to improve clarity and usability during configuration.
+      <category>Enhancement</category>
+      <description>• Restore points can now be selected using a calendar view, making it easier to navigate and choose dates during investigation and recovery workflows.
 For more information, visit the User Guide.</description>
     </item>
     <item>
@@ -1083,12 +1083,12 @@ Getting Started
 For more information, visit the User Guide.</description>
     </item>
     <item>
-      <title>[Microsoft Entra ID] Calendar View Added for Restore Point Selection</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/calendar-view-added-for-restore-point-selection.html</link>
-      <guid isPermaLink="false">entra|2025-12-16|Calendar View Added for Restore Point Selection</guid>
+      <title>[Microsoft Entra ID] Setting Property Names Updated for Clarity</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/setting-property-names-updated-for-clarity.html</link>
+      <guid isPermaLink="false">entra|2025-12-16|Setting Property Names Updated for Clarity</guid>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Restore points can now be selected using a calendar view, making it easier to navigate and choose dates during investigation and recovery workflows.
+      <category>Fix</category>
+      <description>• • Several setting properties have been renamed to improve clarity and usability during configuration.
 For more information, visit the User Guide.</description>
     </item>
   </channel>

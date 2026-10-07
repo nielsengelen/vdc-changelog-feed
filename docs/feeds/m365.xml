@@ -284,6 +284,17 @@ Getting Started
 Veeam Intelligence is included by default with Veeam Data Cloud for Microsoft 365. To use it, customers must opt in for the organization. This can be found under Settings &gt; AI.</description>
     </item>
     <item>
+      <title>[Microsoft 365] Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multi-geo-restore-options--expanded-notifications--and-files-ver.html</link>
+      <guid isPermaLink="false">m365|2026-03-31|Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• When restoring SharePoint data to an alternate location, you can now choose the geo location within the same multi-geo tenant.
+• Fixed an issue where Outlook, OneDrive, and SharePoint downloads could fail for authorized users due to missing permissions.
+• The Notifications page is now available to all users, with content visibility determined by the user and tenant context.
+• You can now choose how many recent item versions to protect for SharePoint, OneDrive, and Teams files. Protecting only the latest versions can improve backup performance and reduce throttling risk. Configure this via the new Files Protection option in tenant Settings under Backup Options.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Ransomware Detection Service</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/ransomware-detection-service.html</link>
       <guid isPermaLink="false">m365|2026-03-31|Ransomware Detection Service</guid>
@@ -295,17 +306,6 @@ Why This Matters
 Ransomware attacks are growing more frequent and sophisticated, targeting critical business data and infrastructure. Traditional detection methods fall short against modern threats, especially extended attacks that evade signature-based systems. Veeam’s ransomware system scans backups for subtle signs of intrusion—without burdening production workloads—using privacy-preserving and adaptive machine learning. This helps organizations stop attacks sooner, protecting profits, reputation, and sensitive information from extortion and damage.
 Getting Started
 The ransomware detection service is available within Advanced and Premium plans of Veeam Data Cloud for Microsoft 365. Advanced and Premium customers will begin seeing Advanced Threat Detection capabilities in their tenants, starting with Premium customers first and Advanced customers shortly after.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multi-geo-restore-options--expanded-notifications--and-files-ver.html</link>
-      <guid isPermaLink="false">m365|2026-03-31|Multi-Geo Restore Options, Expanded Notifications, and Files Version Protection</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• When restoring SharePoint data to an alternate location, you can now choose the geo location within the same multi-geo tenant.
-• Fixed an issue where Outlook, OneDrive, and SharePoint downloads could fail for authorized users due to missing permissions.
-• The Notifications page is now available to all users, with content visibility determined by the user and tenant context.
-• You can now choose how many recent item versions to protect for SharePoint, OneDrive, and Teams files. Protecting only the latest versions can improve backup performance and reduce throttling risk. Configure this via the new Files Protection option in tenant Settings under Backup Options.</description>
     </item>
     <item>
       <title>[Microsoft 365] Express Restore Improvements, Multi-Geo Enhancements, and Teams/UI Updates</title>
@@ -409,17 +409,6 @@ The ransomware detection service is available within Advanced and Premium plans 
 • Enhanced search reliability and performance for protected Microsoft 365 services, including Teams, SharePoint, OneDrive, and Outlook data.</description>
     </item>
     <item>
-      <title>[Microsoft 365] Multiple Restore Operation Issues and Reporting Issue Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-operation-issues-resolved.html</link>
-      <guid isPermaLink="false">m365|2026-01-06|Multiple Restore Operation Issues and Reporting Issue Resolved</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed an issue where the Restore Activity Report would fail to download.
-• Resolved an issue where wrong SharePoint list name (&quot;documents&quot;) was displaying during restores.
-• Corrected a problem where SharePoint restore operations would fail with the error &quot;A task was cancelled&quot; when the operation status was repeatedly refreshed.
-• Resolved an issue that prevented SharePoint site names from displaying when editing an Express backup policy.</description>
-    </item>
-    <item>
       <title>[Microsoft 365] Enhancements to Backup Policies, Processing Performance and Monitoring Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/enhancements-to-backup-policies--processing-performance-and-moni.html</link>
       <guid isPermaLink="false">m365|2026-01-06|Enhancements to Backup Policies, Processing Performance and Monitoring Improvements</guid>
@@ -436,6 +425,17 @@ The ransomware detection service is available within Advanced and Premium plans 
 • Updates to the notification names and descriptions for report downloads in the Notifications section. Updates to the column names in the Backup Summary and Restore Activity reports were made for clarity, and total restore type records were moved to the end of the Restore Activity report.</description>
     </item>
     <item>
+      <title>[Microsoft 365] Multiple Restore Operation Issues and Reporting Issue Resolved</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-operation-issues-resolved.html</link>
+      <guid isPermaLink="false">m365|2026-01-06|Multiple Restore Operation Issues and Reporting Issue Resolved</guid>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Fixed an issue where the Restore Activity Report would fail to download.
+• Resolved an issue where wrong SharePoint list name (&quot;documents&quot;) was displaying during restores.
+• Corrected a problem where SharePoint restore operations would fail with the error &quot;A task was cancelled&quot; when the operation status was repeatedly refreshed.
+• Resolved an issue that prevented SharePoint site names from displaying when editing an Express backup policy.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Top-level Views Now Support Microsoft 365</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/top-level-views-now-support-microsoft-365.html</link>
       <guid isPermaLink="false">m365|2025-12-17|Top-level Views Now Support Microsoft 365</guid>
@@ -443,14 +443,6 @@ The ransomware detection service is available within Advanced and Premium plans 
       <category>Security</category>
       <description>• Monitoring for Microsoft 365 is now available in both the Org Dashboard and Activity view in Veeam Data Cloud. Administrators can view protection status, backup history, and platform activity for Microsoft 365 alongside other supported workloads – all from these consolidated views. Support for additional workloads is planned.
 Explore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Self-Service Activation for Microsoft 365 Backup Storage Billing</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-activation-for-microsoft-365-backup-storage-billing.html</link>
-      <guid isPermaLink="false">m365|2025-12-15|Self-Service Activation for Microsoft 365 Backup Storage Billing</guid>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Users can now enable Microsoft 365 Backup Storage billing directly from settings without Veeam team assistance. Express protection policies are available immediately after activation, streamlining setup time.</description>
     </item>
     <item>
       <title>[Microsoft 365] Multiple Restore and Search Issues Resolved</title>
@@ -464,14 +456,12 @@ Explore the user guide in the Help Center for detailed information about the org
 • Fixed a delay when removing SharePoint sites from a protection policy.</description>
     </item>
     <item>
-      <title>[Microsoft 365] Teams Chat Backup, Reporting, and Error Handling Updates</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/teams-chat-backup--reporting--and-error-handling-updates.html</link>
-      <guid isPermaLink="false">m365|2025-12-09|Teams Chat Backup, Reporting, and Error Handling Updates</guid>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved authorization and timeout errors that occurred when disabling Teams Chat backup due to missing application ID.
-• Updated descriptions for Mailbox Protection and User Protection reports for consistency.
-• Reporting now reliably handles long error messages, preventing failures during report updates.</description>
+      <title>[Microsoft 365] Self-Service Activation for Microsoft 365 Backup Storage Billing</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-activation-for-microsoft-365-backup-storage-billing.html</link>
+      <guid isPermaLink="false">m365|2025-12-15|Self-Service Activation for Microsoft 365 Backup Storage Billing</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Users can now enable Microsoft 365 Backup Storage billing directly from settings without Veeam team assistance. Express protection policies are available immediately after activation, streamlining setup time.</description>
     </item>
     <item>
       <title>[Microsoft 365] Self-Service Access, Restore Options, and Policy Management</title>
@@ -486,6 +476,16 @@ Explore the user guide in the Help Center for detailed information about the org
 • Objects can be imported into Flex or Express backup policies via CSV upload for faster policy configuration.
 • SharePoint lists can be restored to a specific target list.
 • The Restore Activity report includes a month and year picker to select a specific period for report generation.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Teams Chat Backup, Reporting, and Error Handling Updates</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/teams-chat-backup--reporting--and-error-handling-updates.html</link>
+      <guid isPermaLink="false">m365|2025-12-09|Teams Chat Backup, Reporting, and Error Handling Updates</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Resolved authorization and timeout errors that occurred when disabling Teams Chat backup due to missing application ID.
+• Updated descriptions for Mailbox Protection and User Protection reports for consistency.
+• Reporting now reliably handles long error messages, preventing failures during report updates.</description>
     </item>
     <item>
       <title>[Microsoft 365] BYOK Encryption</title>
@@ -553,17 +553,6 @@ Premium customers can enable BYOK by following the steps outlined within the BYO
 • Fixed an issue that prevented download links from being provided after Exchange background downloads.</description>
     </item>
     <item>
-      <title>[Microsoft 365] Resolved Issues with Notifications, Search and Restore Operations</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/resolved-issues-with-notifications--search-and-restore-operation.html</link>
-      <guid isPermaLink="false">m365|2025-10-27|Resolved Issues with Notifications, Search and Restore Operations</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed the issue that prevented email notifications from being sent on backup results.
-• Fixed an issue in Advanced Search where restoring SharePoint folders could fail due to invalid validation.
-• Fixed an issue where user selections were not retained or displayed correctly when restoring a mailbox to another user.
-• Fixed selection persistence in Advanced Search results to ensure user selections remain when navigating or performing actions.</description>
-    </item>
-    <item>
       <title>[Microsoft 365] Channel Member Restore, Group Selection, Logging, and Policy Management</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/channel-member-restore--group-selection--logging--and-policy-man.html</link>
       <guid isPermaLink="false">m365|2025-10-27|Channel Member Restore, Group Selection, Logging, and Policy Management</guid>
@@ -573,6 +562,17 @@ Premium customers can enable BYOK by following the steps outlined within the BYO
 • When selecting groups for an Exchange or OneDrive Express policy, the new &quot;Search Microsoft 365 directly&quot; option allows retrieval of the latest groups based on the current production state.
 • The backup policy session and session log dialog views now provide more accurate and focused information on processing.
 • The Logs tab in the restore operation dialog now displays the duration of each restore action.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Resolved Issues with Notifications, Search and Restore Operations</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/resolved-issues-with-notifications--search-and-restore-operation.html</link>
+      <guid isPermaLink="false">m365|2025-10-27|Resolved Issues with Notifications, Search and Restore Operations</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Fixed the issue that prevented email notifications from being sent on backup results.
+• Fixed an issue in Advanced Search where restoring SharePoint folders could fail due to invalid validation.
+• Fixed an issue where user selections were not retained or displayed correctly when restoring a mailbox to another user.
+• Fixed selection persistence in Advanced Search results to ensure user selections remain when navigating or performing actions.</description>
     </item>
     <item>
       <title>[Microsoft 365] Resolved Issues After Migration to Unified Experience</title>

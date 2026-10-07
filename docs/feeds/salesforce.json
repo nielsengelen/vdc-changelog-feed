@@ -65,18 +65,6 @@
     },
     {
       "date": "2026-03-12",
-      "title": "Export Backup Data with One Click",
-      "category": "New Feature",
-      "tags": [
-        "Monitoring∕Reporting"
-      ],
-      "description": "• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html",
-      "workload": "salesforce",
-      "workloadLabel": "Salesforce"
-    },
-    {
-      "date": "2026-03-12",
       "title": "Expanded Salesforce Support and Enhanced Backup Management",
       "category": "Enhancement",
       "tags": [
@@ -89,14 +77,14 @@
       "workloadLabel": "Salesforce"
     },
     {
-      "date": "2025-11-19",
-      "title": "Veeam Data Cloud | Salesforce Extension is here",
+      "date": "2026-03-12",
+      "title": "Export Backup Data with One Click",
       "category": "New Feature",
       "tags": [
-        "Management∕Administration"
+        "Monitoring∕Reporting"
       ],
-      "description": "What’s New\nVeeam Data Cloud | Salesforce Extension is now available, this enables organizations to seamlessly access data archived in Veeam Data Cloud directly from the Salesforce interface, enhancing productivity and streamlining data workflows between platforms.\nWhy this Matters\nWith this integration, users can now view and interact with archived Veeam Data Cloud data without leaving Salesforce. This centralized access improves operational efficiency, simplifies compliance, and provides greater visibility into your protected data assets.\nGetting Started\nTo learn more about the Veeam Data Cloud | Salesforce Extension and integration capabilities, visit our Salesforce AppExchange listing or contact our team for additional information.",
-      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud---salesforce-extension-is-here.html",
+      "description": "• Users can now export backup data from the Browse and Restore screens directly to CSV files. This new capability makes it easier than ever to analyze, share, and report on your backup data outside the platform.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/export-backup-data-with-one-click.html",
       "workload": "salesforce",
       "workloadLabel": "Salesforce"
     },
@@ -109,6 +97,18 @@
       ],
       "description": "• Root records missing child backups are now skipped, allowing uninterrupted archiving of other records.",
       "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/archival-policy-improvements.html",
+      "workload": "salesforce",
+      "workloadLabel": "Salesforce"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "Veeam Data Cloud | Salesforce Extension is here",
+      "category": "New Feature",
+      "tags": [
+        "Management∕Administration"
+      ],
+      "description": "What’s New\nVeeam Data Cloud | Salesforce Extension is now available, this enables organizations to seamlessly access data archived in Veeam Data Cloud directly from the Salesforce interface, enhancing productivity and streamlining data workflows between platforms.\nWhy this Matters\nWith this integration, users can now view and interact with archived Veeam Data Cloud data without leaving Salesforce. This centralized access improves operational efficiency, simplifies compliance, and provides greater visibility into your protected data assets.\nGetting Started\nTo learn more about the Veeam Data Cloud | Salesforce Extension and integration capabilities, visit our Salesforce AppExchange listing or contact our team for additional information.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/veeam-data-cloud---salesforce-extension-is-here.html",
       "workload": "salesforce",
       "workloadLabel": "Salesforce"
     },

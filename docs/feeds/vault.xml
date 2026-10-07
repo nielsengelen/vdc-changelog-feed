@@ -17,16 +17,6 @@
 • Enabled per organization – Contact your Veeam account manager or Veeam Support to have it applied.</description>
     </item>
     <item>
-      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
-      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
-• Correct confirmation message now displays.
-• Duplicate registration ID resolved – only one registration ID is shown.</description>
-    </item>
-    <item>
       <title>[Vault] Storage Vaults &amp; Manage Vaults pages</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/storage-vaults---manage-vaults-pages.html</link>
       <guid isPermaLink="false">vault|2026-08-25|Storage Vaults &amp; Manage Vaults pages</guid>
@@ -36,6 +26,16 @@
 • New list view – Available alongside the existing layout, with sorting by Vault name or Used capacity (highest-first by default), and filtering by status.
 • Consolidated actions – Assignments, Edit, and Delete are now combined into a single Manage button, available when a vault is Active.
 • Subscription strip – See Edition, Cloud, and Capacity at a glance.</description>
+    </item>
+    <item>
+      <title>[Vault] Vault Assignment Confirmation (VBR v12 → v13)</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-assignment-confirmation--vbr-v12--v13-.html</link>
+      <guid isPermaLink="false">vault|2026-08-25|Vault Assignment Confirmation (VBR v12 → v13)</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>Fixed an issue where assigning a vault from Veeam Backup &amp; Replication v12 to an installation registered by v13 displayed an incorrect confirmation message and a duplicate application registration ID.
+• Correct confirmation message now displays.
+• Duplicate registration ID resolved – only one registration ID is shown.</description>
     </item>
     <item>
       <title>[Vault] Notification Emails for Deletion Lifecycle</title>
@@ -97,15 +97,6 @@ This feature is available on request. To enable encryption key management in you
       <description>• Resolved an issue where the region column in the tenant listing would cut off the region list if too many regions were present. Veeam Data Cloud now displays an ellipsis, and selecting it reveals the full list of regions.</description>
     </item>
     <item>
-      <title>[Vault] Vault Provisioning and Wizard Navigation Issues Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html</link>
-      <guid isPermaLink="false">vault|2026-01-12|Vault Provisioning and Wizard Navigation Issues Resolved</guid>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
-• Fixed the Add Vault wizard so the back button now functions correctly.</description>
-    </item>
-    <item>
       <title>[Vault] Self-Service Vault Deletion and Read-Only Viewer Role Added</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-vault-deletion-and-read-only-viewer-role-added.html</link>
       <guid isPermaLink="false">vault|2026-01-12|Self-Service Vault Deletion and Read-Only Viewer Role Added</guid>
@@ -113,6 +104,15 @@ This feature is available on request. To enable encryption key management in you
       <category>Enhancement</category>
       <description>• Added self-service deletion for empty vaults in Veeam Data Cloud, supporting both Microsoft Azure and Amazon Web Services vaults. Users can now quickly remove empty vaults without contacting support.
 • Introduced the Vault:Viewer role, providing read-only access so administrators can grant users permission to view vaults and tenants without allowing creation, modification, or deletion of resources.</description>
+    </item>
+    <item>
+      <title>[Vault] Vault Provisioning and Wizard Navigation Issues Resolved</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html</link>
+      <guid isPermaLink="false">vault|2026-01-12|Vault Provisioning and Wizard Navigation Issues Resolved</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
+• Fixed the Add Vault wizard so the back button now functions correctly.</description>
     </item>
     <item>
       <title>[Vault] Vault Registration Streamlined</title>
