@@ -6,6 +6,40 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Microsoft 365] Multiple Microsoft 365 Search, Restore, and Activity Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-search--restore--and-activity-improvement.html</link>
+      <guid isPermaLink="false">m365|2026-10-20|Multiple Microsoft 365 Search, Restore, and Activity Improvements</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Added Advanced Options to the restore dialog for SharePoint list items, documents, folders, libraries, and lists when restoring to the original location. Options vary by item type and may include version handling, overwrite behavior, and permissions restore.
+• Search results now support selecting multiple items of the same type at once, with Download and Restore buttons available for the selection, matching the behavior of Advanced Search.
+• Added search filters and criteria selection directly on the Advanced Search results page, allowing users to refine results without returning to the search configuration.
+• Added a Restore Type field to the Activity page and restore session detail panel, showing whether a session was a Standard, Bulk, or Granular restore.
+• Improved the performance of the Activity page (Audit Logs, Backup Sessions, Restore Sessions), including faster loading, filtering, and CSV export.
+• Added a Status filter to the notifications list, allowing users to filter notifications by All, Unread, or Read. The list updates immediately when the filter is changed.
+• The Recent activity column on the Workload Tenants page now shows the last backup time consistent with what is shown on the Overview and Activity pages.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Microsoft 365 Express Backup and Onboarding Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-express-backup-and-onboarding-improvements.html</link>
+      <guid isPermaLink="false">m365|2026-10-12|Microsoft 365 Express Backup and Onboarding Improvements</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Improved the performance of CSV user upload for Express backup policies. User validation now uses the local cache instead of querying Microsoft Graph directly, significantly reducing import time for large user lists.
+• For multi-geo tenants, CSV upload in Express Outlook and OneDrive backup policies now automatically filters out objects whose preferred data location no longer belongs to the tenant after a multi-geo mapping change, preventing them from being added to a policy.
+• CSV import for Express OneDrive backup policies now rejects Public, Shared, Room, and Equipment mailboxes, since these mailbox types are not supported for Express OneDrive protection.
+• When onboarding fails because the account has no active Microsoft 365 license that supports EWS, the error message now accurately describes the issue instead of showing a generic &quot;Unexpected error occurred.&quot;</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Microsoft 365 OneDrive Restore and Onboarding Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-onedrive-restore-and-onboarding-improvements.html</link>
+      <guid isPermaLink="false">m365|2026-10-05|Microsoft 365 OneDrive Restore and Onboarding Improvements</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Updated the onboarding error message shown when provisioning fails due to the EWS retirement. Customers are now informed that Microsoft may take up to 24 hours to apply the EWS setting and are directed to retry after 24 hours, with guidance to contact Support referencing KB4820 if the issue persists.
+• Fixed an issue where restoring OneDrive data to another user's OneDrive failed with &quot;OneDrive is not available for this user&quot; when Microsoft throttled the request during target resolution.</description>
+    </item>
+    <item>
       <title>[VDC General] Event Forwarding</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/event-forwarding.html</link>
       <guid isPermaLink="false">general|2026-09-28|Event Forwarding</guid>
@@ -1058,38 +1092,6 @@ Explore the user guide in the Help Center for detailed information about the org
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
       <description>• Vault registration has been updated to allow direct assignment of a Vault to a registered Veeam product (such as Veeam Backup &amp; Replication or Kasten) within Veeam Data Cloud. Switching to My Account for Vault assignment is no longer required, streamlining the setup process for administrators.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Calendar View Added for Restore Point Selection</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/calendar-view-added-for-restore-point-selection.html</link>
-      <guid isPermaLink="false">entra|2025-12-16|Calendar View Added for Restore Point Selection</guid>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Restore points can now be selected using a calendar view, making it easier to navigate and choose dates during investigation and recovery workflows.
-For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Export to JSON</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/export-to-json.html</link>
-      <guid isPermaLink="false">entra|2025-12-16|Export to JSON</guid>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>What's New
-Export to JSON restore for Microsoft Entra ID objects is now available in Veeam Data Cloud for Entra ID. Users can now select any protected Entra ID object and export it as a JSON file directly from a restore point.
-Exported JSON includes the following: Object properties and relationships captured at time of backup, sensitive data (where present), and schema metadata required for import into Entra ID or compatible systems. Restore points retain the original schema, with no automatic conversion to the latest Entra ID schema. The export action is also protected by dedicated RBAC permissions and recorded through audit logging.
-Why This Matters
-With export to JSON, users gain greater control and flexibility when responding to identity incidents or complex recovery scenarios. Instead of relying on in-place restores, teams can now export a precise, point-in-time representation of Entra ID objects for visibility or external workflows.
-Getting Started
-For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft Entra ID] Setting Property Names Updated for Clarity</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/setting-property-names-updated-for-clarity.html</link>
-      <guid isPermaLink="false">entra|2025-12-16|Setting Property Names Updated for Clarity</guid>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• • Several setting properties have been renamed to improve clarity and usability during configuration.
-For more information, visit the User Guide.</description>
     </item>
   </channel>
 </rss>

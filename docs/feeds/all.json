@@ -74,6 +74,46 @@
       "label": "Microsoft 365",
       "entries": [
         {
+          "date": "2026-10-20",
+          "title": "Multiple Microsoft 365 Search, Restore, and Activity Improvements",
+          "category": "Enhancement",
+          "tags": [
+            "Monitoring∕Reporting",
+            "Restore",
+            "UI∕UX"
+          ],
+          "description": "• Added Advanced Options to the restore dialog for SharePoint list items, documents, folders, libraries, and lists when restoring to the original location. Options vary by item type and may include version handling, overwrite behavior, and permissions restore.\n• Search results now support selecting multiple items of the same type at once, with Download and Restore buttons available for the selection, matching the behavior of Advanced Search.\n• Added search filters and criteria selection directly on the Advanced Search results page, allowing users to refine results without returning to the search configuration.\n• Added a Restore Type field to the Activity page and restore session detail panel, showing whether a session was a Standard, Bulk, or Granular restore.\n• Improved the performance of the Activity page (Audit Logs, Backup Sessions, Restore Sessions), including faster loading, filtering, and CSV export.\n• Added a Status filter to the notifications list, allowing users to filter notifications by All, Unread, or Read. The list updates immediately when the filter is changed.\n• The Recent activity column on the Workload Tenants page now shows the last backup time consistent with what is shown on the Overview and Activity pages.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-search--restore--and-activity-improvement.html",
+          "workload": "m365",
+          "workloadLabel": "Microsoft 365"
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Microsoft 365 Express Backup and Onboarding Improvements",
+          "category": "Enhancement",
+          "tags": [
+            "Backup",
+            "Management∕Administration"
+          ],
+          "description": "• Improved the performance of CSV user upload for Express backup policies. User validation now uses the local cache instead of querying Microsoft Graph directly, significantly reducing import time for large user lists.\n• For multi-geo tenants, CSV upload in Express Outlook and OneDrive backup policies now automatically filters out objects whose preferred data location no longer belongs to the tenant after a multi-geo mapping change, preventing them from being added to a policy.\n• CSV import for Express OneDrive backup policies now rejects Public, Shared, Room, and Equipment mailboxes, since these mailbox types are not supported for Express OneDrive protection.\n• When onboarding fails because the account has no active Microsoft 365 license that supports EWS, the error message now accurately describes the issue instead of showing a generic \"Unexpected error occurred.\"",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-express-backup-and-onboarding-improvements.html",
+          "workload": "m365",
+          "workloadLabel": "Microsoft 365"
+        },
+        {
+          "date": "2026-10-05",
+          "title": "Microsoft 365 OneDrive Restore and Onboarding Improvements",
+          "category": "Fix",
+          "tags": [
+            "Management∕Administration",
+            "Restore"
+          ],
+          "description": "• Updated the onboarding error message shown when provisioning fails due to the EWS retirement. Customers are now informed that Microsoft may take up to 24 hours to apply the EWS setting and are directed to retry after 24 hours, with guidance to contact Support referencing KB4820 if the issue persists.\n• Fixed an issue where restoring OneDrive data to another user's OneDrive failed with \"OneDrive is not available for this user\" when Microsoft throttled the request during target resolution.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-onedrive-restore-and-onboarding-improvements.html",
+          "workload": "m365",
+          "workloadLabel": "Microsoft 365"
+        },
+        {
           "date": "2026-09-28",
           "title": "Event Forwarding",
           "category": "New Feature",
@@ -698,42 +738,6 @@
           ],
           "description": "• Users can now restore Outlook, SharePoint, and OneDrive data from Express backups to an alternate location. This requires the “Restore to different location” RBAC permission.\n• Bulk restore is supported for both Express and Flex backups. Select and restore multiple mailboxes, OneDrive accounts, or SharePoint sites from Express backups, and multiple mailboxes, OneDrive accounts, or teams from Flex backups. Full RBAC permissions on the selected objects are required.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-express-object-restores.html",
-          "workload": "m365",
-          "workloadLabel": "Microsoft 365"
-        },
-        {
-          "date": "2025-10-07",
-          "title": "Resolved Backup Policy Errors and Warning Status Inconsistency",
-          "category": "Fix",
-          "tags": [
-            "Backup"
-          ],
-          "description": "• Removal of false error message when creating or updating a backup policy.\n• Warning status is fixed to ensure it's visible at all times when filtering within the session logs under \"View Details\".",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/fix-to-warning-status-filtering.html",
-          "workload": "m365",
-          "workloadLabel": "Microsoft 365"
-        },
-        {
-          "date": "2025-09-26",
-          "title": "Resolved Restore and Export Failures from Search and Advanced Search",
-          "category": "Fix",
-          "tags": [
-            "Restore"
-          ],
-          "description": "• Restoring a site or site content from the search results page no longer fails with the error 'Cannot get site information to restore'.\n• Restoring or exporting items found using the Advanced Search option no longer fails with the error 'Failed to initialize restore'.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/advance-search-restore-error-fix.html",
-          "workload": "m365",
-          "workloadLabel": "Microsoft 365"
-        },
-        {
-          "date": "2025-09-22",
-          "title": "Restore Point Availability Issue Resolved",
-          "category": "Fix",
-          "tags": [
-            "Restore"
-          ],
-          "description": "• Restore points created on the first or last day of the month are now consistently available for browsing and restore operations at all times.",
-          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/restore-point-display-fix.html",
           "workload": "m365",
           "workloadLabel": "Microsoft 365"
         }
