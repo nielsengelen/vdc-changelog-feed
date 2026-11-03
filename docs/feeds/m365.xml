@@ -6,6 +6,25 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Microsoft 365</description>
     <language>en</language>
     <item>
+      <title>[Microsoft 365] Multiple Microsoft 365 Express and Licensing Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-express-and-licensing-improvements.html</link>
+      <guid isPermaLink="false">m365|2026-10-27|Multiple Microsoft 365 Express and Licensing Improvements</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Fixed an issue where a user protected in multiple regions under a Multi-Geo organization was counted as multiple licensed users. Each unique user identity is now counted once across all regions for billing purposes.
+• Express Disaster Recovery is now enabled by default for all tenants, removing the need for per-tenant activation.
+• Improved the accuracy of Express Granular Restore by ensuring the restore session uses the exact restore point selected by the user when browsing backed-up data.
+• Improved the visibility of error messages in the UI so that long messages are no longer cut off before they can be read.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Microsoft 365 Express Granular Restore Fix</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-express-granular-restore-fix.html</link>
+      <guid isPermaLink="false">m365|2026-10-23|Microsoft 365 Express Granular Restore Fix</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Fixed an issue where Express Granular Restore did not use the restore point selected by the user, potentially restoring data from a different point in time than intended. For large tenants, granular and manual restore are not available; bulk restore remains the only supported option.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Multiple Microsoft 365 Search, Restore, and Activity Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-search--restore--and-activity-improvement.html</link>
       <guid isPermaLink="false">m365|2026-10-20|Multiple Microsoft 365 Search, Restore, and Activity Improvements</guid>
@@ -608,25 +627,6 @@ Premium customers can enable BYOK by following the steps outlined within the BYO
 • Fixed an issue in Advanced Search where restoring SharePoint folders could fail due to invalid validation.
 • Fixed an issue where user selections were not retained or displayed correctly when restoring a mailbox to another user.
 • Fixed selection persistence in Advanced Search results to ensure user selections remain when navigating or performing actions.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Resolved Issues After Migration to Unified Experience</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/resolved-issues-after-migration-to-unified-experience.html</link>
-      <guid isPermaLink="false">m365|2025-10-21|Resolved Issues After Migration to Unified Experience</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed an issue preventing new users from being added to a backup policy.
-• Fixed an issue where admins were not synchronized after the migration.
-• Corrected the total licensed users count.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Expanded Restore Options for Express and Flex Backups</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-express-object-restores.html</link>
-      <guid isPermaLink="false">m365|2025-10-07|Expanded Restore Options for Express and Flex Backups</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Users can now restore Outlook, SharePoint, and OneDrive data from Express backups to an alternate location. This requires the “Restore to different location” RBAC permission.
-• Bulk restore is supported for both Express and Flex backups. Select and restore multiple mailboxes, OneDrive accounts, or SharePoint sites from Express backups, and multiple mailboxes, OneDrive accounts, or teams from Flex backups. Full RBAC permissions on the selected objects are required.</description>
     </item>
   </channel>
 </rss>

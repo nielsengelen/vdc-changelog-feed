@@ -6,6 +6,25 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Microsoft 365] Multiple Microsoft 365 Express and Licensing Improvements</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-express-and-licensing-improvements.html</link>
+      <guid isPermaLink="false">m365|2026-10-27|Multiple Microsoft 365 Express and Licensing Improvements</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Fixed an issue where a user protected in multiple regions under a Multi-Geo organization was counted as multiple licensed users. Each unique user identity is now counted once across all regions for billing purposes.
+• Express Disaster Recovery is now enabled by default for all tenants, removing the need for per-tenant activation.
+• Improved the accuracy of Express Granular Restore by ensuring the restore session uses the exact restore point selected by the user when browsing backed-up data.
+• Improved the visibility of error messages in the UI so that long messages are no longer cut off before they can be read.</description>
+    </item>
+    <item>
+      <title>[Microsoft 365] Microsoft 365 Express Granular Restore Fix</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/microsoft-365-express-granular-restore-fix.html</link>
+      <guid isPermaLink="false">m365|2026-10-23|Microsoft 365 Express Granular Restore Fix</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Fix</category>
+      <description>• Fixed an issue where Express Granular Restore did not use the restore point selected by the user, potentially restoring data from a different point in time than intended. For large tenants, granular and manual restore are not available; bulk restore remains the only supported option.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Multiple Microsoft 365 Search, Restore, and Activity Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-search--restore--and-activity-improvement.html</link>
       <guid isPermaLink="false">m365|2026-10-20|Multiple Microsoft 365 Search, Restore, and Activity Improvements</guid>
@@ -1075,23 +1094,6 @@ For more information, visit the User Guide.</description>
       <category>Security</category>
       <description>• Monitoring for Microsoft 365 is now available in both the Org Dashboard and Activity view in Veeam Data Cloud. Administrators can view protection status, backup history, and platform activity for Microsoft 365 alongside other supported workloads – all from these consolidated views. Support for additional workloads is planned.
 Explore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Top-level Views Now Support Microsoft 365</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/top-level-views-now-support-microsoft-365.html</link>
-      <guid isPermaLink="false">m365|2025-12-17|Top-level Views Now Support Microsoft 365</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Security</category>
-      <description>• Monitoring for Microsoft 365 is now available in both the Org Dashboard and Activity view in Veeam Data Cloud. Administrators can view protection status, backup history, and platform activity for Microsoft 365 alongside other supported workloads – all from these consolidated views. Support for additional workloads is planned.
-Explore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.</description>
-    </item>
-    <item>
-      <title>[Vault] Vault Registration Streamlined</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-registration-streamlined.html</link>
-      <guid isPermaLink="false">vault|2025-12-17|Vault Registration Streamlined</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Vault registration has been updated to allow direct assignment of a Vault to a registered Veeam product (such as Veeam Backup &amp; Replication or Kasten) within Veeam Data Cloud. Switching to My Account for Vault assignment is no longer required, streamlining the setup process for administrators.</description>
     </item>
   </channel>
 </rss>
