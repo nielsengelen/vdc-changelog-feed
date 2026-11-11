@@ -6,6 +6,19 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Microsoft 365] Prioritized Disaster Recovery</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/prioritized-disaster-recovery.html</link>
+      <guid isPermaLink="false">m365|2026-11-11|Prioritized Disaster Recovery</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Prioritized Disaster Recover is now available for Veeam Data Cloud for Microsoft 365 Premium. Organizations can assign critical mailboxes, SharePoint sites, and OneDrive data to priority tiers before an incident occurs. When disaster strikes, administrators can launch the preconfigured recovery plan with a single action, restore critical data first, and monitor progress tier by tier.
+Why This Matters
+During a large-scale data loss incident, recovering everything at once can delay the return of essential operations. Prioritized disaster recovery establishes those priorities in advance, helping organizations recover their most important people and content sooner while the rest of the environment follows.
+Getting Started
+Prioritized disaster recovery is available with Veeam Data Cloud for Microsoft 365 Premium. For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Multiple Microsoft 365 Express and Licensing Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-express-and-licensing-improvements.html</link>
       <guid isPermaLink="false">m365|2026-10-27|Multiple Microsoft 365 Express and Licensing Improvements</guid>
@@ -1085,15 +1098,6 @@ For more information, visit the User Guide.</description>
       <category>New Feature</category>
       <description>• • Added support for using a staging server to back up Azure SQL databases, offloading orchestration and data processing from production environments to maintain workload performance.
 • Introduced a &quot;View Info&quot; button in the toolbar, enabling instant review of policy configurations without navigating through each policy step.</description>
-    </item>
-    <item>
-      <title>[VDC General] Top-level Views Now Support Microsoft 365</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/top-level-views-now-support-microsoft-365.html</link>
-      <guid isPermaLink="false">general|2025-12-17|Top-level Views Now Support Microsoft 365</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Security</category>
-      <description>• Monitoring for Microsoft 365 is now available in both the Org Dashboard and Activity view in Veeam Data Cloud. Administrators can view protection status, backup history, and platform activity for Microsoft 365 alongside other supported workloads – all from these consolidated views. Support for additional workloads is planned.
-Explore the user guide in the Help Center for detailed information about the organization dashboard, activity view and audit logs.</description>
     </item>
   </channel>
 </rss>

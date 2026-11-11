@@ -6,6 +6,19 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Microsoft 365</description>
     <language>en</language>
     <item>
+      <title>[Microsoft 365] Prioritized Disaster Recovery</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/prioritized-disaster-recovery.html</link>
+      <guid isPermaLink="false">m365|2026-11-11|Prioritized Disaster Recovery</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Prioritized Disaster Recover is now available for Veeam Data Cloud for Microsoft 365 Premium. Organizations can assign critical mailboxes, SharePoint sites, and OneDrive data to priority tiers before an incident occurs. When disaster strikes, administrators can launch the preconfigured recovery plan with a single action, restore critical data first, and monitor progress tier by tier.
+Why This Matters
+During a large-scale data loss incident, recovering everything at once can delay the return of essential operations. Prioritized disaster recovery establishes those priorities in advance, helping organizations recover their most important people and content sooner while the rest of the environment follows.
+Getting Started
+Prioritized disaster recovery is available with Veeam Data Cloud for Microsoft 365 Premium. For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Multiple Microsoft 365 Express and Licensing Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-express-and-licensing-improvements.html</link>
       <guid isPermaLink="false">m365|2026-10-27|Multiple Microsoft 365 Express and Licensing Improvements</guid>
@@ -616,17 +629,6 @@ Premium customers can enable BYOK by following the steps outlined within the BYO
 • When selecting groups for an Exchange or OneDrive Express policy, the new &quot;Search Microsoft 365 directly&quot; option allows retrieval of the latest groups based on the current production state.
 • The backup policy session and session log dialog views now provide more accurate and focused information on processing.
 • The Logs tab in the restore operation dialog now displays the duration of each restore action.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Resolved Issues with Notifications, Search and Restore Operations</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/resolved-issues-with-notifications--search-and-restore-operation.html</link>
-      <guid isPermaLink="false">m365|2025-10-27|Resolved Issues with Notifications, Search and Restore Operations</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed the issue that prevented email notifications from being sent on backup results.
-• Fixed an issue in Advanced Search where restoring SharePoint folders could fail due to invalid validation.
-• Fixed an issue where user selections were not retained or displayed correctly when restoring a mailbox to another user.
-• Fixed selection persistence in Advanced Search results to ensure user selections remain when navigating or performing actions.</description>
     </item>
   </channel>
 </rss>
