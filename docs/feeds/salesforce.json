@@ -3,6 +3,30 @@
   "label": "Salesforce",
   "entries": [
     {
+      "date": "2026-10-29",
+      "title": "Backup Copy Policy",
+      "category": "New Feature",
+      "tags": [
+        "Backup"
+      ],
+      "description": "What’s New\nThe new Backup Copy Policy enables organizations to export Salesforce backup data to Azure Blob Storage. Copies can be run on demand or scheduled through weekly or monthly policies, with support for selecting multiple Salesforce objects, securely processing encrypted fields, and preserving access controls.\nWhy This Matters\nBackup Copy Policy gives organizations greater control over their Salesforce data by allowing them to maintain an additional copy in their own Azure storage. This supports broader data resilience, compliance, and retention requirements.\nGetting Started\nBackup Copy Policy is available by request. For more information, visit the User Guide.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/backup-copy-policy.html",
+      "workload": "salesforce",
+      "workloadLabel": "Salesforce"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Support for Salesforce API v67.0",
+      "category": "Enhancement",
+      "tags": [
+        "Backup"
+      ],
+      "description": "• Veeam Data Cloud for Salesforce now supports Salesforce API v67.0, ensuring compatibility with the latest Salesforce platform updates.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-salesforce-api-v67-0.html",
+      "workload": "salesforce",
+      "workloadLabel": "Salesforce"
+    },
+    {
       "date": "2026-08-28",
       "title": "Data Archival: More flexible policy filtering with parent object criteria",
       "category": "Enhancement",

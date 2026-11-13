@@ -19,6 +19,19 @@ Getting Started
 Prioritized disaster recovery is available with Veeam Data Cloud for Microsoft 365 Premium. For more information, visit the User Guide.</description>
     </item>
     <item>
+      <title>[Salesforce] Backup Copy Policy</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-copy-policy.html</link>
+      <guid isPermaLink="false">salesforce|2026-10-29|Backup Copy Policy</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+The new Backup Copy Policy enables organizations to export Salesforce backup data to Azure Blob Storage. Copies can be run on demand or scheduled through weekly or monthly policies, with support for selecting multiple Salesforce objects, securely processing encrypted fields, and preserving access controls.
+Why This Matters
+Backup Copy Policy gives organizations greater control over their Salesforce data by allowing them to maintain an additional copy in their own Azure storage. This supports broader data resilience, compliance, and retention requirements.
+Getting Started
+Backup Copy Policy is available by request. For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Multiple Microsoft 365 Express and Licensing Improvements</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-microsoft-365-express-and-licensing-improvements.html</link>
       <guid isPermaLink="false">m365|2026-10-27|Multiple Microsoft 365 Express and Licensing Improvements</guid>
@@ -61,6 +74,14 @@ Prioritized disaster recovery is available with Veeam Data Cloud for Microsoft 3
 • For multi-geo tenants, CSV upload in Express Outlook and OneDrive backup policies now automatically filters out objects whose preferred data location no longer belongs to the tenant after a multi-geo mapping change, preventing them from being added to a policy.
 • CSV import for Express OneDrive backup policies now rejects Public, Shared, Room, and Equipment mailboxes, since these mailbox types are not supported for Express OneDrive protection.
 • When onboarding fails because the account has no active Microsoft 365 license that supports EWS, the error message now accurately describes the issue instead of showing a generic &quot;Unexpected error occurred.&quot;</description>
+    </item>
+    <item>
+      <title>[Salesforce] Support for Salesforce API v67.0</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-salesforce-api-v67-0.html</link>
+      <guid isPermaLink="false">salesforce|2026-10-08|Support for Salesforce API v67.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Veeam Data Cloud for Salesforce now supports Salesforce API v67.0, ensuring compatibility with the latest Salesforce platform updates.</description>
     </item>
     <item>
       <title>[Microsoft 365] Microsoft 365 OneDrive Restore and Onboarding Improvements</title>
@@ -1078,26 +1099,6 @@ For more information, visit the User Guide.</description>
 • Enhancements made to SharePoint site search and tree loading for large organizations.
 • Updates to the Operation Detail dialog in the Notifications section by clarifying texts and removing the &quot;Activity Type&quot; parameter from background report downloads.
 • Updates to the notification names and descriptions for report downloads in the Notifications section. Updates to the column names in the Backup Summary and Restore Activity reports were made for clarity, and total restore type records were moved to the end of the Restore Activity report.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Multiple Restore Operation Issues and Reporting Issue Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/multiple-restore-operation-issues-resolved.html</link>
-      <guid isPermaLink="false">m365|2026-01-06|Multiple Restore Operation Issues and Reporting Issue Resolved</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Fixed an issue where the Restore Activity Report would fail to download.
-• Resolved an issue where wrong SharePoint list name (&quot;documents&quot;) was displaying during restores.
-• Corrected a problem where SharePoint restore operations would fail with the error &quot;A task was cancelled&quot; when the operation status was repeatedly refreshed.
-• Resolved an issue that prevented SharePoint site names from displaying when editing an Express backup policy.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] Streamlined Azure SQL Backups and Faster Policy Reviews</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/streamlined-azure-sql-backups-and-faster-policy-reviews.html</link>
-      <guid isPermaLink="false">azure|2025-12-18|Streamlined Azure SQL Backups and Faster Policy Reviews</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• • Added support for using a staging server to back up Azure SQL databases, offloading orchestration and data processing from production environments to maintain workload performance.
-• Introduced a &quot;View Info&quot; button in the toolbar, enabling instant review of policy configurations without navigating through each policy step.</description>
     </item>
   </channel>
 </rss>

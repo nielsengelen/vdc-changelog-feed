@@ -6,6 +6,27 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Salesforce</description>
     <language>en</language>
     <item>
+      <title>[Salesforce] Backup Copy Policy</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-copy-policy.html</link>
+      <guid isPermaLink="false">salesforce|2026-10-29|Backup Copy Policy</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+The new Backup Copy Policy enables organizations to export Salesforce backup data to Azure Blob Storage. Copies can be run on demand or scheduled through weekly or monthly policies, with support for selecting multiple Salesforce objects, securely processing encrypted fields, and preserving access controls.
+Why This Matters
+Backup Copy Policy gives organizations greater control over their Salesforce data by allowing them to maintain an additional copy in their own Azure storage. This supports broader data resilience, compliance, and retention requirements.
+Getting Started
+Backup Copy Policy is available by request. For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Salesforce] Support for Salesforce API v67.0</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/support-for-salesforce-api-v67-0.html</link>
+      <guid isPermaLink="false">salesforce|2026-10-08|Support for Salesforce API v67.0</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Veeam Data Cloud for Salesforce now supports Salesforce API v67.0, ensuring compatibility with the latest Salesforce platform updates.</description>
+    </item>
+    <item>
       <title>[Salesforce] Data Archival: More flexible policy filtering with parent object criteria</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/data-archival--more-flexible-policy-filtering-with-parent-object.html</link>
       <guid isPermaLink="false">salesforce|2026-08-28|Data Archival: More flexible policy filtering with parent object criteria</guid>
