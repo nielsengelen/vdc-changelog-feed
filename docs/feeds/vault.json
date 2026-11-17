@@ -3,6 +3,19 @@
   "label": "Vault",
   "entries": [
     {
+      "date": "2026-11-17",
+      "title": "Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM",
+      "category": "Security",
+      "tags": [
+        "Monitoring∕Reporting",
+        "Security"
+      ],
+      "description": "You can now send Vault activity to the security tools you already use. Event forwarding supports Veeam Data Cloud Vault audit events, so you can send them to your SIEM or a webhook alongside your other Veeam events.\nWhat’s new\n• Dedicated Vault category: Vault events have their own Vault category in the Event Type picker.\n• Clear source system: Every Vault event lists Vault as its source system, so you can filter and route events easily.\n• Built-in severity: Each event includes a severity level. Your SIEM can prioritize events right away, without custom parsing.",
+      "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/now-available--forward-veeam-data-cloud-vault-audit-events-to-yo.html",
+      "workload": "vault",
+      "workloadLabel": "Vault"
+    },
+    {
       "date": "2026-08-25",
       "title": "Now Standard: IAM Role-Based Authentication for AWS Vaults",
       "category": "Security",

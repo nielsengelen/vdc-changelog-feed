@@ -6,6 +6,18 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Vault</description>
     <language>en</language>
     <item>
+      <title>[Vault] Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-available--forward-veeam-data-cloud-vault-audit-events-to-yo.html</link>
+      <guid isPermaLink="false">vault|2026-11-17|Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Security</category>
+      <description>You can now send Vault activity to the security tools you already use. Event forwarding supports Veeam Data Cloud Vault audit events, so you can send them to your SIEM or a webhook alongside your other Veeam events.
+What’s new
+• Dedicated Vault category: Vault events have their own Vault category in the Event Type picker.
+• Clear source system: Every Vault event lists Vault as its source system, so you can filter and route events easily.
+• Built-in severity: Each event includes a severity level. Your SIEM can prioritize events right away, without custom parsing.</description>
+    </item>
+    <item>
       <title>[Vault] Now Standard: IAM Role-Based Authentication for AWS Vaults</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-standard--iam-role-based-authentication-for-aws-vaults.html</link>
       <guid isPermaLink="false">vault|2026-08-25|Now Standard: IAM Role-Based Authentication for AWS Vaults</guid>

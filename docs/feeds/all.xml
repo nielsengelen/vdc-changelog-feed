@@ -6,6 +6,18 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Vault] Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-available--forward-veeam-data-cloud-vault-audit-events-to-yo.html</link>
+      <guid isPermaLink="false">vault|2026-11-17|Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Security</category>
+      <description>You can now send Vault activity to the security tools you already use. Event forwarding supports Veeam Data Cloud Vault audit events, so you can send them to your SIEM or a webhook alongside your other Veeam events.
+What’s new
+• Dedicated Vault category: Vault events have their own Vault category in the Event Type picker.
+• Clear source system: Every Vault event lists Vault as its source system, so you can filter and route events easily.
+• Built-in severity: Each event includes a severity level. Your SIEM can prioritize events right away, without custom parsing.</description>
+    </item>
+    <item>
       <title>[Microsoft 365] Prioritized Disaster Recovery</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/prioritized-disaster-recovery.html</link>
       <guid isPermaLink="false">m365|2026-11-11|Prioritized Disaster Recovery</guid>
@@ -1083,22 +1095,6 @@ For more information, visit the User Guide.</description>
       <category>Fix</category>
       <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
 • Fixed the Add Vault wizard so the back button now functions correctly.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Enhancements to Backup Policies, Processing Performance and Monitoring Improvements</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/enhancements-to-backup-policies--processing-performance-and-moni.html</link>
-      <guid isPermaLink="false">m365|2026-01-06|Enhancements to Backup Policies, Processing Performance and Monitoring Improvements</guid>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Updates to the Flex Backup Session view to display retry attempt details, improved session log formatting for retries, updated status labels, and protected object counts for all statuses.
-• Flex backup policies now enable uploading a CSV file listing the SharePoint site URLs to protect.
-• Express backup policies are now updated to display a summary of units protected by the policy, showing counts of protected, in-progress, failed units, and the total. The policies now show protection status for each unit and include search and filter options. The status of protected objects within a policy can be viewed, searched and filtered within a policy.
-• Optimizations have been made for SharePoint site browsing of Express backup policies to resolve performance issues.
-• Removed the limit for deleting more than 30 protection units from an Express backup policy. Now any number of items can be removed with paging support for large lists.
-• Improvements have been made to the background processing of a number of items. These include saving Teams files and posts, supporting channel and item-level operations. Improvements were also made to the background processing for saving SharePoint libraries and folders, OneDrive folders, files and Exchange mailbox items.
-• Enhancements made to SharePoint site search and tree loading for large organizations.
-• Updates to the Operation Detail dialog in the Notifications section by clarifying texts and removing the &quot;Activity Type&quot; parameter from background report downloads.
-• Updates to the notification names and descriptions for report downloads in the Notifications section. Updates to the column names in the Backup Summary and Restore Activity reports were made for clarity, and total restore type records were moved to the end of the Restore Activity report.</description>
     </item>
   </channel>
 </rss>
