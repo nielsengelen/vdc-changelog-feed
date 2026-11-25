@@ -1015,13 +1015,74 @@
       "label": "Microsoft Entra ID",
       "entries": [
         {
+          "date": "2026-11-18",
+          "title": "Configurable Email Notification Preferences",
+          "category": "New Feature",
+          "tags": [
+            "Management∕Administration"
+          ],
+          "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now allows users to configure which email notifications they receive and select recipients for each configurable notification from Settings > Notification Preferences. Mandatory notifications remain enabled and are always sent to organization and tenant administrators.\nWhy This Matters\nConfigurable notification preferences give users greater control over operational communications, helping the right recipients receive relevant updates while ensuring administrators continue to receive essential notifications.\nGetting Started\nGo to Settings > Notification Preferences to select notifications and manage their recipients. Mandatory notifications cannot be disabled. For more information, visit the User Guide.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/configurable-email-notification-preferences.html",
+          "workload": "entra",
+          "workloadLabel": "Microsoft Entra ID"
+        },
+        {
+          "date": "2026-11-04",
+          "title": "Clear Filters from the Groups List",
+          "category": "Enhancement",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "• A Clear Filters button is now available in the Groups list, allowing users to remove all applied filters and return to the complete list more quickly.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/clear-filters-from-the-groups-list.html",
+          "workload": "entra",
+          "workloadLabel": "Microsoft Entra ID"
+        },
+        {
+          "date": "2026-11-04",
+          "title": "PIM-Enabled Group Indicators and Restore Warnings",
+          "category": "New Feature",
+          "tags": [
+            "Backup",
+            "UI∕UX"
+          ],
+          "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now identifies Privileged Identity Management (PIM)-enabled groups throughout onboarding, permissions, group browsing, and restore workflows. Preview indicators and supporting tooltips make these groups easier to recognize, while an additional warning appears before restoring them.\nWhy This Matters\nPIM-enabled groups can contain privileged access configurations that require additional consideration during recovery. Clear indicators and restore warnings help administrators identify these groups and make more informed recovery decisions.\nGetting Started\nLook for the PIM preview tag when working with groups and review the displayed warning before restoring a PIM-enabled group. For more information, visit the User Guide.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/pim-enabled-group-indicators-and-restore-warnings.html",
+          "workload": "entra",
+          "workloadLabel": "Microsoft Entra ID"
+        },
+        {
+          "date": "2026-09-23",
+          "title": "Activity Session Filtering",
+          "category": "Enhancement",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "• Filtering is now available on the Activity page, making it easier to find specific backup and restore sessions.\n• For more information, visit the User Guide.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/activity-session-filtering.html",
+          "workload": "entra",
+          "workloadLabel": "Microsoft Entra ID"
+        },
+        {
+          "date": "2026-09-23",
+          "title": "License Consumption Visibility in the Tenant List",
+          "category": "Enhancement",
+          "tags": [
+            "UI∕UX"
+          ],
+          "description": "• The tenant list now displays consumption license counts, providing clearer visibility into license usage across protected tenants.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/license-consumption-visibility-in-the-tenant-list.html",
+          "workload": "entra",
+          "workloadLabel": "Microsoft Entra ID"
+        },
+        {
           "date": "2026-09-10",
           "title": "Backup and Restore Support for Microsoft Intune RBAC Roles",
           "category": "New Feature",
           "tags": [
             "Backup"
           ],
-          "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping customers preserve Intune access control configurations.\nWhy This Matters\nMicrosoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.\nGetting Started\nFor more information, visit the User Guide.",
+          "description": "What’s New\nVeeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping users preserve Intune access control configurations.\nWhy This Matters\nMicrosoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.\nGetting Started\nFor more information, visit the User Guide.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html",
           "workload": "entra",
           "workloadLabel": "Microsoft Entra ID"
@@ -1070,7 +1131,7 @@
           "tags": [
             "Management∕Administration"
           ],
-          "description": "• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings > Connection instead of using previous workaround.",
+          "description": "• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing users to restore the connection through Settings > Connection instead of using previous workaround.",
           "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/updated-backup-failure-email-guidance.html",
           "workload": "entra",
           "workloadLabel": "Microsoft Entra ID"

@@ -6,6 +6,19 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Microsoft Entra ID] Configurable Email Notification Preferences</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/configurable-email-notification-preferences.html</link>
+      <guid isPermaLink="false">entra|2026-11-18|Configurable Email Notification Preferences</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud for Microsoft Entra ID now allows users to configure which email notifications they receive and select recipients for each configurable notification from Settings &gt; Notification Preferences. Mandatory notifications remain enabled and are always sent to organization and tenant administrators.
+Why This Matters
+Configurable notification preferences give users greater control over operational communications, helping the right recipients receive relevant updates while ensuring administrators continue to receive essential notifications.
+Getting Started
+Go to Settings &gt; Notification Preferences to select notifications and manage their recipients. Mandatory notifications cannot be disabled. For more information, visit the User Guide.</description>
+    </item>
+    <item>
       <title>[Vault] Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/now-available--forward-veeam-data-cloud-vault-audit-events-to-yo.html</link>
       <guid isPermaLink="false">vault|2026-11-17|Now Available: Forward Veeam Data Cloud Vault audit events to your SIEM</guid>
@@ -29,6 +42,27 @@ Why This Matters
 During a large-scale data loss incident, recovering everything at once can delay the return of essential operations. Prioritized disaster recovery establishes those priorities in advance, helping organizations recover their most important people and content sooner while the rest of the environment follows.
 Getting Started
 Prioritized disaster recovery is available with Veeam Data Cloud for Microsoft 365 Premium. For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Clear Filters from the Groups List</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/clear-filters-from-the-groups-list.html</link>
+      <guid isPermaLink="false">entra|2026-11-04|Clear Filters from the Groups List</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• A Clear Filters button is now available in the Groups list, allowing users to remove all applied filters and return to the complete list more quickly.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] PIM-Enabled Group Indicators and Restore Warnings</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/pim-enabled-group-indicators-and-restore-warnings.html</link>
+      <guid isPermaLink="false">entra|2026-11-04|PIM-Enabled Group Indicators and Restore Warnings</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud for Microsoft Entra ID now identifies Privileged Identity Management (PIM)-enabled groups throughout onboarding, permissions, group browsing, and restore workflows. Preview indicators and supporting tooltips make these groups easier to recognize, while an additional warning appears before restoring them.
+Why This Matters
+PIM-enabled groups can contain privileged access configurations that require additional consideration during recovery. Clear indicators and restore warnings help administrators identify these groups and make more informed recovery decisions.
+Getting Started
+Look for the PIM preview tag when working with groups and review the displayed warning before restoring a PIM-enabled group. For more information, visit the User Guide.</description>
     </item>
     <item>
       <title>[Salesforce] Backup Copy Policy</title>
@@ -171,13 +205,30 @@ Help Guides
 • Event Reference: About Veeam Data Cloud Event Reference - Veeam Data Cloud Event Reference</description>
     </item>
     <item>
+      <title>[Microsoft Entra ID] Activity Session Filtering</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/activity-session-filtering.html</link>
+      <guid isPermaLink="false">entra|2026-09-23|Activity Session Filtering</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Filtering is now available on the Activity page, making it easier to find specific backup and restore sessions.
+• For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] License Consumption Visibility in the Tenant List</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/license-consumption-visibility-in-the-tenant-list.html</link>
+      <guid isPermaLink="false">entra|2026-09-23|License Consumption Visibility in the Tenant List</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• The tenant list now displays consumption license counts, providing clearer visibility into license usage across protected tenants.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Backup and Restore Support for Microsoft Intune RBAC Roles</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html</link>
       <guid isPermaLink="false">entra|2026-09-10|Backup and Restore Support for Microsoft Intune RBAC Roles</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <category>New Feature</category>
       <description>What’s New
-Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping customers preserve Intune access control configurations.
+Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping users preserve Intune access control configurations.
 Why This Matters
 Microsoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.
 Getting Started
@@ -309,7 +360,7 @@ For more information, visit the User Guide.</description>
       <guid isPermaLink="false">entra|2026-07-30|Updated Backup Failure Email Guidance</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
-      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
+      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing users to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
     </item>
     <item>
       <title>[Vault] Notification Emails for Deletion Lifecycle</title>
@@ -1044,57 +1095,6 @@ For more information, visit the User Guide.</description>
 • Implemented a 90-day expiration policy for Veeam Data Cloud Public API keys. Expired keys are automatically rejected during authentication, and the UI now displays each key’s expiration date and time.
 • Deprecated the ability to use an additional app registration for SharePoint backups; the tenant settings no longer include the “Allow multiple additional applications” option.
 • Legacy unsupported actions—“Create Portal Session,” “Cancel Subscription,” “Resume Subscription,” and “Resume Organization”—have been removed from the Action filter on the Activity page.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] OneDrive Restore and Express Policy Stability Fixes</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/onedrive-restore-and-express-policy-stability-fixes.html</link>
-      <guid isPermaLink="false">m365|2026-02-04|OneDrive Restore and Express Policy Stability Fixes</guid>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved an issue that caused restores to another user's OneDrive to fail with a “OneDrive not found” error.
-• Fixed an issue where Express backup policies for a tenant in a multi-region environment became stuck in the ‘Updating’ state.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Product Improvements, Security Enhancements, and Reliability Updates</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/product-improvements--security-enhancements--and-reliability-upd.html</link>
-      <guid isPermaLink="false">m365|2026-01-22|Product Improvements, Security Enhancements, and Reliability Updates</guid>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Removed unnecessary permissions from the Microsoft Entra ID enterprise application used by Veeam Data Cloud for Microsoft 365 to connect to Microsoft 365 organizations, and perform backup and restore of the organization data.
-• Enhanced the user experience for adding users to a Flex backup policy: the upload dialog header and hint now indicates that CSV or text files with one email address per line are supported.
-• Updated Express backup policy objects selection to include only supported objects (User, Shared user, root SharePoint site), filtering unsupported sites from CSV uploads.
-• Fixed an intermittent issue where background download jobs failed to generate a download link after users refreshed the operation list.
-• Fixed the issue where Search and Advanced Search across Outlook data for large tenants did not load or loaded indefinitely.
-• Fixed a duplicate error when activating Microsoft 365 Backup Storage for an onboarded tenant.
-• Blocked access to workload tenant details for users without permissions instead of showing an error message and the Access Denied page after clicking the Manage button.
-• Updated report functionality: report descriptions now clearly explain the data shown in each report, and generated report file names are standardized across Generate and Schedule flows, using the ReportName_DDMMYYYY_HHMMSS.csv format for Backup Summary, Restore Activity, and Backup Policy Detail reports.
-• Enhanced search reliability and performance for protected Microsoft 365 services, including Teams, SharePoint, OneDrive, and Outlook data.</description>
-    </item>
-    <item>
-      <title>[Microsoft Azure] File-level Recovery to the original location is now available for Azure Virtual Machines</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/file-level-recovery-to-the-original-location-is-now-available-fo.html</link>
-      <guid isPermaLink="false">azure|2026-01-19|File-level Recovery to the original location is now available for Azure Virtual Machines</guid>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <category>New Feature</category>
-      <description>• Users can now restore individual files to their original location on Azure Virtual Machines, streamlining recovery workflows and eliminating the need for full VM or alternate-location restores.</description>
-    </item>
-    <item>
-      <title>[Vault] Self-Service Vault Deletion and Read-Only Viewer Role Added</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/self-service-vault-deletion-and-read-only-viewer-role-added.html</link>
-      <guid isPermaLink="false">vault|2026-01-12|Self-Service Vault Deletion and Read-Only Viewer Role Added</guid>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Added self-service deletion for empty vaults in Veeam Data Cloud, supporting both Microsoft Azure and Amazon Web Services vaults. Users can now quickly remove empty vaults without contacting support.
-• Introduced the Vault:Viewer role, providing read-only access so administrators can grant users permission to view vaults and tenants without allowing creation, modification, or deletion of resources.</description>
-    </item>
-    <item>
-      <title>[Vault] Vault Provisioning and Wizard Navigation Issues Resolved</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/vault-provisioning-and-wizard-navigation-issues-resolved.html</link>
-      <guid isPermaLink="false">vault|2026-01-12|Vault Provisioning and Wizard Navigation Issues Resolved</guid>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <category>Fix</category>
-      <description>• Resolved an issue that prevented users with organization names containing special characters from provisioning workload tenants.
-• Fixed the Add Vault wizard so the back button now functions correctly.</description>
     </item>
   </channel>
 </rss>

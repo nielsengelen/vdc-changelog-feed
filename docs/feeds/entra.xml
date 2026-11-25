@@ -6,13 +6,64 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Microsoft Entra ID</description>
     <language>en</language>
     <item>
+      <title>[Microsoft Entra ID] Configurable Email Notification Preferences</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/configurable-email-notification-preferences.html</link>
+      <guid isPermaLink="false">entra|2026-11-18|Configurable Email Notification Preferences</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud for Microsoft Entra ID now allows users to configure which email notifications they receive and select recipients for each configurable notification from Settings &gt; Notification Preferences. Mandatory notifications remain enabled and are always sent to organization and tenant administrators.
+Why This Matters
+Configurable notification preferences give users greater control over operational communications, helping the right recipients receive relevant updates while ensuring administrators continue to receive essential notifications.
+Getting Started
+Go to Settings &gt; Notification Preferences to select notifications and manage their recipients. Mandatory notifications cannot be disabled. For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Clear Filters from the Groups List</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/clear-filters-from-the-groups-list.html</link>
+      <guid isPermaLink="false">entra|2026-11-04|Clear Filters from the Groups List</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• A Clear Filters button is now available in the Groups list, allowing users to remove all applied filters and return to the complete list more quickly.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] PIM-Enabled Group Indicators and Restore Warnings</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/pim-enabled-group-indicators-and-restore-warnings.html</link>
+      <guid isPermaLink="false">entra|2026-11-04|PIM-Enabled Group Indicators and Restore Warnings</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What’s New
+Veeam Data Cloud for Microsoft Entra ID now identifies Privileged Identity Management (PIM)-enabled groups throughout onboarding, permissions, group browsing, and restore workflows. Preview indicators and supporting tooltips make these groups easier to recognize, while an additional warning appears before restoring them.
+Why This Matters
+PIM-enabled groups can contain privileged access configurations that require additional consideration during recovery. Clear indicators and restore warnings help administrators identify these groups and make more informed recovery decisions.
+Getting Started
+Look for the PIM preview tag when working with groups and review the displayed warning before restoring a PIM-enabled group. For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] Activity Session Filtering</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/activity-session-filtering.html</link>
+      <guid isPermaLink="false">entra|2026-09-23|Activity Session Filtering</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• Filtering is now available on the Activity page, making it easier to find specific backup and restore sessions.
+• For more information, visit the User Guide.</description>
+    </item>
+    <item>
+      <title>[Microsoft Entra ID] License Consumption Visibility in the Tenant List</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/license-consumption-visibility-in-the-tenant-list.html</link>
+      <guid isPermaLink="false">entra|2026-09-23|License Consumption Visibility in the Tenant List</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enhancement</category>
+      <description>• The tenant list now displays consumption license counts, providing clearer visibility into license usage across protected tenants.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Backup and Restore Support for Microsoft Intune RBAC Roles</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-and-restore-support-for-microsoft-intune-rbac-roles.html</link>
       <guid isPermaLink="false">entra|2026-09-10|Backup and Restore Support for Microsoft Intune RBAC Roles</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <category>New Feature</category>
       <description>What’s New
-Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping customers preserve Intune access control configurations.
+Veeam Data Cloud for Microsoft Entra ID now supports backup and restore for Microsoft Intune RBAC roles, including both predefined and custom roles. This includes protection for role permissions, scope tags, and role assignments to users and groups, helping users preserve Intune access control configurations.
 Why This Matters
 Microsoft Intune RBAC roles define which administrators can manage specific Intune resources, such as Android policies or other device management areas. Accidental changes, deletions, or misconfigured role assignments can disrupt administrative access and impact device management operations. By protecting Intune RBAC roles and assignments, organizations can recover critical access control settings and maintain continuity across their Intune environment.
 Getting Started
@@ -48,7 +99,7 @@ For more information, visit the User Guide.</description>
       <guid isPermaLink="false">entra|2026-07-30|Updated Backup Failure Email Guidance</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
       <category>Enhancement</category>
-      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing customers to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
+      <description>• Backup failure email notifications now provide updated guidance when the service principal has been removed, directing users to restore the connection through Settings &gt; Connection instead of using previous workaround.</description>
     </item>
     <item>
       <title>[Microsoft Entra ID] Improved Retention Period Management</title>
