@@ -6,6 +6,17 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — Salesforce</description>
     <language>en</language>
     <item>
+      <title>[Salesforce] Seed Salesforce Sandboxes from Backups with Reusable Templates</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/seed-salesforce-sandboxes-from-backups-with-reusable-templates.html</link>
+      <guid isPermaLink="false">salesforce|2026-11-26|Seed Salesforce Sandboxes from Backups with Reusable Templates</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What's New
+Template-Based Sandbox Seeding lets organizations quickly populate sandbox Salesforce orgs with realistic, right-sized data from existing backups. Reusable templates let you select object hierarchies, filter and limit records, and apply data masking rules before restoring data to a compatible target org.
+Why This Matters
+Development and test teams need realistic data to build and validate changes, but copying full production data into sandboxes is slow and can expose sensitive information. Template-Based Sandbox Seeding helps teams create effective test environments faster, using only the data they need, while masking rules help keep sensitive information protected.</description>
+    </item>
+    <item>
       <title>[Salesforce] Backup Copy Policy</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/backup-copy-policy.html</link>
       <guid isPermaLink="false">salesforce|2026-10-29|Backup Copy Policy</guid>

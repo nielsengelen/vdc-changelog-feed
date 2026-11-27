@@ -6,6 +6,17 @@
     <description>Unofficial feed of the Veeam Data Cloud changelog — Veeam Data Cloud Changelog — All Workloads</description>
     <language>en</language>
     <item>
+      <title>[Salesforce] Seed Salesforce Sandboxes from Backups with Reusable Templates</title>
+      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/seed-salesforce-sandboxes-from-backups-with-reusable-templates.html</link>
+      <guid isPermaLink="false">salesforce|2026-11-26|Seed Salesforce Sandboxes from Backups with Reusable Templates</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>New Feature</category>
+      <description>What's New
+Template-Based Sandbox Seeding lets organizations quickly populate sandbox Salesforce orgs with realistic, right-sized data from existing backups. Reusable templates let you select object hierarchies, filter and limit records, and apply data masking rules before restoring data to a compatible target org.
+Why This Matters
+Development and test teams need realistic data to build and validate changes, but copying full production data into sandboxes is slow and can expose sensitive information. Template-Based Sandbox Seeding helps teams create effective test environments faster, using only the data they need, while masking rules help keep sensitive information protected.</description>
+    </item>
+    <item>
       <title>[Microsoft Entra ID] Configurable Email Notification Preferences</title>
       <link>https://www.veeam.com/veeam-data-cloud/change-log/item/configurable-email-notification-preferences.html</link>
       <guid isPermaLink="false">entra|2026-11-18|Configurable Email Notification Preferences</guid>
@@ -1075,26 +1086,6 @@ Why This Matters
 Organization contacts are essential for managing communication and collaboration within Entra ID environments. Loss or misconfiguration of contact information can disrupt workflows and complicate compliance. With backup and restore for contacts, organizations can quickly recover critical contact details and maintain accurate identity data across the organization.
 Getting Started
 For more information, visit the User Guide.</description>
-    </item>
-    <item>
-      <title>[Microsoft 365] Comprehensive Usability, Security, and Reporting Enhancements for Backup and Restore Operations</title>
-      <link>https://www.veeam.com/veeam-data-cloud/change-log/item/comprehensive-usability--security--and-reporting-enhancements-fo.html</link>
-      <guid isPermaLink="false">m365|2026-02-10|Comprehensive Usability, Security, and Reporting Enhancements for Backup and Restore Operations</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <category>Enhancement</category>
-      <description>• Flex restore session logs (Original location, Another location, and Save options) now include the user who performed the restore, making it easier to track restore actions.
-• Enabled granular mailbox restores from Express backups. You can now search for specific emails within a mailbox using advanced filters—sender, subject keywords, participants, and attachments—and restore them.
-• The SharePoint site URL now appears in the Bulk Restore wizard for Express, making it easier to identify sites with identical names.
-• Express policy protection units can now be filtered by error, helping users quickly identify failures.
-• Simplified the restore download experience by removing the “Local Computer Download” option and consolidating downloads into a single background download flow with clear in-app and notification messages, allowing customers to quickly access restore files regardless of size.
-• Self-service users can now be granted permission to restore their full mailboxes or OneDrive accounts using the “Allow entire objects restore” setting. By default, they can only restore individual Outlook and OneDrive items, reducing the risk of accidental data loss.
-• The default history restore option is now set to “Merge” when restoring SharePoint data from Flex backups with the “Restore only the latest version” setting.
-• Actions for OneDrive, Outlook, SharePoint, and Teams &quot;Download in background&quot; operations are now included in the Activity page filter to simplify locating relevant records.
-• A warning now appears when a user edits a backup policy and attempts to leave the page without saving, prompting confirmation to avoid losing changes.
-• The report list is now reordered alphabetically on the Generate Report and Schedule Report pages, and new protection reports for OneDrive, Teams, and SharePoint—each listing items with their URL, organization, protection status, and last successful backup date—are available for on-demand generation and scheduled delivery.
-• Implemented a 90-day expiration policy for Veeam Data Cloud Public API keys. Expired keys are automatically rejected during authentication, and the UI now displays each key’s expiration date and time.
-• Deprecated the ability to use an additional app registration for SharePoint backups; the tenant settings no longer include the “Allow multiple additional applications” option.
-• Legacy unsupported actions—“Create Portal Session,” “Cancel Subscription,” “Resume Subscription,” and “Resume Organization”—have been removed from the Action filter on the Activity page.</description>
     </item>
   </channel>
 </rss>

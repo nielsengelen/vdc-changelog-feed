@@ -1533,6 +1533,18 @@
       "label": "Salesforce",
       "entries": [
         {
+          "date": "2026-11-26",
+          "title": "Seed Salesforce Sandboxes from Backups with Reusable Templates",
+          "category": "New Feature",
+          "tags": [
+            "Backup"
+          ],
+          "description": "What's New\nTemplate-Based Sandbox Seeding lets organizations quickly populate sandbox Salesforce orgs with realistic, right-sized data from existing backups. Reusable templates let you select object hierarchies, filter and limit records, and apply data masking rules before restoring data to a compatible target org.\nWhy This Matters\nDevelopment and test teams need realistic data to build and validate changes, but copying full production data into sandboxes is slow and can expose sensitive information. Template-Based Sandbox Seeding helps teams create effective test environments faster, using only the data they need, while masking rules help keep sensitive information protected.",
+          "pageUrl": "https://www.veeam.com/veeam-data-cloud/change-log/item/seed-salesforce-sandboxes-from-backups-with-reusable-templates.html",
+          "workload": "salesforce",
+          "workloadLabel": "Salesforce"
+        },
+        {
           "date": "2026-10-29",
           "title": "Backup Copy Policy",
           "category": "New Feature",
